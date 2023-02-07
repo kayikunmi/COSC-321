@@ -22,55 +22,7 @@ Scale 5.0 5.0 5.0
 AttributeEnd
 AttributeBegin
 Translate -0.4 0.2 0.1 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-TransformBegin
-Translate 0.0 0.0 0.2 
-TransformBegin
-Scale 0.2 0.2 0.2 
-Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-TransformEnd
-TransformEnd
-TransformBegin
-Translate 0.0 0.0 -0.2 
-TransformBegin
-Scale 0.2 0.2 0.2 
-Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-TransformEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-TransformBegin
-Translate 0.2 0.0 0.0 
-Rotate 90.0 0.0 1.0 0.0 
-TransformBegin
-Scale 0.2 0.2 0.2 
-Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-TransformEnd
-TransformEnd
-TransformBegin
-Translate -0.2 0.0 0.0 
-Rotate 90.0 0.0 1.0 0.0 
-TransformBegin
-Scale 0.2 0.2 0.2 
-Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-TransformEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-TransformBegin
-Translate 0.0 -0.2 0.0 
-Rotate 90.0 1.0 0.0 0.0 
-TransformBegin
-Scale 0.2 0.2 0.2 
-Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-TransformEnd
-TransformEnd
-TransformBegin
-Translate 0.0 0.2 0.0 
-Rotate 90.0 1.0 0.0 0.0 
-TransformBegin
-Scale 0.2 0.2 0.2 
-Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-TransformEnd
-TransformEnd
+Sphere 3.0 2.0 5.0 360.0 
 AttributeEnd
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.5 0.5 0.5  ] 
 Translate 2.0 2.0 8.0 

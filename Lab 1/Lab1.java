@@ -94,7 +94,8 @@ public class Lab1 extends Ri {
 	    RiTranslate(-frameNo*0.4,frameNo*0.2,frameNo*frameNo*0.1);
     
 	    //	RiRotate(10.0*frameNo,1.0,1.0,1.0);
-	    new JerCube().unitCube(0.2,1.0);
+	    //new JerCube().unitCube(0.2,1.0);
+		RiSphere (3, 2, 5, 360.0, RI_NULL);
     
 	    RiAttributeEnd();
 
@@ -107,7 +108,7 @@ public class Lab1 extends Ri {
 	    RiTranslate(2.0,2.0,8.0);
 	    RiScale(100.0,100.0,1.0);
 	    //RiPolygon(4, RI_P,  JerCube.Unit, RI_NULL);
-		//RiSphere (3, 2, 5, 360.0, RI_NULL);
+		
 
 
 	    // render frame, destroy lighting, objects and state created in the world,
