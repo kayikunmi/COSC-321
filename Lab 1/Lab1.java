@@ -93,9 +93,12 @@ public class Lab1 extends Ri {
     
 	    RiTranslate(-frameNo*0.4,frameNo*0.2,frameNo*frameNo*0.1);
     
-	    //	RiRotate(10.0*frameNo,1.0,1.0,1.0);
+	    //RiRotate(8.0*frameNo,4.0,2.0,8.0);
 	    //new JerCube().unitCube(0.2,1.0);
+		RiTranslate(2.0,2.0,8.0);
+	    //RiScale(100.0,100.0,1.0);
 		RiSphere (3, 2, 5, 360.0, RI_NULL);
+		RiCylinder(4, 1, 12, 360, RI_NULL);
     
 	    RiAttributeEnd();
 
