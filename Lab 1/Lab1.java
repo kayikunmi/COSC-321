@@ -70,7 +70,7 @@ public class Lab1 extends Ri {
 	    double[] darkOrange = {1.0,0.549,0};
 	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", darkOrange);
 	
-	    new JerObject2().object();
+	    //new JerObject2().object();
 
 	    RiAttributeEnd();
     
@@ -85,7 +85,7 @@ public class Lab1 extends Ri {
 
 	
 	    //	RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
-	    new JerObject2().object();
+	    //new JerObject2().object();
 
 	    RiAttributeEnd();
 
@@ -106,7 +106,8 @@ public class Lab1 extends Ri {
 
 	    RiTranslate(0.0,0.0,10.0);
 	    RiScale(100.0,100.0,1.0);
-	    RiPolygon(4, RI_P,  JerCube.Unit, RI_NULL);
+	    //RiPolygon(4, RI_P,  JerCube.Unit, RI_NULL);
+		RiSphere (4, 0.0, 8, 360.0, RI_NULL);
 
 
 	    // render frame, destroy lighting, objects and state created in the world,
