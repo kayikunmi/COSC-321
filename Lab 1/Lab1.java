@@ -104,10 +104,10 @@ public class Lab1 extends Ri {
 	    double[] Grey = {0.5,0.5,0.5};
 	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", Grey);
 
-	    RiTranslate(0.0,0.0,10.0);
+	    RiTranslate(2.0,2.0,8.0);
 	    RiScale(100.0,100.0,1.0);
 	    //RiPolygon(4, RI_P,  JerCube.Unit, RI_NULL);
-		RiSphere (3, 2, 5, 360.0, RI_NULL);
+		//RiSphere (3, 2, 5, 360.0, RI_NULL);
 
 
 	    // render frame, destroy lighting, objects and state created in the world,
