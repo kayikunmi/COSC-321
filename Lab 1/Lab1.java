@@ -98,7 +98,7 @@ public class Lab1 extends Ri {
 		RiTranslate(2.0,2.0,8.0);
 	    //RiScale(100.0,100.0,1.0);
 		RiSphere (3, 2, 5, 360.0, RI_NULL);
-		RiCylinder(4, 1, 12, 360, RI_NULL);
+		RiCylinder(6, 1, 12, 360, RI_NULL);
     
 	    RiAttributeEnd();
 
