@@ -107,7 +107,7 @@ public class Lab1 extends Ri {
 	    RiTranslate(0.0,0.0,10.0);
 	    RiScale(100.0,100.0,1.0);
 	    //RiPolygon(4, RI_P,  JerCube.Unit, RI_NULL);
-		RiSphere (4, 0.0, 8, 360.0, RI_NULL);
+		RiSphere (3, 2, 5, 360.0, RI_NULL);
 
 
 	    // render frame, destroy lighting, objects and state created in the world,
