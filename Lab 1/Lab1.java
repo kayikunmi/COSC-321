@@ -17,7 +17,7 @@ public class Lab1 extends Ri {
 
     {
 
-	int frameCount = 3;
+	int frameCount = 1;
 
 	RiBegin(RI_NULL);
  
