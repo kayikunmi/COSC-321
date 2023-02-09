@@ -19,6 +19,8 @@ AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 242.0 172.0 181.0  ] 
 Translate 2.0 2.0 8.0 
 Cylinder 6.0 1.0 12.0 360.0 
+Sphere 4.0 1.0 8.0 360.0 
+Translate 0.0 2.0 4.0 
 AttributeEnd
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.5 0.5 0.5  ] 
 Translate 2.0 2.0 8.0 
