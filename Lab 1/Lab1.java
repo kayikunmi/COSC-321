@@ -6,16 +6,12 @@ public class Lab1 extends Ri {
 	new Lab1().main();
     }
 
-
-
     double[] White = {1.0,1.0,1.0};
     double[] Blue = {0.0,0.0,1.0};
     double[] Red = {1.0,0.0,0.0};
     double[] Grey = {0.3,0.3,0.3};
 
-    void main ()
-
-    {
+    void main (){
 
 	int frameCount = 1;
 
@@ -62,29 +58,34 @@ public class Lab1 extends Ri {
 	    RiTranslate(0.0,0.0,1.0);
 
     
-	    RiAttributeBegin();
+	    // RiAttributeBegin();
       
-	    RiTranslate(-0.3*frameNo,0.4*frameNo,10.0-1.5*frameNo);
-	    RiScale(5.0,5.0,5.0);
+	    // //RiTranslate(-0.3*frameNo,0.4*frameNo,10.0-1.5*frameNo);
+	    // //RiScale(5.0,5.0,5.0);
 
-	    double[] darkOrange = {1.0,0.549,0};
-	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", darkOrange);
-	
-	    //new JerObject2().object();
+	    // double[] darkOrange = {1.0,0.549,0};
+	    // RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", darkOrange);
 
-		new KCylinder();
-	    RiAttributeEnd();
+		// RiTranslate(1, 3,4);
+		// new KCylinder().object();
+	    // RiAttributeEnd();
 		
 		//add objects here
 
 		RiAttributeBegin();
-		double[] pink = {242, 172, 181};
-	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", pink);
-		
+		double[] darkOrange = {1.0,0.549,0};
+	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", darkOrange);
 		
 		//RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
 		RiTranslate(2.0,2.0,8.0);
 		new KCylinder().object();
+		RiAttributeEnd();
+
+		RiAttributeBegin();
+		RiTranslate(2.0,3.0,5.0);
+		//RiRotate(0.0, 4.2, 5.0);
+	    RiScale(5.0,5.0,5.0);
+		new KCube().unitCube(0.2,1.0);
 		RiAttributeEnd();
 
        
