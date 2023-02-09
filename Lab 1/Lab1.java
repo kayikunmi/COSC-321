@@ -1,5 +1,5 @@
 public class Lab1 extends Ri {
-	//this is supposed to look like an arrow hitting a target
+	
 
     public static void main 
 	(String args[]) { 
@@ -14,7 +14,7 @@ public class Lab1 extends Ri {
 
     void main (){
 
-	int frameCount = 3;
+	int frameCount = 5;
 
 	RiBegin(RI_NULL);
  
@@ -86,9 +86,9 @@ public class Lab1 extends Ri {
 
 		RiAttributeBegin();
 		RiTranslate(2.0,9.0,2.0);
-		RiTranslate(-0.3*frameNo,0.4*frameNo,10.0-1.5*frameNo);
+		RiTranslate(-0.3*frameNo,4.0,10.0-1.5*frameNo);
 		//RiRotate(0.0, 4.2, 5.0);
-	    RiScale(5.0,5.0,5.0);
+	    RiScale(5.0,5.0,10.0-1.5*frameNo);
 		new KCone().object();
 		RiAttributeEnd();
 
