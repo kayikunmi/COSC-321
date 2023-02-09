@@ -82,7 +82,7 @@ public class Lab1 extends Ri {
 		RiAttributeEnd();
 
 		RiAttributeBegin();
-		RiTranslate(2.0,3.0,5.0);
+		RiTranslate(2.0,9.0,2.0);
 		//RiRotate(0.0, 4.2, 5.0);
 	    RiScale(5.0,5.0,5.0);
 		new KCube().object();
@@ -131,9 +131,9 @@ public class Lab1 extends Ri {
 	    double[] Grey = {0.5,0.5,0.5};
 	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", Grey);
 
-	    RiTranslate(2.0,2.0,8.0);
-	    //RiScale(100.0,100.0,1.0);
-	    //RiPolygon(4, RI_P,  JerCube.Unit, RI_NULL);
+	    // RiTranslate(2.0,2.0,8.0);
+	    // RiScale(100.0,100.0,1.0);
+	    // RiPolygon(4, RI_P,  JerCube.Unit, RI_NULL);
 		
 
 

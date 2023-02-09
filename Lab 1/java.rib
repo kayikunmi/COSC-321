@@ -18,11 +18,11 @@ Translate 0.0 0.0 2.0
 Scale 1.0 0.0 0.0 
 AttributeEnd
 AttributeBegin
-Translate 2.0 3.0 5.0 
+Translate 2.0 9.0 2.0 
 Scale 5.0 5.0 5.0 
-Cylinder 6.0 1.0 4.0 360.0 
-Translate 0.0 0.0 2.0 
-Scale 1.0 0.0 0.0 
+Cone 6.0 3.0 4.0 
+Translate 8.0 2.0 5.0 
+Scale 0.0 0.0 3.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 103.0 0.205 0.0  ] 
@@ -32,6 +32,5 @@ Sphere 2.0 0.0 7.0 360.0
 Sphere 2.0 0.0 7.0 360.0 
 AttributeEnd
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.5 0.5 0.5  ] 
-Translate 2.0 2.0 8.0 
 WorldEnd
 FrameEnd
