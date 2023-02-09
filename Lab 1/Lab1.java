@@ -85,7 +85,16 @@ public class Lab1 extends Ri {
 		RiTranslate(2.0,3.0,5.0);
 		//RiRotate(0.0, 4.2, 5.0);
 	    RiScale(5.0,5.0,5.0);
-		new KCube().unitCube(0.2,1.0);
+		new KCube().object();
+		RiAttributeEnd();
+
+		RiAttributeBegin();
+		double[] rand = {103.0,0.205,0};
+	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", rand);
+		
+		//RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
+		RiTranslate(2.0,2.0,8.0);
+		new KCylinder().SolidCylinder(2,0,7);
 		RiAttributeEnd();
 
        
