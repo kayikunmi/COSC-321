@@ -1,4 +1,4 @@
-public class KCube extends Ri{
+public class KCone extends Ri{
     // void SolidCylinder(double radius, double zmin, double zmax){
     //     RiCylinder(radius, zmin, zmax, 360.0, RI_NULL);
     //     //RiDisk(zmin, radius, 360.0, RI_NULL);

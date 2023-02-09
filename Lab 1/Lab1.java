@@ -1,4 +1,5 @@
 public class Lab1 extends Ri {
+	//this is supposed to look like an arrow hitting a target
 
     public static void main 
 	(String args[]) { 
@@ -85,7 +86,7 @@ public class Lab1 extends Ri {
 		RiTranslate(2.0,9.0,2.0);
 		//RiRotate(0.0, 4.2, 5.0);
 	    RiScale(5.0,5.0,5.0);
-		new KCube().object();
+		new KCone().object();
 		RiAttributeEnd();
 
 		RiAttributeBegin();
@@ -97,33 +98,34 @@ public class Lab1 extends Ri {
 		new KCylinder().SolidCylinder(2,0,7);
 		RiAttributeEnd();
 
-       
-	    // RiAttributeBegin();
-	    // double[] Color2 = {0.0,0.749,1.0};
-	    // RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor",Color2);
+       /* 
+	    RiAttributeBegin();
+	    double[] Color2 = {0.0,0.749,1.0};
+	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor",Color2);
 
     
-	    // RiTranslate(2.0,3.0,5.0);
-	    // RiScale(5.0,5.0,5.0);
+	    RiTranslate(2.0,3.0,5.0);
+	    RiScale(5.0,5.0,5.0);
 
 	
-	    // RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
-	    // //new JerObject2().object();
+	    RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
+	    //new JerObject2().object();
 
-	    // RiAttributeEnd();
+	    RiAttributeEnd();
 
-	    // RiAttributeBegin();
+	    RiAttributeBegin();
     
-	    // RiTranslate(-frameNo*0.4,frameNo*0.2,frameNo*frameNo*0.1);
+	    RiTranslate(-frameNo*0.4,frameNo*0.2,frameNo*frameNo*0.1);
     
-	    // //RiRotate(8.0*frameNo,4.0,2.0,8.0);
-	    // //new JerCube().unitCube(0.2,1.0);
-		// RiTranslate(2.0,2.0,8.0);
-	    // //RiScale(100.0,100.0,1.0);
-		// // RiSphere (3, 2, 5, 360.0, RI_NULL);
-		// // RiCylinder(6, 1, 12, 360, RI_NULL);
+	    //RiRotate(8.0*frameNo,4.0,2.0,8.0);
+	    //new JerCube().unitCube(0.2,1.0);
+		RiTranslate(2.0,2.0,8.0);
+	    //RiScale(100.0,100.0,1.0);
+		// RiSphere (3, 2, 5, 360.0, RI_NULL);
+		// RiCylinder(6, 1, 12, 360, RI_NULL);
     
-	    // RiAttributeEnd();
+	    RiAttributeEnd();
+	*/
 
 
 	    // a backdrop
