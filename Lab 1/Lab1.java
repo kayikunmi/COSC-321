@@ -14,7 +14,7 @@ public class Lab1 extends Ri {
 
     void main (){
 
-	int frameCount = 1;
+	int frameCount = 3;
 
 	RiBegin(RI_NULL);
  
@@ -77,13 +77,16 @@ public class Lab1 extends Ri {
 		double[] darkOrange = {1.0,0.549,0};
 	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", darkOrange);
 		
-		//RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
 		RiTranslate(2.0,2.0,8.0);
+		RiRotate(45.0+5.0*frameNo,1.0,1.0,10.0-1.5*frameNo);
+		RiTranslate(-0.3*frameNo,0.4*frameNo,10.0-1.5*frameNo);
+		
 		new KCylinder().object();
 		RiAttributeEnd();
 
 		RiAttributeBegin();
 		RiTranslate(2.0,9.0,2.0);
+		RiTranslate(-0.3*frameNo,0.4*frameNo,10.0-1.5*frameNo);
 		//RiRotate(0.0, 4.2, 5.0);
 	    RiScale(5.0,5.0,5.0);
 		new KCone().object();
@@ -93,7 +96,7 @@ public class Lab1 extends Ri {
 		double[] rand = {103.0,0.205,0};
 	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", rand);
 		
-		//RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
+		RiRotate(45.0+5.0*frameNo,1.0,1.0,0.4*frameNo);
 		RiTranslate(2.0,2.0,8.0);
 		new KCylinder().SolidCylinder(2,0,7);
 		RiAttributeEnd();
