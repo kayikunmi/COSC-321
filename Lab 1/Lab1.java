@@ -72,6 +72,7 @@ public class Lab1 extends Ri {
 	
 	    //new JerObject2().object();
 
+		new KCylinder();
 	    RiAttributeEnd();
 		
 		//add objects here

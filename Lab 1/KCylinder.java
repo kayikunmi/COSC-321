@@ -7,7 +7,7 @@ public class KCylinder extends Ri{
 
     void object(){
         RiCylinder(6, 1, 12, 360, RI_NULL);
-        //RiTranslate(0.0, 0.0, -0.3);
+        RiTranslate(0.0, 0.0, 2);
 
     }
 }
