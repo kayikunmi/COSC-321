@@ -96,7 +96,7 @@ public class Lab1 extends Ri {
 	    // RiScale(5.0,5.0,5.0);
 
 	
-	    // //	RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
+	    // RiRotate(45.0+5.0*frameNo,1.0,1.0,1.0);
 	    // //new JerObject2().object();
 
 	    // RiAttributeEnd();
