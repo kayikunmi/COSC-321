@@ -14,7 +14,7 @@ public class Lab1 extends Ri {
 
     void main (){
 
-	int frameCount = 5;
+	int frameCount = 15;
 
 	RiBegin(RI_NULL);
  
@@ -75,6 +75,7 @@ public class Lab1 extends Ri {
 
 		RiAttributeBegin();
 		double[] darkOrange = {1.0,0.549,0};
+		double[] color2 = {50, 98, 168};
 	    RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", darkOrange);
 		
 		RiTranslate(2.0,2.0,8.0);
@@ -88,6 +89,7 @@ public class Lab1 extends Ri {
 		RiTranslate(2.0,9.0,2.0);
 		RiTranslate(-0.3*frameNo,4.0,10.0-1.5*frameNo);
 		//RiRotate(0.0, 4.2, 5.0);
+		RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor", color2);
 	    RiScale(5.0,5.0,10.0-1.5*frameNo);
 		new KCone().object();
 		RiAttributeEnd();
