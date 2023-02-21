@@ -50,6 +50,23 @@ public class Canvas {
 
 			PrintWriter p = new PrintWriter(f);
 			// A printwriter has the print and println methods you usually use
+			//////
+			int rows = 4;
+			int cols = 4;
+			int maxValue = 255;
+			p.println("P3");   // Ascii PPM file
+           p.println("# Image created by program");
+           p.println(cols + " " + rows);
+           p.println(maxValue);
+           
+           for (int r=0; r<rows; r++) {
+               for(int c=0; c<cols; c++) {
+               	   p.println(255);
+               	   p.println(0);
+               	   p.println(0);
+               }	
+           }
+			//////
 
 			p.close();
 
@@ -84,5 +101,8 @@ public class Canvas {
 
 
 	}
+
+	////////////
+	
 
 }
