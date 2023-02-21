@@ -51,17 +51,26 @@ public class Canvas {
 			PrintWriter p = new PrintWriter(f);
 			// A printwriter has the print and println methods you usually use
 			//////
-			int rows = 4;
-			int cols = 4;
+			int rows = 10;
+			int cols = 10;
 			int maxValue = 255;
 			p.println("P3");  
 			p.println(cols + " " + rows);
 			p.println(maxValue);
 			for (int r=0; r<rows; r++) {
 				for(int c=0; c<cols; c++) {
-					p.println("150 78 250");
-					p.println("36 178 50");
-					p.println("200 59 20");
+					int red = (int) (pixels[r][c].t[0]*255);
+					int green = (int) (pixels[r][c].t[1]*255);
+					int blue = (int) (pixels[r][c].t[2]*255);
+					p.println(red + " " + green + " " + blue);
+					p.println(green + " " + blue + " " + red);
+					p.println(blue + " " + red + " " + green);
+					// p.println(pixels[r][c].t[1]*255 + " " + pixels[r][c].t[2]*255 + " " + pixels[r][c].t[0]*255);
+					// p.println(pixels[r][c].t[2]*255 + " " + pixels[r][c].t[0]*255 + " " + pixels[r][c].t[1]*255);
+					//
+					// p.println("150 78 250");
+					// p.println("36 178 50");
+					// p.println("200 59 20");
                	}	
            }
 			//////
