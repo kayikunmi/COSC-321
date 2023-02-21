@@ -55,16 +55,15 @@ public class Canvas {
 			int cols = 4;
 			int maxValue = 255;
 			p.println("P3");   // Ascii PPM file
-           p.println("# Image created by program");
-           p.println(cols + " " + rows);
-           p.println(maxValue);
-           
-           for (int r=0; r<rows; r++) {
-               for(int c=0; c<cols; c++) {
-               	   p.println(255);
-               	   p.println(0);
-               	   p.println(0);
-               }	
+			p.println("# Image created by program");
+			p.println(cols + " " + rows);
+			p.println(maxValue);
+			for (int r=0; r<rows; r++) {
+				for(int c=0; c<cols; c++) {
+					p.println("150 78 250");
+					p.println("36 178 50");
+					p.println("200 59 20");
+               	}	
            }
 			//////
 
