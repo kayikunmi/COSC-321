@@ -54,8 +54,7 @@ public class Canvas {
 			int rows = 4;
 			int cols = 4;
 			int maxValue = 255;
-			p.println("P3");   // Ascii PPM file
-			p.println("# Image created by program");
+			p.println("P3");  
 			p.println(cols + " " + rows);
 			p.println(maxValue);
 			for (int r=0; r<rows; r++) {
