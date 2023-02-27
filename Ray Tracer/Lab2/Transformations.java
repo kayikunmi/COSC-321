@@ -8,7 +8,13 @@ public class Transformations {
 	 */
 	
 	public static Matrices getTranslate(double x, double y, double z) {
-		return null;
+		return new Matrices(
+				new double[][]{
+					
+					{0,0,0,0},
+					{0,0,0,0},
+					{0,0,0,0},
+					{x,y,z,1}});
 	}
 	
 	public static Matrices getScale(double sx, double sy, double sz) {
@@ -46,8 +52,8 @@ public class Transformations {
 				new double[][]{
 					
 					{1,0,0,0},
-					{0, Math.sin(x),0},
-					{0, -Math.sin(x), Math.cos(x),0},
+					{0, Math.cos(x), -Math.sin(x),0},
+					{0, Math.sin(x), Math.cos(x),0},
 					{0,0,0,1}});
 	}
 	
@@ -78,9 +84,26 @@ public class Transformations {
 			System.out.println("Scaling works as expected");
 		}
 		else{
-			System.out.println("fix scale");
+			System.out.println("Fix Scale");
 		}
 		
+		Matrices rx = getRotX(15);
+		Matrices t1 = getTranslate(3, 5, 1);
+		Matrices rxt1 = Matrices.mult(rx, t1);
+		Matrices t1rx = Matrices.mult(t1, rx);
+		Matrices p1rxt1 = Matrices.mult(p1, t1rx);
+		Matrices p1t1rx = Matrices.mult(p1, rxt1);
+
+		if(rxt1.equals(t1rx)){
+			System.out.println("Rotating on x and Translating works as expected");
+		}
+		else{
+			System.out.println("Fix Rotating on x and Translating");
+			System.out.println("Rx * T1: " + "\n" + rxt1);
+			System.out.println("T1 * Rx: " + "\n" + t1rx);
+			System.out.println("P1 * RxT1: " + "\n" + p1rxt1);
+			System.out.println("P1 * T1Rx: " + "\n" + p1t1rx);
+		}
 
 	}
 
