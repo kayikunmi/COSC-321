@@ -72,8 +72,8 @@ public class Transformations {
 		Point v1 = new Point(Matrices.apply(n, new Point(1,1,1)));
 		System.out.println("v1: " + "\n" + v1);
 
+		System.out.println("///// ");
 		System.out.println(" ");
-		//System.out.println("n: " +"\n" + n);
 
 		Matrices s1 = getScale(3,1,2);
 		Matrices s2 = getScale(1,2,4);
@@ -87,29 +87,27 @@ public class Transformations {
 			System.out.println("Fix Scale");
 		}
 
+		System.out.println("///// ");
 		System.out.println(" ");
 		
 		Matrices rx = getRotX(45);
-		Matrices t1 = getTranslate(3, 5, 1);
-		Matrices rxt1 = Matrices.mult(rx, t1);
-		Matrices t1rx = Matrices.mult(t1, rx);
-		// Matrices p1rxt1 = Matrices.mult(p1, t1rx);
-		// Matrices p1t1rx = Matrices.mult(p1, rxt1);
+		Matrices rxs1s2= Matrices.mult(rx, s1s2);
+		Matrices s1s2rx = Matrices.mult(s1s2, rx);
 		Point p = new Point(2,3,4);
-		Point pt1rx = new Point(Matrices.apply(t1rx, p));
-		Point prxt1 = new Point(Matrices.apply(rxt1, p));
+		Point ps1s2rx = new Point(Matrices.apply(s1s2rx, p));
+		Point prxs1s2= new Point(Matrices.apply(rxs1s2, p));
 		
-		if(rxt1.equals(t1rx)){
+		if(rxs1s2.equals(s1s2rx)){
 			System.out.println("Rotating on x and Translating works as expected");
 		}
 		else{
 			System.out.println("Fix Rotating on x and Translating");
-			System.out.println("Rx * T1: " + "\n" + rxt1);
-			System.out.println("T1 * Rx: " + "\n" + t1rx);
-			System.out.println("P * RxT1: " + "\n" + prxt1);
-			System.out.println("P * T1Rx: " + "\n" + pt1rx);
+			System.out.println("Rx * S1S2: " + "\n" + rxs1s2);
+			System.out.println("S1S2* Rx: " + "\n" + s1s2rx);
+			System.out.println("P * RxS1S2: " + "\n" + prxs1s2);
+			System.out.println("P * S1S2Rx: " + "\n" + ps1s2rx);
 		}
-		
+		System.out.println("///// ");
 		System.out.println(" ");
 
 		Matrices ry = getRotY(90);
@@ -120,6 +118,7 @@ public class Transformations {
 		Matrices t2 = getTranslate(2,3,5);
 		Matrices t2rys1s2 = Matrices.mult(t2, rys1s2);
 		System.out.println("t2rys1s2: " + "\n" + t2rys1s2);
+		System.out.println("///// ");
 		//this tranalstes the scaled and rotated matrix
 
 	}
