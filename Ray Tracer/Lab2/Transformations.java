@@ -86,14 +86,19 @@ public class Transformations {
 		else{
 			System.out.println("Fix Scale");
 		}
+
+		System.out.println(" ");
 		
-		Matrices rx = getRotX(15);
+		Matrices rx = getRotX(45);
 		Matrices t1 = getTranslate(3, 5, 1);
 		Matrices rxt1 = Matrices.mult(rx, t1);
 		Matrices t1rx = Matrices.mult(t1, rx);
-		Matrices p1rxt1 = Matrices.mult(p1, t1rx);
-		Matrices p1t1rx = Matrices.mult(p1, rxt1);
-
+		// Matrices p1rxt1 = Matrices.mult(p1, t1rx);
+		// Matrices p1t1rx = Matrices.mult(p1, rxt1);
+		Point p = new Point(2,3,4);
+		Point pt1rx = new Point(Matrices.apply(t1rx, p));
+		Point prxt1 = new Point(Matrices.apply(rxt1, p));
+		
 		if(rxt1.equals(t1rx)){
 			System.out.println("Rotating on x and Translating works as expected");
 		}
@@ -101,10 +106,23 @@ public class Transformations {
 			System.out.println("Fix Rotating on x and Translating");
 			System.out.println("Rx * T1: " + "\n" + rxt1);
 			System.out.println("T1 * Rx: " + "\n" + t1rx);
-			System.out.println("P1 * RxT1: " + "\n" + p1rxt1);
-			System.out.println("P1 * T1Rx: " + "\n" + p1t1rx);
+			System.out.println("P * RxT1: " + "\n" + prxt1);
+			System.out.println("P * T1Rx: " + "\n" + pt1rx);
 		}
+		
+		System.out.println(" ");
+
+		Matrices ry = getRotY(90);
+		Matrices rys1s2 = Matrices.mult(ry, s1s2);
+		System.out.println("rys1s2: " + "\n" + rys1s2);
+		//this rotates and scales
+
+		Matrices t2 = getTranslate(2,3,5);
+		Matrices t2rys1s2 = Matrices.mult(t2, rys1s2);
+		System.out.println("t2rys1s2: " + "\n" + t2rys1s2);
+		//this tranalstes the scaled and rotated matrix
 
 	}
+	//do the final part and add something that shows you understand transformations
 
 }
