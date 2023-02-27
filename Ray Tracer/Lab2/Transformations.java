@@ -12,7 +12,13 @@ public class Transformations {
 	}
 	
 	public static Matrices getScale(double sx, double sy, double sz) {
-		return null;
+		return new Matrices(
+				new double[][]{
+					
+					{sx,0,0,0},
+					{0,sy,0,0},
+					{0,0,sz,0},
+					{0,0,0,1}});
 	}
 	
 	public static Matrices getRotZ(double x) {
@@ -26,11 +32,23 @@ public class Transformations {
 	}
 	
 	public static Matrices getRotY(double x) {
-		return null;
+		return new Matrices(
+				new double[][]{
+					
+					{Math.cos(x),0, -Math.sin(x),0},
+					{0,1,0,0},
+					{Math.sin(x),0, Math.cos(x),0},
+					{0,0,0,1}});
 	}
 	
 	public static Matrices getRotX(double x) {
-		return null;
+		return new Matrices(
+				new double[][]{
+					
+					{1,0,0,0},
+					{0, Math.sin(x),0},
+					{0, -Math.sin(x), Math.cos(x),0},
+					{0,0,0,1}});
 	}
 	
 	public static void main(String[] args) {
@@ -42,11 +60,27 @@ public class Transformations {
 		Matrices p1 = Matrices.mult(m,n);
 		Matrices p2 = Matrices.mult(n,m);
 
-		System.out.println(p1);
-		System.out.println(p2);
+		System.out.println("p1: " + "\n" + p1);
+		System.out.println("p2: " + "\n" + p2);
 
 		Point v1 = new Point(Matrices.apply(n, new Point(1,1,1)));
-		System.out.println(v1);
+		System.out.println("v1: " + "\n" + v1);
+
+		System.out.println(" ");
+		//System.out.println("n: " +"\n" + n);
+
+		Matrices s1 = getScale(3,1,2);
+		Matrices s2 = getScale(1,2,4);
+		Matrices s1s2 = Matrices.mult(s1, s2);
+		Matrices s2s1 = Matrices.mult(s2, s1);
+		
+		if(s1s2.equals(s2s1)){
+			System.out.println("Scaling works as expected");
+		}
+		else{
+			System.out.println("fix scale");
+		}
+		
 
 	}
 
