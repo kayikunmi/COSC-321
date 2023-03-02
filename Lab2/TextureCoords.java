@@ -26,11 +26,15 @@ public class TextureCoords extends Ri {
 	RiProjection("perspective",RI_NULL);
   
 	RiTranslate(0.0,0.0,5.0);
+	//translating z by 5
 
 
 	RiWorldBegin();
 
 	RiTranslate(0.0,0.0,5.0);
+	//rotate around z
+	RiScale(0.0, 0.0, 2.0);
+	RiRotate(15.0, 0.0, 0.0, 1.0);
 
 	RiCoordinateSystem("shaderDefine");
 	RiPattern("jerShader","jerShader");
