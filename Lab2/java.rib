@@ -1,0 +1,19 @@
+Hider  "raytrace" "int incremental" 0 "int minsamples" 16 "int maxsamples" 86 
+Integrator  "PxrPathTracer" "handle" "int maxIndirectBounces" [ 2  ] "int numLightSamples" [ 1  ] "int numBxdfSamples" [ 1  ] "int numIndirectSamples" [ 1  ] "int numDiffuseSamples" [ 4  ] "int numSpecularSamples" [ 4  ] 
+Display "test.tiff" "file" "rgba" 
+Format 10 10 1.0 
+Projection "perspective" 
+Translate 0.0 0.0 5.0 
+WorldBegin
+TransformBegin
+Light "PxrDomeLight" "light3" "float intensity" 0.1 
+TransformEnd
+Translate 0.0 0.0 5.0 
+CoordinateSystem "shaderDefine" 
+Pattern "jerShader" "jerShader" 
+Bxdf "PxrSurface" "surface1" "reference color diffuseColor" "jerShader:Cout" 
+TransformBegin
+Translate 0.0 0.0 5.0 
+Polygon "P" [ 1.0 1.0 1.0 -1.0 1.0 1.0 -1.0 -1.0 1.0 1.0 -1.0 1.0  ] 
+TransformEnd
+WorldEnd
