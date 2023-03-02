@@ -1,4 +1,4 @@
-public 
+
 public class AC_CS321_Exception extends RuntimeException {
 
 	String name;
@@ -10,7 +10,4 @@ public class AC_CS321_Exception extends RuntimeException {
 	public String toString() {
 		return "RiShader called with shader "+name+" this is not supported in any way";
 	}
-}
- AC_CS321_Exception {
-    
 }
