@@ -33,8 +33,8 @@ public class TextureCoords extends Ri {
 
 	RiTranslate(0.0,0.0,5.0);
 	//rotate around z
-	RiScale(0.0, 0.0, 2.0);
-	RiRotate(15.0, 0.0, 0.0, 1.0);
+	RiRotate(15.0, 1.0, 0.0, 0.0);
+	RiScale(1.0, 1.0, 2.0);
 
 	RiCoordinateSystem("shaderDefine");
 	RiPattern("jerShader","jerShader");

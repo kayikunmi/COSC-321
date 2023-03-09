@@ -11,7 +11,7 @@ jerShader ( float Ka = 1, float  Kd = 1, float frequency = 1.0,
 	    output color Cout = color (1,0,0)
     )
 {
-  
+
   float count;
 
   float xp,yp,zp,smod;
@@ -23,7 +23,7 @@ jerShader ( float Ka = 1, float  Kd = 1, float frequency = 1.0,
   zp = P1[2];
 
   smod = mod(1.0+yp,2.0);
-
+  //changed 3.0 to 6.0
   float offset = noise(3.0*xp);
   if (smod < 1.0+0.1*offset) 
       Cout = Cs;

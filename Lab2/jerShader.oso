@@ -4,108 +4,101 @@ OpenShadingLanguage 1.00
 surface jerShader
 param	float	Ka	1		%read{2147483647,-1} %write{2147483647,-1}
 param	float	Kd	1		%read{2147483647,-1} %write{2147483647,-1}
-oparam	color	Cout	0 0 0		%read{2147483647,-1} %write{29,29}
-global	point	P	%read{1,12} %write{2147483647,-1}
-local	point	shadeP	%read{16,18} %write{1,1}
-local	point	objectP	%read{19,21} %write{3,3}
-local	point	worldP	%read{13,15} %write{5,5}
-local	point	cameraP	%read{22,24} %write{7,7}
-local	point	defineP	%read{25,27} %write{9,9}
-const	string	$const1	"shader"		%read{1,1} %write{2147483647,-1}
-const	string	$const2	"transform"		%read{0,8} %write{2147483647,-1}
-const	string	$const3	"common"		%read{1,9} %write{2147483647,-1}
-const	string	$const4	"object"		%read{3,3} %write{2147483647,-1}
-const	string	$const5	"world"		%read{5,5} %write{2147483647,-1}
-const	string	$const6	"camera"		%read{7,7} %write{2147483647,-1}
-const	string	$const7	"shaderDefine"		%read{9,9} %write{2147483647,-1}
-const	string	$const8	"%f %f %f P (common) \n %f %f %f (worldP) \n %f %f %f (shadeP) \n %f %f %f (objectP) \n %f %f %f (cameraP)\n %f %f %f (shader define point)"		%read{28,28} %write{2147483647,-1}
-const	int	$const9	0		%read{10,25} %write{2147483647,-1}
-temp	float	$tmp1	%read{28,28} %write{10,10}
-const	int	$const10	1		%read{11,26} %write{2147483647,-1}
-temp	float	$tmp2	%read{28,28} %write{11,11}
-const	int	$const11	2		%read{12,27} %write{2147483647,-1}
-temp	float	$tmp3	%read{28,28} %write{12,12}
-temp	float	$tmp4	%read{28,28} %write{13,13}
-temp	float	$tmp5	%read{28,28} %write{14,14}
-temp	float	$tmp6	%read{28,28} %write{15,15}
-temp	float	$tmp7	%read{28,28} %write{16,16}
-temp	float	$tmp8	%read{28,28} %write{17,17}
-temp	float	$tmp9	%read{28,28} %write{18,18}
-temp	float	$tmp10	%read{28,28} %write{19,19}
-temp	float	$tmp11	%read{28,28} %write{20,20}
-temp	float	$tmp12	%read{28,28} %write{21,21}
-temp	float	$tmp13	%read{28,28} %write{22,22}
-temp	float	$tmp14	%read{28,28} %write{23,23}
-temp	float	$tmp15	%read{28,28} %write{24,24}
-temp	float	$tmp16	%read{28,28} %write{25,25}
-temp	float	$tmp17	%read{28,28} %write{26,26}
-temp	float	$tmp18	%read{28,28} %write{27,27}
-const	color	$const12	0.300000012 0.699999988 0.100000001		%read{29,29} %write{2147483647,-1}
+param	float	frequency	1		%read{5,25} %write{2147483647,-1}
+param	color	darkcolor	0 1 0		%read{24,28} %write{2147483647,-1}
+param	color	Cs	0 0 1		%read{23,29} %write{2147483647,-1}
+oparam	color	Cout	1 0 0		%read{2147483647,-1} %write{23,29}
+global	point	P	%read{1,1} %write{2147483647,-1}
+local	float	xp	%read{7,10} %write{2,2}
+local	float	yp	%read{13,16} %write{3,3}
+local	float	zp	%read{2147483647,-1} %write{4,4}
+local	float	smod	%read{18,18} %write{10,10}
+local	float	tmod	%read{21,26} %write{16,16}
+local	point	P1	%read{2,4} %write{1,1}
+const	string	$const1	"object"		%read{1,1} %write{2147483647,-1}
+const	string	$const2	"transform"		%read{0,0} %write{2147483647,-1}
+const	string	$const3	"common"		%read{1,1} %write{2147483647,-1}
+const	int	$const4	0		%read{2,2} %write{2147483647,-1}
+const	int	$const5	1		%read{3,3} %write{2147483647,-1}
+const	int	$const6	2		%read{4,4} %write{2147483647,-1}
+temp	float	$tmp1	%read{7,9} %write{5,5}
+const	float	$const7	1		%read{5,11} %write{2147483647,-1}
+const	string	$const8	"mod"		%read{6,12} %write{2147483647,-1}
+temp	float	$tmp2	%read{9,9} %write{8,8}
+temp	float	$tmp3	%read{8,8} %write{7,7}
+temp	float	$tmp4	%read{10,10} %write{9,9}
+temp	float	$tmp5	%read{13,15} %write{11,11}
+temp	float	$tmp6	%read{15,15} %write{14,14}
+temp	float	$tmp7	%read{14,14} %write{13,13}
+temp	float	$tmp8	%read{16,16} %write{15,15}
+const	float	$const9	0.5		%read{17,25} %write{2147483647,-1}
+temp	float	$tmp9	%read{18,18} %write{17,17}
+temp	int	$tmp10	%read{19,19} %write{18,18}
+temp	float	$tmp11	%read{21,21} %write{20,20}
+temp	int	$tmp12	%read{22,22} %write{21,21}
+temp	float	$tmp13	%read{26,26} %write{25,25}
+temp	int	$tmp14	%read{27,27} %write{26,26}
 code ___main___
-# shaderSimple.osl:8
-#   point shadeP = transform("shader",P);
-	functioncall	$const2 2 	%filename{"shaderSimple.osl"} %line{8} %argrw{"r"}
+# labShader.osl:19
+#   point P1 = transform("object",P);
+	functioncall	$const2 2 	%filename{"labShader.osl"} %line{19} %argrw{"r"}
 # /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:285
 # point  transform (string to, point p)  { return transform("common",to,p); }
-	transform	shadeP $const3 $const1 P 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{285} %argrw{"wrrr"}
-# shaderSimple.osl:9
-#   point objectP = transform("object",P);
-	functioncall	$const2 4 	%filename{"shaderSimple.osl"} %line{9} %argrw{"r"}
-# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:285
-# point  transform (string to, point p)  { return transform("common",to,p); }
-	transform	objectP $const3 $const4 P 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{285} %argrw{"wrrr"}
-# shaderSimple.osl:10
-#   point worldP = transform("world",P);
-	functioncall	$const2 6 	%filename{"shaderSimple.osl"} %line{10} %argrw{"r"}
-# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:285
-# point  transform (string to, point p)  { return transform("common",to,p); }
-	transform	worldP $const3 $const5 P 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{285} %argrw{"wrrr"}
-# shaderSimple.osl:11
-#   point cameraP = transform("camera",P);
-	functioncall	$const2 8 	%filename{"shaderSimple.osl"} %line{11} %argrw{"r"}
-# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:285
-# point  transform (string to, point p)  { return transform("common",to,p); }
-	transform	cameraP $const3 $const6 P 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{285} %argrw{"wrrr"}
-# shaderSimple.osl:12
-#   point defineP = transform("shaderDefine",P);
-	functioncall	$const2 10 	%filename{"shaderSimple.osl"} %line{12} %argrw{"r"}
-# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:285
-# point  transform (string to, point p)  { return transform("common",to,p); }
-	transform	defineP $const3 $const7 P 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{285} %argrw{"wrrr"}
-# shaderSimple.osl:16
-# 	 P[0],P[1],P[2],
-	compref		$tmp1 P $const9 	%filename{"shaderSimple.osl"} %line{16} %argrw{"wrr"}
-	compref		$tmp2 P $const10 	%argrw{"wrr"}
-	compref		$tmp3 P $const11 	%argrw{"wrr"}
-# shaderSimple.osl:17
-# 	 worldP[0],worldP[1],worldP[2],
-	compref		$tmp4 worldP $const9 	%line{17} %argrw{"wrr"}
-	compref		$tmp5 worldP $const10 	%argrw{"wrr"}
-	compref		$tmp6 worldP $const11 	%argrw{"wrr"}
-# shaderSimple.osl:18
-# 	 shadeP[0],shadeP[1],shadeP[2],
-	compref		$tmp7 shadeP $const9 	%line{18} %argrw{"wrr"}
-	compref		$tmp8 shadeP $const10 	%argrw{"wrr"}
-	compref		$tmp9 shadeP $const11 	%argrw{"wrr"}
-# shaderSimple.osl:19
-# 	 objectP[0],objectP[1],objectP[2],
-	compref		$tmp10 objectP $const9 	%line{19} %argrw{"wrr"}
-	compref		$tmp11 objectP $const10 	%argrw{"wrr"}
-	compref		$tmp12 objectP $const11 	%argrw{"wrr"}
-# shaderSimple.osl:20
-# 	 cameraP[0],cameraP[1],cameraP[2],
-	compref		$tmp13 cameraP $const9 	%line{20} %argrw{"wrr"}
-	compref		$tmp14 cameraP $const10 	%argrw{"wrr"}
-	compref		$tmp15 cameraP $const11 	%argrw{"wrr"}
-# shaderSimple.osl:21
-# 	 defineP[0],defineP[1],defineP[2]
-	compref		$tmp16 defineP $const9 	%line{21} %argrw{"wrr"}
-	compref		$tmp17 defineP $const10 	%argrw{"wrr"}
-	compref		$tmp18 defineP $const11 	%argrw{"wrr"}
-# shaderSimple.osl:15
-#   printf("%f %f %f P (common) \n %f %f %f (worldP) \n %f %f %f (shadeP) \n %f %f %f (objectP) \n %f %f %f (cameraP)\n %f %f %f (shader define point)",
-	printf		$const8 $tmp1 $tmp2 $tmp3 $tmp4 $tmp5 $tmp6 $tmp7 $tmp8 $tmp9 $tmp10 $tmp11 $tmp12 $tmp13 $tmp14 $tmp15 $tmp16 $tmp17 $tmp18 	%line{15} %argrw{"rrrrrrrrrrrrrrrrrrr"}
-# shaderSimple.osl:24
-#   Cout = color(0.3,0.7,0.1);
-	assign		Cout $const12 	%line{24} %argrw{"wr"}
+	transform	P1 $const3 $const1 P 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{285} %argrw{"wrrr"}
+# labShader.osl:21
+#   xp = P1[0];
+	compref		xp P1 $const4 	%filename{"labShader.osl"} %line{21} %argrw{"wrr"}
+# labShader.osl:22
+#   yp = P1[1];
+	compref		yp P1 $const5 	%line{22} %argrw{"wrr"}
+# labShader.osl:23
+#   zp = P1[2];
+	compref		zp P1 $const6 	%line{23} %argrw{"wrr"}
+# labShader.osl:25
+#   smod = mod(xp,1*frequency);
+	mul		$tmp1 $const7 frequency 	%line{25} %argrw{"wrr"}
+	functioncall	$const8 11 	%argrw{"r"}
+# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:154
+# float  mod (float  a, float  b) { return a - b*floor(a/b); }
+	div		$tmp3 xp $tmp1 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{154} %argrw{"wrr"}
+	floor		$tmp2 $tmp3 	%argrw{"wr"}
+	mul		$tmp4 $tmp1 $tmp2 	%argrw{"wrr"}
+	sub		smod xp $tmp4 	%argrw{"wrr"}
+# labShader.osl:26
+#   tmod = mod(yp,1*frequency);
+	mul		$tmp5 $const7 frequency 	%filename{"labShader.osl"} %line{26} %argrw{"wrr"}
+	functioncall	$const8 17 	%argrw{"r"}
+# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:154
+# float  mod (float  a, float  b) { return a - b*floor(a/b); }
+	div		$tmp7 yp $tmp5 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{154} %argrw{"wrr"}
+	floor		$tmp6 $tmp7 	%argrw{"wr"}
+	mul		$tmp8 $tmp5 $tmp6 	%argrw{"wrr"}
+	sub		tmod yp $tmp8 	%argrw{"wrr"}
+# labShader.osl:28
+#   if (smod < 0.5*frequency) {
+	mul		$tmp9 $const9 frequency 	%filename{"labShader.osl"} %line{28} %argrw{"wrr"}
+	lt		$tmp10 smod $tmp9 	%argrw{"wrr"}
+	if		$tmp10 25 30 	%argrw{"r"}
+# labShader.osl:29
+#     if (tmod < 0.5*frequency) 
+	mul		$tmp11 $const9 frequency 	%line{29} %argrw{"wrr"}
+	lt		$tmp12 tmod $tmp11 	%argrw{"wrr"}
+	if		$tmp12 24 25 	%argrw{"r"}
+# labShader.osl:30
+#       Cout = Cs;
+	assign		Cout Cs 	%line{30} %argrw{"wr"}
+# labShader.osl:32
+#       Cout = darkcolor;
+	assign		Cout darkcolor 	%line{32} %argrw{"wr"}
+# labShader.osl:35
+#     if (tmod < 0.5*frequency)
+	mul		$tmp13 $const9 frequency 	%line{35} %argrw{"wrr"}
+	lt		$tmp14 tmod $tmp13 	%argrw{"wrr"}
+	if		$tmp14 29 30 	%argrw{"r"}
+# labShader.osl:36
+#       Cout = darkcolor;
+	assign		Cout darkcolor 	%line{36} %argrw{"wr"}
+# labShader.osl:38
+#       Cout = Cs;
+	assign		Cout Cs 	%line{38} %argrw{"wr"}
 	end
