@@ -32,17 +32,17 @@ public abstract class Traceable {
 			return null;
 		}
 		
-		Intersection minIntersection = null;
+		Intersection smallT = null;
 		double minT = -1;  // Set to negative value to ensure any positive t value is smaller
 		
-		for (Intersection intersection : result) {
-			if (intersection.t > 0 && (minIntersection == null || intersection.t < minT)) {
-				minIntersection = intersection;
-				minT = intersection.t;
+		for (Intersection x : result) {
+			if (x.t > 0 && (smallT == null || x.t < minT)) {
+				smallT = x;
+				minT = x.t;
 			}
 		}
 		
-		return minIntersection;
+		return smallT;
 	}
 	
 
