@@ -11,40 +11,29 @@ public abstract class Traceable {
 		return this.local_intersect(r);
 	}; 
 
-	// public static Intersection hit(ArrayList<Intersection> result) {
-	// 	/* You need to write this - this should return 
-	// 	null if result is empty
-	// 	the Intersection with the smallest POSITIVE t value
-	// 	*/
-	// 	/*t is the amount youhave to multiply the direction by and add it to the origin
-	// 	 * greater than zero, but closest to 0
-	// 	 */
-	// 	Collections.sort(result);
-	// 	for (Intersection x:result){
-	// 		if(x.compareTo(x) >=0){
-	// 			//find the smallest
-	// 		}
-	// 	}
-	// }
-
-	public static Intersection hit(ArrayList<Intersection> result) {
-		if (result.isEmpty()) {
+	//Finds the intersection with the smallest positive t value in the given ArrayList
+	//If the input ArrayList is empty, the method returns null.
+	public static Intersection hit(ArrayList<Intersection> result){
+		if (result.isEmpty()){
 			return null;
 		}
 		
-		Intersection smallT = null;
-		double minT = -1;  // Set to negative value to ensure any positive t value is smaller
+		Intersection smallT = null; //The smallest positive t value found so far
+		double minT = -1;  //The minimum positive t value found so far, initialized to a negative value to ensure any positive t value is smaller
 		
-		for (Intersection x : result) {
-			if (x.t > 0 && (smallT == null || x.t < minT)) {
-				smallT = x;
-				minT = x.t;
+		//Loop through each Intersection object in the input ArrayList
+		//Check if has a positive t value and is smaller than minT or if smallT is null
+		for (Intersection x : result){
+			
+			if (x.t > 0 && (smallT == null || x.t < minT)){
+				smallT = x; //Update smallT to the new Intersection object with the smallest positive t value found
+				minT = x.t; //Update minT to the new minimum positive t value found
 			}
 		}
 		
-		return smallT;
+		return smallT; 
 	}
-	
+
 
 
 	//merges two Intersection Lists  
