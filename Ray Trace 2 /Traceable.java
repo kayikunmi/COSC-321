@@ -10,14 +10,16 @@ public abstract class Traceable {
 
 	public ArrayList<Intersection> intersections(Ray r) { 
 		return this.local_intersect(r);
-	};
-
-	/* You need to write this - this should return 
-	null if result is empty
-	the Intersection with the smallest POSITIVE t value
-	 */ 
+	}; 
 
 	public static Intersection hit(ArrayList<Intersection> result) {
+		/* You need to write this - this should return 
+		null if result is empty
+		the Intersection with the smallest POSITIVE t value
+		*/
+		/*t is the amount youhave to multiply the direction by and add it to the origin
+		 * 
+		 */
 
 	    return null;
 
