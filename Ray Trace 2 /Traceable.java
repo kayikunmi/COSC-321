@@ -18,10 +18,14 @@ public abstract class Traceable {
 		the Intersection with the smallest POSITIVE t value
 		*/
 		/*t is the amount youhave to multiply the direction by and add it to the origin
-		 * 
+		 * greater than zero, but closest to 0
 		 */
-
-	    return null;
+		Collections.sort(result);
+		for (Intersection x:result){
+			if(x.compareTo(x) >=0){
+				//find the smallest
+			}
+		}
 
 	}
 
