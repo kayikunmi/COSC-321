@@ -51,27 +51,14 @@ public class World {
 
 	public Canvas render(String fileName, int hsize, int vsize, double size) {
 
-		Canvas cav = new Canvas(hsize, vsize);
 
-		// Render a black square
-		for (int y = 0; y < vsize; y++) {
-			for (int x = 0; x < hsize; x++) {
-				cav.writeP(x, y, new MyColor(1, .5, .2));
-			}
-		}
+		Canvas cav = new Canvas(hsize,vsize);
+
 
 		cav.toPPM(fileName);
 		System.out.println("Tracer world done");
 
 		return cav;
-
-		// Canvas cav = new Canvas(hsize,vsize);
-
-
-		// cav.toPPM(fileName);
-		// System.out.println("Tracer world done");
-
-		// return cav;
 	}
 
 
