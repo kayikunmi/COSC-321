@@ -56,7 +56,7 @@ public class World {
 		// Render a black square
 		for (int y = 0; y < vsize; y++) {
 			for (int x = 0; x < hsize; x++) {
-				cav.writeP(x, y, new MyColor(1, 1, 0));
+				cav.writeP(x, y, new MyColor(1, .5, .2));
 			}
 		}
 
