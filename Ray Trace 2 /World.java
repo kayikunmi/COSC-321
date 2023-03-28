@@ -58,16 +58,25 @@ public class World {
 		//System.out.println("ray: " + ray);
 		ArrayList<Intersection> raylist = new ArrayList<Intersection>();
 		raylist = intersectWorld(ray);
-		System.out.println("arraylist: " + raylist);
-		MyColor col = new MyColor(1,0,0);
+		//System.out.println("arraylist: " + raylist);
+		MyColor col1 = new MyColor(1,0,0); //red
+		MyColor col2 = new MyColor(0,1,0); //green when hit
 
-	
-		if(Traceable.hit(raylist)==null){
-			System.out.println("null here");
+		for(int i =0; i < hsize; i++){
+			for(int j =0; j < vsize; j++){
+				if(Traceable.hit(raylist)==null){
+					//System.out.println("null here");
+					cav.writeP(i,j,col1);
+				}
+				else{ //not null
+					//System.out.println("hit works");
+					cav.writeP(i,j,col2);
+				
+				}
+			}
 		}
-		else{
-			System.out.println("hit works");
-		}
+
+
 		
 		cav.toPPM(fileName);
 		System.out.println("Tracer world done");

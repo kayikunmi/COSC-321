@@ -18,9 +18,11 @@ public class Canvas {
 
 	public Canvas(int w, int h) {
 		pixels = new MyColor[w][h];
-		for (int i=0; i< w; i++)
-			for (int j=0; j<h; j++)
+		for (int i=0; i< w; i++){
+			for (int j=0; j<h; j++){
 				pixels[i][j] = new MyColor(0,0,0);
+			}
+		}
 	}
 
 	public void writeP(int i,int j,MyColor c) {
@@ -51,8 +53,8 @@ public class Canvas {
 			PrintWriter p = new PrintWriter(f);
 			// A printwriter has the print and println methods you usually use
 			//////
-			int rows = 10;
-			int cols = 10;
+			int rows = pixels.length;
+			int cols = pixels[0].length;
 			int maxValue = 255;
 			p.println("P3");  
 			p.println(cols + " " + rows);
@@ -62,20 +64,11 @@ public class Canvas {
 					int red = (int) (pixels[r][c].t[0]*255);
 					int green = (int) (pixels[r][c].t[1]*255);
 					int blue = (int) (pixels[r][c].t[2]*255);
-					p.println(red + " " + green + " " + blue);
-					p.println(green + " " + blue + " " + red);
-					p.println(blue + " " + red + " " + green);
-					// p.println(pixels[r][c].t[1]*255 + " " + pixels[r][c].t[2]*255 + " " + pixels[r][c].t[0]*255);
-					// p.println(pixels[r][c].t[2]*255 + " " + pixels[r][c].t[0]*255 + " " + pixels[r][c].t[1]*255);
-					//
-					// p.println("150 78 250");
-					// p.println("36 178 50");
-					// p.println("200 59 20");
+					p.write(red + " " + green + " " + blue + '\n');
+		
                	}	
            }
-			//////
-
-			p.close();
+		   p.close();
 
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
