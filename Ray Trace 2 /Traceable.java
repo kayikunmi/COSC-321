@@ -14,6 +14,7 @@ public abstract class Traceable {
 	//Finds the intersection with the smallest positive t value in the given ArrayList
 	//If the input ArrayList is empty, the method returns null.
 	public static Intersection hit(ArrayList<Intersection> result){
+		Collections.sort(result);
 		if (result.isEmpty()){
 			return null;
 		}
@@ -28,8 +29,10 @@ public abstract class Traceable {
 			if (x.t > 0 && (smallT == null || x.t < minT)){
 				smallT = x; //Update smallT to the new Intersection object with the smallest positive t value found
 				minT = x.t; //Update minT to the new minnimum positive t value found
+				//System.out.println("minT: " + minT);
 			}
 		}
+		//System.out.println("samllT: " + smallT);
 		return smallT; 
 	}
 
