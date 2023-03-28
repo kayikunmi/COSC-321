@@ -19,18 +19,17 @@ public abstract class Traceable {
 		}
 		
 		Intersection smallT = null; //The smallest positive t value found so far
-		double minT = -1;  //The minimum positive t value found so far, initialized to a negative value to ensure any positive t value is smaller
+		double minT = -1;  //The minimum positive t value found so far, intialized to a negative value to ensure any positive t value is smaller
 		
-		//Loop through each Intersection object in the input ArrayList
-		//Check if has a positive t value and is smaller than minT or if smallT is null
+		//Loop through each Intersecion object in the input ArrayList
+		//Check if has a positive t value and is smaaller than minT or if smallT is null
 		for (Intersection x : result){
-			
+			//x.t has to be greater than 0 and less then minimun t
 			if (x.t > 0 && (smallT == null || x.t < minT)){
 				smallT = x; //Update smallT to the new Intersection object with the smallest positive t value found
-				minT = x.t; //Update minT to the new minimum positive t value found
+				minT = x.t; //Update minT to the new minnimum positive t value found
 			}
 		}
-		
 		return smallT; 
 	}
 

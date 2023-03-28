@@ -50,11 +50,25 @@ public class World {
 	 */
 
 	public Canvas render(String fileName, int hsize, int vsize, double size) {
-
-
+	
 		Canvas cav = new Canvas(hsize,vsize);
+		Point origin = new Point(0,0,2);
+		Vector direction = new  Vector(-0.5,0,-1);
+		Ray ray = new Ray(origin,direction);
+		//System.out.println("ray: " + ray);
+		ArrayList<Intersection> raylist = new ArrayList<Intersection>();
+		raylist = intersectWorld(ray);
+		System.out.println("arraylist: " + raylist);
+		MyColor col = new MyColor(1,0,0);
 
-
+	
+		if(Traceable.hit(raylist)==null){
+			System.out.println("null here");
+		}
+		else{
+			System.out.println("hit works");
+		}
+		
 		cav.toPPM(fileName);
 		System.out.println("Tracer world done");
 
@@ -64,17 +78,11 @@ public class World {
 
 
 	public ArrayList<Intersection> intersectWorld(Ray r) {
-
 		ArrayList<Intersection> result = new ArrayList<Intersection>();
-
-
 		for (Traceable o : objects) {
-
 			ArrayList<Intersection> inters = o.intersections(r);
 			result = Traceable.mergeInters(inters, result);
-
 		}
-
 		return result;
 	}
 
@@ -85,12 +93,10 @@ public class World {
 		//w.setDefault();
 		w.render("test99.ppm", 1000, 1000,10);
 
-
 	}
 
 
 	public void triple() {
-
 
 		Cube middle = new Cube();
 		middle.transform = Matrices.mult(

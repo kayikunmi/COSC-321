@@ -11,10 +11,10 @@ public class Transformations {
 		return new Matrices(
 				new double[][]{
 					
-					{0,0,0,0},
-					{0,0,0,0},
-					{0,0,0,0},
-					{x,y,z,1}});
+					{1,0,0,x},
+					{0,1,0,y},
+					{0,0,1,z},
+					{0,0,0,1}});
 	}
 	
 	public static Matrices getScale(double sx, double sy, double sz) {
