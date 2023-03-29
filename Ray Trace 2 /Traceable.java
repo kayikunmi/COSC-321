@@ -20,20 +20,28 @@ public abstract class Traceable {
 		}
 		
 		Intersection smallT = null; //The smallest positive t value found so far
-		double minT = -1;  //The minimum positive t value found so far, intialized to a negative value to ensure any positive t value is smaller
+		//double minT = -1;  //The minimum positive t value found so far, intialized to a negative value to ensure any positive t value is smaller
 		
-		//Loop through each Intersecion object in the input ArrayList
-		//Check if has a positive t value and is smaaller than minT or if smallT is null
-		for (Intersection x : result){
-			//x.t has to be greater than 0 and less then minimun t
-			if (x.t > 0 && (smallT == null || x.t < minT)){
-				smallT = x; //Update smallT to the new Intersection object with the smallest positive t value found
-				minT = x.t; //Update minT to the new minnimum positive t value found
-				//System.out.println("minT: " + minT);
+		for(int i = 0; i < result.size(); i++){
+			//also has to be the first none zero value as you iterate over the list.
+			if(result.get(i).t > 0){
+				smallT = result.get(i);
+				return smallT;
 			}
 		}
-		//System.out.println("samllT: " + smallT);
-		return smallT; 
+		return null;
+		//Loop through each Intersecion object in the input ArrayList
+		//Check if has a positive t value and is smaaller than minT or if smallT is null
+		// for (Intersection x : result){
+		// 	//x.t has to be greater than 0 and less then minimun t
+		// 	if (x.t > 0 && (smallT == null || x.t < minT)){
+		// 		smallT = x; //Update smallT to the new Intersection object with the smallest positive t value found
+		// 		minT = x.t; //Update minT to the new minnimum positive t value found
+		// 		//System.out.println("minT: " + minT);
+		// 	}
+		// }
+		// //System.out.println("samllT: " + smallT);
+		// return smallT; 
 	}
 
 

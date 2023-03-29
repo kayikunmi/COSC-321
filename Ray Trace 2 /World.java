@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 import javax.imageio.event.IIOWriteWarningListener;
+import javax.swing.text.Position;
 
 public class World {
 
@@ -8,17 +9,13 @@ public class World {
 
 	ArrayList<Traceable> objects = new ArrayList<Traceable>();
 
-	public World() {
-
-	}
+	public World() {}
 
 	public void add(Traceable t) {
 		objects.add(t);
 	}
 
 	public void setDefault() {
-
-
 		Cube s1 = new Cube();
 		Material material = new Material();
 		material.color = new MyColor (0.8, 1.0, 0.6);
@@ -33,7 +30,6 @@ public class World {
 
 		objects.add(s1);
 		objects.add(s2);
-
 
 	}
 
@@ -50,41 +46,29 @@ public class World {
 	 */
 
 	public Canvas render(String fileName, int hsize, int vsize, double size) {
-	
 		Canvas cav = new Canvas(hsize,vsize);
 		Point origin = new Point(0,0,2);
-		Vector direction = new  Vector(-0.5,0,-1);
-		Ray ray = new Ray(origin,direction);
-		//System.out.println("ray: " + ray);
-		ArrayList<Intersection> raylist = new ArrayList<Intersection>();
-		raylist = intersectWorld(ray);
-		//System.out.println("arraylist: " + raylist);
-		MyColor col1 = new MyColor(1,0,0); //red
+		MyColor col1 = new MyColor(1,0,0); //red when not hit
 		MyColor col2 = new MyColor(0,1,0); //green when hit
-
 		for(int i =0; i < hsize; i++){
 			for(int j =0; j < vsize; j++){
-				if(Traceable.hit(raylist)==null){
-					//System.out.println("null here");
+				Vector direction = new Vector(2*(size*i/hsize) - size, 2*(size*j/vsize) - size, -1);
+				Ray ray = new Ray(origin,direction);
+				ArrayList<Intersection> raylist = new ArrayList<Intersection>();
+				raylist = intersectWorld(ray);
+				if(Traceable.hit(raylist)==null){ //is null
 					cav.writeP(i,j,col1);
 				}
 				else{ //not null
 					//System.out.println("hit works");
 					cav.writeP(i,j,col2);
-				
 				}
 			}
 		}
-
-
-		
 		cav.toPPM(fileName);
 		System.out.println("Tracer world done");
-
 		return cav;
 	}
-
-
 
 	public ArrayList<Intersection> intersectWorld(Ray r) {
 		ArrayList<Intersection> result = new ArrayList<Intersection>();
@@ -103,7 +87,6 @@ public class World {
 		w.render("test99.ppm", 1000, 1000,10);
 
 	}
-
 
 	public void triple() {
 
@@ -140,7 +123,6 @@ public class World {
 		left.material.specular = 0.3;
 		left.material.ambient = 0.9;
 		add(left);
-
 
 		Cube fourth = new Cube();
 		fourth.transform = Matrices.mult(
