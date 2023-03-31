@@ -14,6 +14,25 @@ public class World {
 	public void add(Traceable t) {
 		objects.add(t);
 	}
+	
+	public void KCube() {
+		Cube k1 = new Cube();
+		k1.transform = Transformations.getTranslate(0.8, 0.8, 0.5);
+		k1.transform = Transformations.getScale(0.5, 0.5, 0.9);
+		Material material1 = new Material();
+		material1.specular = 0.763;
+		material1.color = new MyColor (0.9, 0.24, 0.6);
+		k1.material = material1;
+		Cube k2 = new Cube();
+		k2.transform = Transformations.getRotY(0.3);
+		k2.transform = Transformations.getScale(0.8, 0.2, 0.5);
+		Material material2 = new Material();
+		material2.color = new MyColor (0.8, 0.6, 0.37);
+		material2.ambient = 0.75;
+		k2.material = material2;
+		objects.add(k1);
+		objects.add(k2);
+	}
 
 	public void setDefault() {
 		Cube s1 = new Cube();
@@ -23,10 +42,10 @@ public class World {
 		material.specular = 0.2;
 		s1.material = material;
 		Cube s2 = new Cube();
-		System.out.println(s2);
+		//System.out.println(s2);
 		s2.transform = Transformations.getTranslate(0,-8,-4);
-		//s2.transform = Transformations.getScale(0.5, 0.5, 0.5);	
-		System.out.println(s2);
+		s2.transform = Transformations.getScale(0.5, 0.5, 0.5);	
+		//System.out.println(s2);
 
 		objects.add(s1);
 		objects.add(s2);
@@ -48,20 +67,45 @@ public class World {
 	public Canvas render(String fileName, int hsize, int vsize, double size) {
 		Canvas cav = new Canvas(hsize,vsize);
 		Point origin = new Point(0,0,2);
-		MyColor col1 = new MyColor(1,0,0); //red when not hit
-		MyColor col2 = new MyColor(0,1,0); //green when hit
+		int counter = 0;
+		//MyColor col1 = new MyColor(1,0.5,0); //orange
+		// MyColor col2 = new MyColor(0,1,0.9); //cyan
 		for(int i =0; i < hsize; i++){
 			for(int j =0; j < vsize; j++){
 				Vector direction = new Vector(2*(size*i/hsize) - size, 2*(size*j/vsize) - size, -1);
 				Ray ray = new Ray(origin,direction);
 				ArrayList<Intersection> raylist = new ArrayList<Intersection>();
 				raylist = intersectWorld(ray);
+				double b = j/255;
+				MyColor col1 = new MyColor(1, 0.5, b);
+				MyColor col2 = new MyColor(0.75,b,0.4); 
+				MyColor col3 = new MyColor(b,b,0.9); 
+				MyColor col4 = new MyColor(0.5,b,0.67);
+				MyColor col5 = new MyColor(1,0,0); 
+				counter++;
 				if(Traceable.hit(raylist)==null){ //is null
-					cav.writeP(i,j,col1);
+					if(counter%3 ==0){
+						cav.writeP(i,j,col1);
+						cav.writeP(j,i,col5);
+					}
+					else{
+						cav.writeP(i,j,col3);
+					}
+					// cav.writeP(i,j,col1);
+					//cav.writeP(j,i,col2);
 				}
 				else{ //not null
 					//System.out.println("hit works");
-					cav.writeP(i,j,col2);
+					if(counter%3 ==0){
+						cav.writeP(i,j,col4);
+						cav.writeP(j,i,col3);
+					}
+					else{
+						cav.writeP(i,j,col2);
+						cav.writeP(j,i,col1);
+					}
+					// cav.writeP(i,j,col3);
+					// cav.writeP(j,i,col4);
 				}
 			}
 		}
@@ -82,9 +126,10 @@ public class World {
 	public static void main(String[] args) {
 
 		World w = new World();
+		w.KCube();
 		w.triple();
-		//w.setDefault();
-		w.render("test99.ppm", 1000, 1000,10);
+		w.setDefault();
+		w.render("test99.ppm", 1000, 1000,5);
 
 	}
 
