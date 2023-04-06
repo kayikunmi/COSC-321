@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-import org.junit.Test;
+//import org.junit.Test;
+//might need this line. compiled code without it
 
 public class Sphere extends Traceable {
 	
@@ -11,6 +12,7 @@ public class Sphere extends Traceable {
 	}
 	
 	public ArrayList<Intersection> local_intersect(Ray r1) {
+		//complete this
 		/* transform the ray by inverse of the Traceable transform before 
 		 * intersecting See the beginning of the method in Cube for help
 		 * */
