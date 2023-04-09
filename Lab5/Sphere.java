@@ -16,31 +16,35 @@ public class Sphere extends Traceable {
 		/* transform the ray by inverse of the Traceable transform before 
 		 * intersecting See the beginning of the method in Cube for help
 		 * */
-		
-		
+		var r = r1.transform(transform.invert());
 		
 		/* Calculate a, b and c as in class.  Be careful about using the ray origin, 
 		 * which is a point - don't accidentally get an extra 1 from the w coordinate
 		 * 
 		 */
 		
-		double a = 0;
-		double b = 0;
-		double c = 0;
+		 Point p = new Point(0, 0, 0);
+		 Tuple sphereToRay = Tuple.sub(p, r.origin);
+		 double a = Tuple.dot(r.direction, r.direction);
+		 double b = 2 * Tuple.dot(r.direction, sphereToRay);
+		 double c = Tuple.dot(sphereToRay,sphereToRay) - 1;
+		 
+		 ArrayList<Intersection> ans = new ArrayList<Intersection>();
+		 double discriminant = b * b - 4 * a * c;
+		 if (discriminant < 0) {
+		     return ans;
+		 }
+		 
+		 // Fill in the intersections
+		 double t1 = (-b - Math.sqrt(discriminant)) / (2 * a);
+		 double t2 = (-b + Math.sqrt(discriminant)) / (2 * a);
 		
-		double discriminant = b*b -4*a*c;
-		
-		ArrayList<Intersection> ans = new ArrayList<Intersection>();
-
-		/* use the discriminant to decide what to return in ans - 
-		 * it should empty if there are no intersections (not null)
-		 * 
-		 * Fill in the intersections
-		 */
-		
-		return ans;
-		
-	}
+		 ans.add(new Intersection(this, t1));
+		 ans.add(new Intersection(this, t2));
+		 
+		 return ans;
+		 }
+		 
 	
 	@Override
 	public Vector local_normal_at(Point p, Intersection dontUse) {
