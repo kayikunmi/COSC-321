@@ -15,6 +15,17 @@ public class World {
 		objects.add(t);
 	}
 	
+	public void KSphere() {
+		Sphere ks1 = new Sphere();
+		ks1.transform = Transformations.getTranslate(4, 3, 0);
+		Material material1 = new Material();
+		material1.specular = 0.42;
+		material1.color = new MyColor (0.9, 0.24, 0.6);
+		ks1.material = material1;
+		//System.out.println(ks1);
+		objects.add(ks1);
+	}
+
 	public void KCube() {
 		Cube k1 = new Cube();
 		k1.transform = Transformations.getTranslate(0.8, 0.8, 0.5);
@@ -91,7 +102,7 @@ public class World {
 					else{
 						cav.writeP(i,j,col3);
 					}
-					// cav.writeP(i,j,col1);
+					//cav.writeP(i,j,col1);
 					//cav.writeP(j,i,col2);
 				}
 				else{ //not null
@@ -104,7 +115,7 @@ public class World {
 						cav.writeP(i,j,col2);
 						cav.writeP(j,i,col1);
 					}
-					// cav.writeP(i,j,col3);
+					//cav.writeP(i,j,col3);
 					// cav.writeP(j,i,col4);
 				}
 			}
@@ -127,6 +138,7 @@ public class World {
 
 		World w = new World();
 		w.KCube();
+		w.KSphere();
 		w.triple();
 		w.setDefault();
 		w.render("test99.ppm", 1000, 1000,5);

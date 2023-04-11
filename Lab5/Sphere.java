@@ -22,16 +22,16 @@ public class Sphere extends Traceable {
 		 * which is a point - don't accidentally get an extra 1 from the w coordinate
 		 * 
 		 */
+		Point op = r.origin;
+		Vector vor = new Vector(op.t[0], op.t[1], op.t[2]);
 		
-		 Point p = new Point(0, 0, 0);
-		 Tuple sphereToRay = Tuple.sub(p, r.origin);
 		 double a = Tuple.dot(r.direction, r.direction);
-		 double b = 2 * Tuple.dot(r.direction, sphereToRay);
-		 double c = Tuple.dot(sphereToRay,sphereToRay) - 1;
+		 double b = 2 * Tuple.dot(r.direction, vor);
+		 double c = Tuple.dot(vor, vor) - 1;
 		 
 		 ArrayList<Intersection> ans = new ArrayList<Intersection>();
 		 double discriminant = b * b - 4 * a * c;
-		 if (discriminant < 0) {
+		 if (discriminant < 0){
 		     return ans;
 		 }
 		 
@@ -76,7 +76,7 @@ public class Sphere extends Traceable {
 		if (ans.size() == 0)
 			System.out.println("No Intersexctions");
 		else 
-			System.out.println(ans.get(0)+"   "+ans.get(1));
+			System.out.println(ans.get(0)+"   " + ans.get(1));
 	}
 
 	@Override
