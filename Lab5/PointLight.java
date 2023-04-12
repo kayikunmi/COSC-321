@@ -7,13 +7,21 @@ public class PointLight extends LightSource{
 	}
 	
 	@Override
-	public MyColor intensityAt(Point point, 
-			World w) {
-	
-       
-			return MyColor.White;
-					
+	public MyColor intensityAt(Point point, World w) {
+		//fill
+		//if point is not shadowed, ret false
+		//if had return int/2
+
+		if(isShadowed(point, w)){
+			MyColor intcol = new MyColor(this.intensity.t[0], this.intensity.t[1],this.intensity.t[2]);
+			return intcol;
 		}
+		else{
+			return this.intensity;
+		}
+		//return MyColor.White;
+						
+	}
 
 	
 	public MyColor getIntensity() {

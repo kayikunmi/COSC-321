@@ -8,6 +8,10 @@ public class World {
 	// The list of Traceable Objects
 
 	ArrayList<Traceable> objects = new ArrayList<Traceable>();
+	ArrayList<LightSource> lights = new ArrayList<LightSource>();
+	Point np = new Point(4,4,0);
+	MyColor c = new MyColor(0, 1, 0);
+	PointLight pl = new PointLight(c, np);
 
 	public World() {}
 
@@ -17,11 +21,15 @@ public class World {
 	
 	public void KSphere() {
 		Sphere ks1 = new Sphere();
-		ks1.transform = Transformations.getTranslate(4, 3, 0);
+		//ks1.transform = Transformations.getTranslate(4, 3, 0);
 		Material material1 = new Material();
 		material1.specular = 0.42;
-		material1.color = new MyColor (0.9, 0.24, 0.6);
+		//material1.color = new MyColor (0.9, 0.24, 0.6);
 		ks1.material = material1;
+		Point np = new Point(4,3,0);
+		MyColor c = new MyColor(0, 0, 1);
+		PointLight pl = new PointLight(c, np);
+		lights.add(pl);
 		//System.out.println(ks1);
 		objects.add(ks1);
 	}
@@ -79,10 +87,9 @@ public class World {
 		Canvas cav = new Canvas(hsize,vsize);
 		Point origin = new Point(0,0,2);
 		int counter = 0;
-		//MyColor col1 = new MyColor(1,0.5,0); //orange
-		// MyColor col2 = new MyColor(0,1,0.9); //cyan
-		for(int i =0; i < hsize; i++){
-			for(int j =0; j < vsize; j++){
+		
+		for(int i = 0; i < hsize; i++){
+			for(int j = 0; j < vsize; j++){
 				Vector direction = new Vector(2*(size*i/hsize) - size, 2*(size*j/vsize) - size, -1);
 				Ray ray = new Ray(origin,direction);
 				ArrayList<Intersection> raylist = new ArrayList<Intersection>();
@@ -93,28 +100,36 @@ public class World {
 				MyColor col3 = new MyColor(b,b,0.9); 
 				MyColor col4 = new MyColor(0.5,b,0.67);
 				MyColor col5 = new MyColor(1,0,0); 
+				MyColor red = new MyColor(1,0,0); 
+				MyColor blue = new MyColor(0,0,1); 
 				counter++;
+
+				Intersection ishit = Traceable.hit(raylist);
+
+				
+				
 				if(Traceable.hit(raylist)==null){ //is null
-					if(counter%3 ==0){
-						cav.writeP(i,j,col1);
-						cav.writeP(j,i,col5);
-					}
-					else{
-						cav.writeP(i,j,col3);
-					}
+					// if(counter%3 ==0){
+					// 	cav.writeP(i,j,col1);
+					// 	cav.writeP(j,i,col5);
+					// }
+					// else{
+						cav.writeP(i,j,red);
+					// }
 					//cav.writeP(i,j,col1);
 					//cav.writeP(j,i,col2);
 				}
 				else{ //not null
 					//System.out.println("hit works");
-					if(counter%3 ==0){
-						cav.writeP(i,j,col4);
-						cav.writeP(j,i,col3);
-					}
-					else{
-						cav.writeP(i,j,col2);
-						cav.writeP(j,i,col1);
-					}
+					// if(counter%3 ==0){
+					// 	cav.writeP(i,j,col4);
+					// 	cav.writeP(j,i,col3);
+					// }
+					// else{
+					// 	cav.writeP(i,j,col2);
+					MyColor ce = new MyColor(Tuple.mult(ishit.object.material.color,pl.intensity));
+						cav.writeP(i,j,ce);
+					// }
 					//cav.writeP(i,j,col3);
 					// cav.writeP(j,i,col4);
 				}
@@ -137,10 +152,10 @@ public class World {
 	public static void main(String[] args) {
 
 		World w = new World();
-		w.KCube();
+		//w.KCube();
 		w.KSphere();
-		w.triple();
-		w.setDefault();
+		// w.triple();
+		// w.setDefault();
 		w.render("test99.ppm", 1000, 1000,5);
 
 	}

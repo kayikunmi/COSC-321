@@ -26,7 +26,7 @@ public class Sphere extends Traceable {
 		Vector vor = new Vector(op.t[0], op.t[1], op.t[2]);
 		
 		 double a = Tuple.dot(r.direction, r.direction);
-		 double b = 2 * Tuple.dot(r.direction, vor);
+		 double b = 2 * Tuple.dot(vor, r.direction);
 		 double c = Tuple.dot(vor, vor) - 1;
 		 
 		 ArrayList<Intersection> ans = new ArrayList<Intersection>();
