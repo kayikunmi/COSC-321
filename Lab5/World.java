@@ -68,7 +68,6 @@ public class World {
 
 		objects.add(s1);
 		objects.add(s2);
-
 	}
 
 	/*
