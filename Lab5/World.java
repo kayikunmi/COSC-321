@@ -22,8 +22,8 @@ public class World {
 	public void KSphere() {
 		lights.add(pl);
 		Sphere ksph = new Sphere();
-		ksph.transform = Transformations.getTranslate(2, 2, 0);
-		ksph.transform = Matrices.mult(Transformations.getScale(3,3,1.0));
+		ksph.transform = Transformations.getTranslate(2, 4, 0);
+		//ksph.transform = Transformations.getScale(3,3,1.0);
 
 		ksph.material = new Material();
 		ksph.material.diffuse = 1.5;
@@ -36,21 +36,21 @@ public class World {
 
 	public void KCube() {
 		Cube k1 = new Cube();
-		k1.transform = Transformations.getTranslate(0.8, 0.8, 0.5);
-		k1.transform = Transformations.getScale(0.5, 0.5, 0.9);
+		//k1.transform = Transformations.getTranslate(3, 1, 0);
+		//k1.transform = Transformations.getScale(0.5, 0.5, 0.9);
 		Material material1 = new Material();
 		material1.specular = 0.763;
-		material1.color = new MyColor (0.9, 0.24, 0.6);
+		//material1.color = new MyColor (0.9, 0.24, 0.6);
 		k1.material = material1;
-		Cube k2 = new Cube();
-		k2.transform = Transformations.getRotY(0.3);
-		k2.transform = Transformations.getScale(0.8, 0.2, 0.5);
-		Material material2 = new Material();
-		material2.color = new MyColor (0.8, 0.6, 0.37);
-		material2.ambient = 0.75;
-		k2.material = material2;
+		// Cube k2 = new Cube();
+		// k2.transform = Transformations.getRotY(0.3);
+		// k2.transform = Transformations.getScale(0.8, 0.2, 0.5);
+		// Material material2 = new Material();
+		// material2.color = new MyColor (0.8, 0.6, 0.37);
+		// material2.ambient = 0.75;
+		// k2.material = material2;
+		// objects.add(k1);
 		objects.add(k1);
-		objects.add(k2);
 	}
 
 	public void setDefault() {
@@ -127,8 +127,13 @@ public class World {
 					Point p = ray.position(ishit.t);
 					Vector v1 = ishit.object.local_normal_at(p, ishit);
 					Vector v2 = ishit.object.normal_to_world(v1);
-					Point p2 = new Point(v2);
-
+					Point p2 = null;
+					if(ishit.object.includes(ishit.object)){//cube
+						p2 = new Point(v2.t[0], v2.t[1], v2.t[2]);
+					}
+					else{	
+						p2 = new Point(v2.t[0]+0.1, v2.t[1]+0.1, v2.t[2]+0.1);
+					}
 					MyColor ce = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p2, this)));
 					// System.out.println("1: " + ishit.object.material.color);
 					// System.out.println("2: " + pl.intensityAt(p, this));
@@ -137,7 +142,7 @@ public class World {
 					cav.writeP(i,j,ce);
 					// }
 					//cav.writeP(i,j,col3);
-					// cav.writeP(j,i,col4);
+					//cav.writeP(j,i,col4);
 				}
 			}
 		}
@@ -159,9 +164,9 @@ public class World {
 
 		World w = new World();
 		w.KSphere();
-		// w.KCube();
-		// w.triple();
-		w.setDefault();
+		//w.KCube();
+		w.triple();
+		//w.setDefault();
 		w.render("test99.ppm", 1000, 1000,5);
 
 	}

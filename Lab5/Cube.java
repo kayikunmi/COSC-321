@@ -94,19 +94,23 @@ public class Cube extends Traceable {
 		double x = point.t[0];
 		double y = point.t[1];
 		double z = point.t[2];
-		if(x>y && x>z){//x is greatest
-			Point px = new Point(x, 0,0);
+		//System.out.println(x + " " + y + " " + z);
+		if(x>=y && x>=z){//x is greatest
+			Point px = new Point(x, 0, 0);
 			Vector vx = new Vector(px);
+			//System.out.println("vx: " + vx);
 			return vx;
 		}
-		else if(y>x && y>z){//y is greatest
-			Point py = new Point(0, y, 0);
+		else if(y>=x && y>=z){//y is greatest
+			Point py = new Point(0, y , 0);
 			Vector vy = new Vector(py);
+			//System.out.println("vy: " + vy);
 			return vy;
 		}
-		else if(z>x && z>y){//z is greatest
-			Point pz = new Point(0,0,z);
+		else if(z>=x && z>=y){//z is greatest
+			Point pz = new Point(0,0, z);
 			Vector vz = new Vector(pz);
+			//System.out.println("vz: " + vz);
 			return vz;
 		}
 		else{
