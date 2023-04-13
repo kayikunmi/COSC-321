@@ -12,8 +12,8 @@ public class PointLight extends LightSource{
 		//if point is not shadowed, ret false
 		//if had return int/2
 
-		if(isShadowed(point, w)){
-			MyColor intcol = new MyColor(this.intensity.t[0], this.intensity.t[1],this.intensity.t[2]);
+		if(this.isShadowed(point, w)){
+			MyColor intcol = new MyColor(this.intensity.t[0]/2, this.intensity.t[1]/2,this.intensity.t[2]/2);
 			return intcol;
 		}
 		else{

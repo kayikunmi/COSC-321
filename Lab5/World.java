@@ -9,8 +9,8 @@ public class World {
 
 	ArrayList<Traceable> objects = new ArrayList<Traceable>();
 	ArrayList<LightSource> lights = new ArrayList<LightSource>();
-	Point np = new Point(4,4,0);
-	MyColor c = new MyColor(0,0,1);
+	Point np = new Point(0,0,0);
+	MyColor c = new MyColor(0.5,0,1);
 	PointLight pl = new PointLight(c, np);
 
 	public World() {}
@@ -21,13 +21,15 @@ public class World {
 	
 	public void KSphere() {
 		lights.add(pl);
-		Sphere ks1 = new Sphere();
-		//ks1.transform = Transformations.getTranslate(4, 3, 0);
-		ks1.material = new Material();
-		ks1.material.specular = 0;
-		ks1.material.diffuse = 1.7;
-		ks1.material.ambient = 0;
-		objects.add(ks1);
+		Sphere ksph = new Sphere();
+		ksph.transform = Matrices.mult(Transformations.getScale(5,5,1.0));
+
+		ksph.material = new Material();
+		ksph.material.diffuse = 1.7;
+		ksph.material.specular = 0.0;
+		ksph.material.ambient = 0.0;
+		//ksph.material.color = new MyColor (0.9, 0.24, 0.6);
+		objects.add(ksph);
 	}
 
 	public void KCube() {
@@ -123,6 +125,8 @@ public class World {
 					// 	cav.writeP(i,j,col2);
 					Point p = ray.position(ishit.t);
 					MyColor ce = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p, this)));
+					// System.out.println("1: " + ishit.object.material.color);
+					// System.out.println("2: " + pl.intensityAt(p, this));
 		
 					//MyColor plc = pl.intensityAt(p, this);
 					cav.writeP(i,j,ce);
