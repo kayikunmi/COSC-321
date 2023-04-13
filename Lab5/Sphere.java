@@ -48,9 +48,8 @@ public class Sphere extends Traceable {
 	
 	@Override
 	public Vector local_normal_at(Point p, Intersection dontUse) {
-		
-		return null;
-		
+		Vector rv = new Vector(p);
+		return rv;
 	}
 	
 	public static void main(String[] args) {

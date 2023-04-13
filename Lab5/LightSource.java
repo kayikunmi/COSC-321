@@ -10,8 +10,11 @@ public abstract class LightSource {
 			World w);
 
 	public boolean isShadowed(Point p, World w) {
+		/*Traceable.normal_to_world
+		 * new point, then use that point
+		*/
+
 		Vector d = new Vector(Tuple.sub(p, position));
-		//Vector d = new Vector(1, 0, 0); //this is for half the image
 		Ray shadray = new Ray(p, d);
 		ArrayList<Intersection> shadraylist = w.intersectWorld(shadray);
 		if(Traceable.hit(shadraylist)==null){ 

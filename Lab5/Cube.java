@@ -91,8 +91,27 @@ public class Cube extends Traceable {
 
 	@Override
 	public Vector local_normal_at(Point point, Intersection dontUse) {
-
-		return null;
+		double x = point.t[0];
+		double y = point.t[1];
+		double z = point.t[2];
+		if(x>y && x>z){//x is greatest
+			Point px = new Point(x, 0,0);
+			Vector vx = new Vector(px);
+			return vx;
+		}
+		else if(y>x && y>z){//y is greatest
+			Point py = new Point(0, y, 0);
+			Vector vy = new Vector(py);
+			return vy;
+		}
+		else if(z>x && z>y){//z is greatest
+			Point pz = new Point(0,0,z);
+			Vector vz = new Vector(pz);
+			return vz;
+		}
+		else{
+			return null;
+		}
 	}
 
 	public static void main(String[] args) {

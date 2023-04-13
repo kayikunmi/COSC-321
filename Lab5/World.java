@@ -22,13 +22,15 @@ public class World {
 	public void KSphere() {
 		lights.add(pl);
 		Sphere ksph = new Sphere();
-		ksph.transform = Matrices.mult(Transformations.getScale(5,5,1.0));
+		ksph.transform = Transformations.getTranslate(2, 2, 0);
+		ksph.transform = Matrices.mult(Transformations.getScale(3,3,1.0));
 
 		ksph.material = new Material();
 		ksph.material.diffuse = 1.5;
 		ksph.material.specular = 0.0;
 		ksph.material.ambient = 0.4;
 		//ksph.material.color = new MyColor (0.9, 0.24, 0.6);
+		//ksph.local_normal_at(np, null);
 		objects.add(ksph);
 	}
 
@@ -104,7 +106,7 @@ public class World {
 
 				Intersection ishit = Traceable.hit(raylist);
 				
-				if(Traceable.hit(raylist)==null){ //is null
+				if(ishit==null){ //is null
 					// if(counter%3 ==0){
 					// 	cav.writeP(i,j,col1);
 					// 	cav.writeP(j,i,col5);
@@ -124,7 +126,11 @@ public class World {
 					// else{
 					// 	cav.writeP(i,j,col2);
 					Point p = ray.position(ishit.t);
-					MyColor ce = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p, this)));
+					Vector v1 = ishit.object.local_normal_at(p, ishit);
+					Vector v2 = ishit.object.normal_to_world(v1);
+					Point p2 = new Point(v2);
+
+					MyColor ce = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p2, this)));
 					// System.out.println("1: " + ishit.object.material.color);
 					// System.out.println("2: " + pl.intensityAt(p, this));
 		
@@ -156,7 +162,7 @@ public class World {
 		w.KSphere();
 		// w.KCube();
 		// w.triple();
-		// w.setDefault();
+		w.setDefault();
 		w.render("test99.ppm", 1000, 1000,5);
 
 	}

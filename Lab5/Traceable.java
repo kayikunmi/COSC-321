@@ -30,18 +30,6 @@ public abstract class Traceable {
 			}
 		}
 		return null;
-		//Loop through each Intersecion object in the input ArrayList
-		//Check if has a positive t value and is smaaller than minT or if smallT is null
-		// for (Intersection x : result){
-		// 	//x.t has to be greater than 0 and less then minimun t
-		// 	if (x.t > 0 && (smallT == null || x.t < minT)){
-		// 		smallT = x; //Update smallT to the new Intersection object with the smallest positive t value found
-		// 		minT = x.t; //Update minT to the new minnimum positive t value found
-		// 		//System.out.println("minT: " + minT);
-		// 	}
-		// }
-		// //System.out.println("samllT: " + smallT);
-		// return smallT; 
 	}
 
 
@@ -58,11 +46,15 @@ public abstract class Traceable {
 	}
 
 	public Vector normal_to_world(Vector normal) {
-		return normal;
+		Matrices n = transform.invert().transpose();
+		Vector norm = Matrices.apply(n, normal);
+		return norm;
 	}
 
 	public Point world_to_object(Point p) {	
-		return p;
+		Matrices m = transform.invert();
+		Point ap = Matrices.apply(m, p);
+		return ap;
 	}
 
 	public abstract ArrayList<Intersection> local_intersect(Ray r);
@@ -83,9 +75,6 @@ public abstract class Traceable {
 			System.out.println(f);
 
 		System.out.println(hit(test));
-
-
-
 
 	}
 
