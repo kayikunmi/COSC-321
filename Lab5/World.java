@@ -10,7 +10,7 @@ public class World {
 	ArrayList<Traceable> objects = new ArrayList<Traceable>();
 	ArrayList<LightSource> lights = new ArrayList<LightSource>();
 	Point np = new Point(0,0,0);
-	MyColor c = new MyColor(0.5,0,1);
+	MyColor c = new MyColor(0,0.6,1);
 	PointLight pl = new PointLight(c, np);
 
 	public World() {}
@@ -25,9 +25,9 @@ public class World {
 		ksph.transform = Matrices.mult(Transformations.getScale(5,5,1.0));
 
 		ksph.material = new Material();
-		ksph.material.diffuse = 1.7;
+		ksph.material.diffuse = 1.5;
 		ksph.material.specular = 0.0;
-		ksph.material.ambient = 0.0;
+		ksph.material.ambient = 0.4;
 		//ksph.material.color = new MyColor (0.9, 0.24, 0.6);
 		objects.add(ksph);
 	}
@@ -153,8 +153,8 @@ public class World {
 	public static void main(String[] args) {
 
 		World w = new World();
-		//w.KCube();
 		w.KSphere();
+		// w.KCube();
 		// w.triple();
 		// w.setDefault();
 		w.render("test99.ppm", 1000, 1000,5);
