@@ -23,13 +23,15 @@ public class World {
 		lights.add(pl);
 		Sphere ksph = new Sphere();
 		ksph.transform = Transformations.getTranslate(2, 4, 0);
-		//ksph.transform = Transformations.getScale(3,3,1.0);
+		ksph.transform = Transformations.getScale(3,3,1.0);
 
 		ksph.material = new Material();
-		ksph.material.diffuse = 1.5;
+		ksph.material.diffuse = 1.7;
 		ksph.material.specular = 0.0;
 		ksph.material.ambient = 0.4;
-		//ksph.material.color = new MyColor (0.9, 0.24, 0.6);
+		MyColor scol =  new MyColor (0.22 * 0.2, 0.14 * 0.2, 1 * 0.2);
+		ksph.material.color = scol;
+
 		//ksph.local_normal_at(np, null);
 		objects.add(ksph);
 	}
@@ -99,7 +101,7 @@ public class World {
 				MyColor col3 = new MyColor(b,b,0.9); 
 				MyColor col4 = new MyColor(0.5,b,0.67);
 				MyColor col5 = new MyColor(1,0,0); 
-				MyColor red = new MyColor(1,0,0); 
+				MyColor red = new MyColor(0.94, 0.76, 0.75); 
 				MyColor blue = new MyColor(0,0,1); 
 				counter++;
 
@@ -165,7 +167,7 @@ public class World {
 		World w = new World();
 		w.KSphere();
 		//w.KCube();
-		w.triple();
+		//w.triple();
 		//w.setDefault();
 		w.render("test99.ppm", 1000, 1000,5);
 
