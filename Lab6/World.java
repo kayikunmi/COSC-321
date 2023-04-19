@@ -9,7 +9,7 @@ public class World {
 
 	ArrayList<Traceable> objects = new ArrayList<Traceable>();
 	ArrayList<LightSource> lights = new ArrayList<LightSource>();
-	Point np = new Point(0,0,0);
+	Point np = new Point(2, 3, 0);
 	MyColor c = new MyColor(0,0.6,1);
 	PointLight pl = new PointLight(c, np);
 
@@ -38,7 +38,7 @@ public class World {
 
 	public void KCube() {
 		Cube k1 = new Cube();
-		//k1.transform = Transformations.getTranslate(3, 1, 0);
+		k1.transform = Transformations.getTranslate(3, 1, 0);
 		//k1.transform = Transformations.getScale(0.5, 0.5, 0.9);
 		Material material1 = new Material();
 		material1.specular = 0.763;
@@ -107,25 +107,10 @@ public class World {
 
 				Intersection ishit = Traceable.hit(raylist);
 				
-				if(ishit==null){ //is null
-					// if(counter%3 ==0){
-					// 	cav.writeP(i,j,col1);
-					// 	cav.writeP(j,i,col5);
-					// }
-					// else{
-						cav.writeP(i,j,red);
-					// }
-					//cav.writeP(i,j,col1);
-					//cav.writeP(j,i,col2);
+				if(ishit==null){ 
+					cav.writeP(i,j,red);
 				}
-				else{ //not null
-					//System.out.println("hit works");
-					// if(counter%3 ==0){
-					// 	cav.writeP(i,j,col4);
-					// 	cav.writeP(j,i,col3);
-					// }
-					// else{
-					// 	cav.writeP(i,j,col2);
+				else{
 					Point p = ray.position(ishit.t);
 					Vector v1 = ishit.object.local_normal_at(p, ishit);
 					Vector v2 = ishit.object.normal_to_world(v1);
@@ -137,14 +122,7 @@ public class World {
 						p2 = new Point(v2.t[0]+0.1, v2.t[1]+0.1, v2.t[2]+0.1);
 					}
 					MyColor ce = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p2, this)));
-					// System.out.println("1: " + ishit.object.material.color);
-					// System.out.println("2: " + pl.intensityAt(p, this));
-		
-					//MyColor plc = pl.intensityAt(p, this);
 					cav.writeP(i,j,ce);
-					// }
-					//cav.writeP(i,j,col3);
-					//cav.writeP(j,i,col4);
 				}
 			}
 		}
@@ -166,9 +144,9 @@ public class World {
 
 		World w = new World();
 		w.KSphere();
-		//w.KCube();
-		//w.triple();
-		//w.setDefault();
+		// w.KCube();
+		// w.triple();
+		// w.setDefault();
 		w.render("test99.ppm", 1000, 1000,5);
 
 	}
