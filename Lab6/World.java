@@ -29,7 +29,7 @@ public class World {
 		ksph.material.diffuse = 1.7;
 		ksph.material.specular = 0.0;
 		ksph.material.ambient = 0.4;
-		MyColor scol =  new MyColor (0.22 * 0.2, 0.14 * 0.2, 1 * 0.2);
+		MyColor scol =  new MyColor (0.22, 0.14, 1);
 		ksph.material.color = scol;
 
 		//ksph.local_normal_at(np, null);
@@ -42,16 +42,8 @@ public class World {
 		//k1.transform = Transformations.getScale(0.5, 0.5, 0.9);
 		Material material1 = new Material();
 		material1.specular = 0.763;
-		//material1.color = new MyColor (0.9, 0.24, 0.6);
+		//material1.color = new MyColor (0.9, 0.04, 0.36);
 		k1.material = material1;
-		// Cube k2 = new Cube();
-		// k2.transform = Transformations.getRotY(0.3);
-		// k2.transform = Transformations.getScale(0.8, 0.2, 0.5);
-		// Material material2 = new Material();
-		// material2.color = new MyColor (0.8, 0.6, 0.37);
-		// material2.ambient = 0.75;
-		// k2.material = material2;
-		// objects.add(k1);
 		objects.add(k1);
 	}
 
@@ -95,14 +87,7 @@ public class World {
 				Ray ray = new Ray(origin,direction);
 				ArrayList<Intersection> raylist = new ArrayList<Intersection>();
 				raylist = intersectWorld(ray);
-				double b = j/255;
-				MyColor col1 = new MyColor(1, 0.5, b);
-				MyColor col2 = new MyColor(0.75,b,0.4); 
-				MyColor col3 = new MyColor(b,b,0.9); 
-				MyColor col4 = new MyColor(0.5,b,0.67);
-				MyColor col5 = new MyColor(1,0,0); 
 				MyColor red = new MyColor(0.94, 0.76, 0.75); 
-				MyColor blue = new MyColor(0,0,1); 
 				counter++;
 
 				Intersection ishit = Traceable.hit(raylist);
@@ -121,7 +106,8 @@ public class World {
 					else{	
 						p2 = new Point(v2.t[0]+0.1, v2.t[1]+0.1, v2.t[2]+0.1);
 					}
-					MyColor ce = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p2, this)));
+					MyColor c = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p2, this)));
+					MyColor ce  = new MyColor(c.t[0] * 0.2, c.t[1] * 0.2, c.t[2] * 0.2);
 					cav.writeP(i,j,ce);
 				}
 			}

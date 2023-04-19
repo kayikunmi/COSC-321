@@ -48,7 +48,7 @@ public abstract class Traceable {
 	public Vector normal_to_world(Vector normal) {
 		Matrices n = transform.invert().transpose();
 		Vector norm = Matrices.apply(n, normal);
-		return norm;
+		return norm;//set the w to zero
 	}
 
 	public Point world_to_object(Point p) {	
