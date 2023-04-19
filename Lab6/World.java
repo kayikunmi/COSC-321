@@ -10,7 +10,7 @@ public class World {
 	ArrayList<Traceable> objects = new ArrayList<Traceable>();
 	ArrayList<LightSource> lights = new ArrayList<LightSource>();
 	Point np = new Point(2, 3, 0);
-	MyColor c = new MyColor(0,0.6,1);
+	MyColor c = new MyColor(1, 0.6, 0.8);
 	PointLight pl = new PointLight(c, np);
 
 	public World() {}
@@ -37,6 +37,7 @@ public class World {
 	}
 
 	public void KCube() {
+		lights.add(pl);
 		Cube k1 = new Cube();
 		k1.transform = Transformations.getTranslate(3, 1, 0);
 		//k1.transform = Transformations.getScale(0.5, 0.5, 0.9);
@@ -104,7 +105,7 @@ public class World {
 						p2 = new Point(v2.t[0], v2.t[1], v2.t[2]);
 					}
 					else{	
-						p2 = new Point(v2.t[0]+0.1, v2.t[1]+0.1, v2.t[2]+0.1);
+						p2 = new Point(v2.t[0] + 0.1, v2.t[1] + 0.1, v2.t[2] + 0.1);
 					}
 					MyColor c = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p2, this)));
 					MyColor ce  = new MyColor(c.t[0] * 0.2, c.t[1] * 0.2, c.t[2] * 0.2);
@@ -130,7 +131,7 @@ public class World {
 
 		World w = new World();
 		w.KSphere();
-		// w.KCube();
+		w.KCube();
 		// w.triple();
 		// w.setDefault();
 		w.render("test99.ppm", 1000, 1000,5);
