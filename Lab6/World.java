@@ -9,8 +9,8 @@ public class World {
 
 	ArrayList<Traceable> objects = new ArrayList<Traceable>();
 	ArrayList<LightSource> lights = new ArrayList<LightSource>();
-	Point np = new Point(2, 3, 0);
-	MyColor c = new MyColor(1, 0.6, 0.8);
+	Point np = new Point(3, 3, 0);
+	MyColor c = new MyColor(1,1,0.35);
 	PointLight pl = new PointLight(c, np);
 
 	public World() {}
@@ -22,14 +22,15 @@ public class World {
 	public void KSphere() {
 		lights.add(pl);
 		Sphere ksph = new Sphere();
+		
+		ksph.transform = Transformations.getScale(3,4,1.0);
 		ksph.transform = Transformations.getTranslate(2, 4, 0);
-		ksph.transform = Transformations.getScale(3,3,1.0);
 
 		ksph.material = new Material();
 		ksph.material.diffuse = 1.7;
 		ksph.material.specular = 0.0;
 		ksph.material.ambient = 0.4;
-		MyColor scol =  new MyColor (0.22, 0.14, 1);
+		MyColor scol =  new MyColor (0.93, 0.24, 0.12);
 		ksph.material.color = scol;
 
 		//ksph.local_normal_at(np, null);
@@ -40,7 +41,7 @@ public class World {
 		lights.add(pl);
 		Cube k1 = new Cube();
 		k1.transform = Transformations.getTranslate(3, 1, 0);
-		//k1.transform = Transformations.getScale(0.5, 0.5, 0.9);
+		k1.transform = Transformations.getScale(2, 1, 1);
 		Material material1 = new Material();
 		material1.specular = 0.763;
 		//material1.color = new MyColor (0.9, 0.04, 0.36);
@@ -80,8 +81,6 @@ public class World {
 	public Canvas render(String fileName, int hsize, int vsize, double size) {
 		Canvas cav = new Canvas(hsize,vsize);
 		Point origin = new Point(0,0,2);
-		int counter = 0;
-		
 		for(int i = 0; i < hsize; i++){
 			for(int j = 0; j < vsize; j++){
 				Vector direction = new Vector(2*(size*i/hsize) - size, 2*(size*j/vsize) - size, -1);
@@ -89,7 +88,6 @@ public class World {
 				ArrayList<Intersection> raylist = new ArrayList<Intersection>();
 				raylist = intersectWorld(ray);
 				MyColor red = new MyColor(0.94, 0.76, 0.75); 
-				counter++;
 
 				Intersection ishit = Traceable.hit(raylist);
 				
