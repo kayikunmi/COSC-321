@@ -30,7 +30,7 @@ public class World {
 		ksph.material.diffuse = 1.7;
 		ksph.material.specular = 0.0;
 		ksph.material.ambient = 0.4;
-		MyColor scol =  new MyColor (0.93, 0.24, 0.12);
+		MyColor scol =  new MyColor (3.93, 1.24, 0.72);
 		ksph.material.color = scol;
 
 		//ksph.local_normal_at(np, null);
@@ -44,7 +44,7 @@ public class World {
 		k1.transform = Transformations.getScale(2, 1, 1);
 		Material material1 = new Material();
 		material1.specular = 0.763;
-		material1.color = new MyColor (0.27, 0.55, 0.75);
+		material1.color = new MyColor (1.27, 1.55, 2.75);
 		k1.material = material1;
 		objects.add(k1);
 	}
