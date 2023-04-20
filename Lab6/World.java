@@ -10,7 +10,7 @@ public class World {
 	ArrayList<Traceable> objects = new ArrayList<Traceable>();
 	ArrayList<LightSource> lights = new ArrayList<LightSource>();
 	Point np = new Point(3, 3, 0);
-	MyColor c = new MyColor(1,1,0.35);
+	MyColor c = new MyColor(1,1,1);
 	PointLight pl = new PointLight(c, np);
 
 	public World() {}
@@ -44,7 +44,7 @@ public class World {
 		k1.transform = Transformations.getScale(2, 1, 1);
 		Material material1 = new Material();
 		material1.specular = 0.763;
-		//material1.color = new MyColor (0.9, 0.04, 0.36);
+		material1.color = new MyColor (0.27, 0.55, 0.75);
 		k1.material = material1;
 		objects.add(k1);
 	}
