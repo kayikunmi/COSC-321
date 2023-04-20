@@ -106,18 +106,19 @@ public class World {
 						p2 = new Point(v2.t[0] + 0.1, v2.t[1] + 0.1, v2.t[2] + 0.1);
 					}
 					MyColor c = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p2, this)));
-					MyColor ge = new MyColor(c.t[0] * 0.2, c.t[1] * 0.2, c.t[2] * 0.2);
+					MyColor amb = new MyColor(c.t[0] * 0.2, c.t[1] * 0.2, c.t[2] * 0.2);
 					double nls = Tuple.dot(v2, Tuple.sub(p2, pl.position).normalize());
 					nls *= ishit.object.material.diffuse;
 					Tuple lcoc = Tuple.mult(pl.intensity, ishit.object.material.color);
-					MyColor diff = new MyColor(lcoc);
-					MyColor ce  = new MyColor(diff.t[0] * nls, diff.t[1] * nls, diff.t[2] * nls);
+					MyColor d = new MyColor(lcoc);
+					MyColor diff  = new MyColor(d.t[0] * nls, d.t[1] * nls, d.t[2] * nls);
+					//System.out.println(diff);
 
 					if(pl.isShadowed(p2, this) == true){
-						cav.writeP(i,j,ge);
+						cav.writeP(i,j,amb);
 					}
 					else{
-						cav.writeP(i,j,ce);
+						cav.writeP(i,j,diff);
 					}
 				}
 			}

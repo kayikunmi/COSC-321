@@ -48,9 +48,31 @@ public class Sphere extends Traceable {
 	
 	@Override
 	public Vector local_normal_at(Point p, Intersection dontUse) {
-		Vector rv = new Vector(p);
-		//System.out.println(p);
-		return rv;
+		double x = p.t[0];
+		double y = p.t[1];
+		double z = p.t[2];
+		//System.out.println(x + " " + y + " " + z);
+		if(x>=y && x>=z){//x is greatest
+			Point px = new Point(x, 0, 0);
+			Vector vx = new Vector(px);
+			//System.out.println("vx: " + vx);
+			return vx;
+		}
+		else if(y>=x && y>=z){//y is greatest
+			Point py = new Point(0, y , 0);
+			Vector vy = new Vector(py);
+			//System.out.println("vy: " + vy);
+			return vy;
+		}
+		else if(z>=x && z>=y){//z is greatest
+			Point pz = new Point(0,0, z);
+			Vector vz = new Vector(pz);
+			//System.out.println("vz: " + vz);
+			return vz;
+		}
+		else{
+			return null;
+		}
 	}
 	
 	public static void main(String[] args) {
