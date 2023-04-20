@@ -30,7 +30,7 @@ public class World {
 		ksph.material.diffuse = 1.7;
 		ksph.material.specular = 0.0;
 		ksph.material.ambient = 0.4;
-		MyColor scol =  new MyColor (0.93, 0.24, 0.72);
+		MyColor scol =  new MyColor (0,1,0);
 		ksph.material.color = scol;
 
 		//ksph.local_normal_at(np, null);
@@ -107,13 +107,18 @@ public class World {
 					}
 					MyColor c = new MyColor(Tuple.mult(ishit.object.material.color, pl.intensityAt(p2, this)));
 					MyColor ge = new MyColor(c.t[0] * 0.2, c.t[1] * 0.2, c.t[2] * 0.2);
-					double nls = Tuple.dot(v2, pl.intensityAt(p2, this));
+					double nls = Tuple.dot(v2, Tuple.sub(p2, pl.position).normalize());
 					nls *= ishit.object.material.diffuse;
-					Tuple lcoc = Tuple.mult(pl.getIntensity(), ishit.object.material.color);
+					Tuple lcoc = Tuple.mult(pl.intensity, ishit.object.material.color);
 					MyColor diff = new MyColor(lcoc);
-					MyColor ce  = new MyColor(diff.t[0] * ge.t[0] * nls, diff.t[1] * ge.t[1] * nls, diff.t[2] * ge.t[2] * nls);
+					MyColor ce  = new MyColor(diff.t[0] * nls, diff.t[1] * nls, diff.t[2] * nls);
 
-					cav.writeP(i,j,ce);
+					if(pl.isShadowed(p2, this) == true){
+						cav.writeP(i,j,ge);
+					}
+					else{
+						cav.writeP(i,j,ce);
+					}
 				}
 			}
 		}
