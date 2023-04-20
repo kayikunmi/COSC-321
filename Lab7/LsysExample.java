@@ -55,6 +55,8 @@ public class LsysExample extends Ri{
 			example2();
 		else if (which == 3)
 			example3();
+		else if (which == 4)
+			example4();
 
 		double[] back = {0.2,0.2,0.2};
 		new DoColor().color(back[0],back[1],back[2]);
@@ -67,6 +69,9 @@ public class LsysExample extends Ri{
 		RiEnd();
 
 
+	}
+	void example4() {
+		example(new String [] {"F[+F]F[F-F]F"},"F+F",3,45,1.0,1,10);
 	}
 	void example2() {
 		example(new String [] {"FF[+F]F[-F]F"},"F",5,25.7,1.0,1,5);
