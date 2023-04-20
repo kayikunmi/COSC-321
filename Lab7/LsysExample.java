@@ -9,7 +9,7 @@ public class LsysExample extends Ri{
 	public void go(String[] args) {
 		double scaleFactor= 0.5;
 		int moveDown = 100;
-		int which = 1;
+		int which = 4;
 
 
 		for (int pos = 0; pos< args.length; ) {
