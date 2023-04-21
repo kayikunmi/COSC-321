@@ -25,10 +25,11 @@ public class World {
 		ksph.transform = Transformations.getScale(3,4,1.0);
 		ksph.transform = Transformations.getTranslate(2, 4, 0);
 		ksph.material = new Material();
-		ksph.material.diffuse = 0.3;
-		ksph.material.specular = 0.0;
-		ksph.material.ambient = 0.4;
-		MyColor scol =  new MyColor (1,0.44,0.68);
+		ksph.material.diffuse = 0.5;
+		ksph.material.specular = 0.5;
+		ksph.material.ambient = 0.8;
+		MyColor scol =  new MyColor (1,0.14,0.88);
+		//MyColor scol =  new MyColor(1,0,0);
 		ksph.material.color = scol;
 		objects.add(ksph);
 	}
@@ -39,10 +40,11 @@ public class World {
 		k1.transform = Transformations.getScale(0.5,1,1.0);
 		k1.transform = Transformations.getTranslate(-2, -3, 0);
 		k1.material = new Material();
-		k1.material.diffuse = 0.3;
-		k1.material.specular = 0.0;
-		k1.material.ambient = 0.4;
-		MyColor ccol =  new MyColor (0.95,1,0.34);
+		k1.material.diffuse = 0.8;
+		k1.material.specular = 0.5;
+		k1.material.ambient = 0.7;
+		MyColor ccol =  new MyColor (0.95,1,0.14);
+		//MyColor ccol =  new MyColor(1,0,0);
 		k1.material.color = ccol;
 		objects.add(k1);
 	}
@@ -111,6 +113,7 @@ public class World {
 					MyColor d = new MyColor(lcoc);
 					MyColor diff  = new MyColor(d.t[0] * nls, d.t[1] * nls, d.t[2] * nls);
 					//System.out.println(diff);
+					//MyColor black = new MyColor(0,0,0);
 
 					if(pl.isShadowed(p2, this) == true){
 						cav.writeP(i,j,amb);
