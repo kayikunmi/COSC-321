@@ -22,30 +22,28 @@ public class World {
 	public void KSphere() {
 		lights.add(pl);
 		Sphere ksph = new Sphere();
-		
 		ksph.transform = Transformations.getScale(3,4,1.0);
 		ksph.transform = Transformations.getTranslate(2, 4, 0);
-
 		ksph.material = new Material();
-		ksph.material.diffuse = 1.7;
+		ksph.material.diffuse = 0.3;
 		ksph.material.specular = 0.0;
 		ksph.material.ambient = 0.4;
-		MyColor scol =  new MyColor (0,1,0);
+		MyColor scol =  new MyColor (1,0.44,0.68);
 		ksph.material.color = scol;
-
-		//ksph.local_normal_at(np, null);
 		objects.add(ksph);
 	}
 
 	public void KCube() {
 		lights.add(pl);
 		Cube k1 = new Cube();
-		k1.transform = Transformations.getTranslate(3, 1, 0);
-		k1.transform = Transformations.getScale(2, 1, 1);
-		Material material1 = new Material();
-		material1.specular = 0.763;
-		material1.color = new MyColor (0.77, 0.85, 0.25);
-		k1.material = material1;
+		k1.transform = Transformations.getScale(0.5,1,1.0);
+		k1.transform = Transformations.getTranslate(-2, -3, 0);
+		k1.material = new Material();
+		k1.material.diffuse = 0.3;
+		k1.material.specular = 0.0;
+		k1.material.ambient = 0.4;
+		MyColor ccol =  new MyColor (0.95,1,0.34);
+		k1.material.color = ccol;
 		objects.add(k1);
 	}
 
