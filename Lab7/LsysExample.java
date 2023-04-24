@@ -36,7 +36,7 @@ public class LsysExample extends Ri{
 
 		RiBegin(RI_NULL);
 
-		RiDisplay("test.tiff","file","rgba",RI_NULL);
+		RiDisplay("testb.tiff","file","rgba",RI_NULL);
 		RiProjection("perspective",RI_NULL);
 
 		RiFormat(1024,1024,1);
@@ -110,7 +110,7 @@ public class LsysExample extends Ri{
 		System.out.println(sample);
 
 		PlantRenderer pr = new PlantRenderer(sample,
-				new TurtleBuilder().length(length).width(width).angleX(angle).angleY(angle).angleZ(angle).build());
+				new TurtleBuilder().length(length).width(width).angleX(angle).angleY(angle).angleZ(angle).buildSpecial());
 
 		pr.startPlantDrawing();
 	}
