@@ -1,6 +1,6 @@
 Hider  "raytrace" "int incremental" 0 "int minsamples" 16 "int maxsamples" 86 
 Integrator  "PxrPathTracer" "handle" "int maxIndirectBounces" [ 2  ] "int numLightSamples" [ 1  ] "int numBxdfSamples" [ 1  ] "int numIndirectSamples" [ 1  ] "int numDiffuseSamples" [ 4  ] "int numSpecularSamples" [ 4  ] 
-Display "testb.tiff" "file" "rgba" 
+Display "testc.tiff" "file" "rgba" 
 Projection "perspective" 
 Format 1024 1024 1.0 
 WorldBegin
@@ -14,3124 +14,1897 @@ Rotate -90.0 1.0 0.0 0.0
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.55 0.4 0.2  ] 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformBegin
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformEnd
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformEnd
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+AttributeBegin
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformEnd
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-TransformBegin
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+AttributeBegin
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+AttributeBegin
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+AttributeBegin
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
+AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+AttributeBegin
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
+AttributeEnd
+TransformEnd
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformEnd
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformBegin
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+AttributeBegin
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
+AttributeBegin
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
+AttributeEnd
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformEnd
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
+TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformEnd
+TransformBegin
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
 TransformBegin
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
-AttributeEnd
-TransformEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate -20.12398064764593 1.0 0.0 0.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
+Polygon "P" [ 0.0 0.0 0.0 22.5 0.0 18.75 22.5 0.0 56.25 0.0 0.0 75.0 -22.5 0.0 56.25 -22.5 0.0 18.75  ] 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.75 1.0 0.2 
+Rotate 20.12398064764593 0.0 0.0 1.0 
+Rotate 20.12398064764593 0.0 0.0 1.0 
 TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
+Rotate 20.12398064764593 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
+Hyperboloid 7.5 0.0 0.0 6.75 0.0 25.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
-Translate 0.0 0.0 10.0 
+Translate 0.0 0.0 25.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
+Points "P" [ 0.0 0.0 0.0  ] "width" 15.0 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-TransformBegin
-Rotate 45.0 0.75 1.0 0.2 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-TransformBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Rotate 45.0 0.2 0.75 1.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
 AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Points "P" [ 0.0 0.0 0.0  ] "width" 0.9 
+Points "P" [ 0.0 0.0 0.0  ] "width" 13.5 
 AttributeEnd
 TransformEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Hyperboloid 0.5 0.0 0.0 0.45 0.0 10.0 360.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
-Translate 0.0 0.0 10.0 
-AttributeBegin
-Points "P" [ 0.0 0.0 0.0  ] "width" 1.0 
-AttributeEnd
 AttributeEnd
 TransformEnd
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.2 0.2 0.2  ] 

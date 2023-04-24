@@ -9,7 +9,7 @@ public class LsysExample extends Ri{
 	public void go(String[] args) {
 		double scaleFactor= 0.5;
 		int moveDown = 100;
-		int which = 4;
+		int which = 5;
 
 
 		for (int pos = 0; pos< args.length; ) {
@@ -36,7 +36,7 @@ public class LsysExample extends Ri{
 
 		RiBegin(RI_NULL);
 
-		RiDisplay("testb.tiff","file","rgba",RI_NULL);
+		RiDisplay("testc.tiff","file","rgba",RI_NULL);
 		RiProjection("perspective",RI_NULL);
 
 		RiFormat(1024,1024,1);
@@ -57,6 +57,8 @@ public class LsysExample extends Ri{
 			example3();
 		else if (which == 4)
 			example4();
+		else if (which == 5)
+			example5();
 
 		double[] back = {0.2,0.2,0.2};
 		new DoColor().color(back[0],back[1],back[2]);
@@ -68,6 +70,15 @@ public class LsysExample extends Ri{
 
 		RiEnd();
 
+
+	}
+	void example5() {
+		int depth = 5 + ((int)Math.random())*3;
+		double degree = 15 + 6.0*Math.random();
+		double percent = .7 + .2*Math.random();
+		example(new String[] {"A"+"[+Ftt][+++//L]t[+F//++LA]++tt[+FA]",
+				"F"+"SttF",
+				"S"+"F[//L]"},"A",depth,degree ,percent,15,25);
 
 	}
 	void example4() {
