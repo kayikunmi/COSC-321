@@ -1,10 +1,35 @@
-import java.util.*;
+import java.util.Vector;
+
+/** implements a Turtle model of a plant drawer
+ * 
+ * the step can be any letter, the following have special meanings in the default Turtle:<p>
+ * case 'E': case'F' :  move forward<p>
+ * case '[': start a branch  (push state)<p>
+ * case ']': end a branch (pop state)<p>
+ * case '-'  '+': y rotation<p>
+ * case 't'  's': z rotation<p>
+ * case '\'  '/': x rotation<p>
+ * case 'M', 'L', 'N':  call outputRealLeaf<p>
+ * fields<p>
+ * width the initial width<p>
+ * shrinkWidth the multiplicative amount that the width shrinks (on a forward)<p>
+ * length the initial length<p>
+ * shrinkLength the multiplicative amount that the length shrinks (on a forward)<p>
+ * angleX the angle of change for rotation around the X axis<p>
+ * angleY the angle of change for rotation around the Y axis<p>
+ * angleZ the angle of change for rotation around Z<p>
+ */
+ 
+ 
 public class KTurtle extends Ri {
+
+	
 	
 	protected double scaleLeaves;	
 	protected Vector<Character> leaves;
 	protected double[][] leafColors;
 
+	
 	protected double width = 50;
 	protected double shrinkWidth = 1;
 	protected double length = 50;

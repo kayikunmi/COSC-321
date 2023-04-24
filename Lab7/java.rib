@@ -1,6 +1,6 @@
 Hider  "raytrace" "int incremental" 0 "int minsamples" 16 "int maxsamples" 86 
 Integrator  "PxrPathTracer" "handle" "int maxIndirectBounces" [ 2  ] "int numLightSamples" [ 1  ] "int numBxdfSamples" [ 1  ] "int numIndirectSamples" [ 1  ] "int numDiffuseSamples" [ 4  ] "int numSpecularSamples" [ 4  ] 
-Display "testc.tiff" "file" "rgba" 
+Display "test.tiff" "file" "rgba" 
 Projection "perspective" 
 Format 1024 1024 1.0 
 WorldBegin
@@ -12,7 +12,7 @@ Scale 0.5 0.5 0.5
 TransformBegin
 Rotate -90.0 1.0 0.0 0.0 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.55 0.4 0.2  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.419 0.49 0.35  ] 
 Rotate 30.0 0.75 1.0 0.2 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 10.0 0.0 0.0 9.0 0.0 45.0 360.0 

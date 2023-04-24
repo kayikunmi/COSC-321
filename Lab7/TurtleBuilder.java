@@ -17,7 +17,7 @@ public class TurtleBuilder {
 	private double angleX = 30;
 	private double angleY = 30;
 	private double angleZ = 30;
-	private double[] mainColor = {0.55, 0.4, 0.2};
+	private double[] mainColor = {0.419, 0.49, 0.35};
 
 	public Turtle build() {
 		Turtle pr = new Turtle(width, shrinkWidth, length, shrinkLength, angleX, angleY,angleZ,mainColor);

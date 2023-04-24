@@ -1,5 +1,5 @@
 
-public class SpecialTurtle extends KTurtle {
+public class SpecialTurtle extends Turtle {
 
 
 	public SpecialTurtle(double width, double shrinkWidth, double length, 
