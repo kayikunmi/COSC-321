@@ -36,7 +36,7 @@ public class LsysExample extends Ri{
 
 		RiBegin(RI_NULL);
 
-		RiDisplay("testc.tiff","file","rgba",RI_NULL);
+		RiDisplay("test.tiff","file","rgba",RI_NULL);
 		RiProjection("perspective",RI_NULL);
 
 		RiFormat(1024,1024,1);
@@ -73,12 +73,7 @@ public class LsysExample extends Ri{
 
 	}
 	void example5() {
-		int depth = 5 + ((int)Math.random())*3;
-		double degree = 15 + 6.0*Math.random();
-		double percent = .7 + .2*Math.random();
-		example(new String[] {"A"+"[+Ftt][+++//L]t[+F//++LA]++tt[+FA]",
-				"F"+"SttF",
-				"S"+"F[//L]"},"A",depth,degree ,percent,15,45);
+		example(new String[] {"A+F+S//S-F+A"},"A+F+S+A+S+F",4,30 ,1.0,20,45);
 
 	}
 	void example4() {
