@@ -78,7 +78,7 @@ public class LsysExample extends Ri{
 		double percent = .7 + .2*Math.random();
 		example(new String[] {"A"+"[+Ftt][+++//L]t[+F//++LA]++tt[+FA]",
 				"F"+"SttF",
-				"S"+"F[//L]"},"A",depth,degree ,percent,15,25);
+				"S"+"F[//L]"},"A",depth,degree ,percent,15,45);
 
 	}
 	void example4() {
