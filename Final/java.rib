@@ -11,19 +11,20 @@ TransformEnd
 Translate 0.0 0.0 1.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.5 1.0  ] 
-Translate 0.0 -0.5 10.0 
+Translate 0.0 -0.75 10.0 
 Scale 100.0 0.5 1.0 
 Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
-Translate 0.0 -0.25 10.0 
-Scale 10.0 0.5 1.0 
+Translate 0.0 4.0 10.0 
+Scale 10.0 3.0 1.0 
 Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
 AttributeEnd
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 0.0  ] 
-Translate 0.0 1.0 10.0 
+Translate 8.0 8.0 10.0 
+Scale 6.0 6.0 6.0 
 Sphere 0.25 -0.25 0.25 360.0 
 AttributeEnd
 WorldEnd
