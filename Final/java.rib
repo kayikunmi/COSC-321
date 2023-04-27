@@ -3,39 +3,105 @@ Integrator  "PxrPathTracer" "handle" "int maxIndirectBounces" [ 2  ] "int numLig
 Format 400 400 1.0 
 PixelVariance 0.1 
 Projection "perspective" 
-Display "frame.tiff" "file" "rgba" 
-FrameBegin 0
+Display "file.tiff" "file" "rgba" 
 WorldBegin
 TransformBegin
 Light "PxrDomeLight" "light3" "float intensity" 1.0 
 TransformEnd
 Translate 0.0 0.0 1.0 
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.549 0.0  ] 
-Translate 2.0 2.0 8.0 
-Rotate 50.0 1.0 1.0 8.5 
 Translate -0.3 0.4 8.5 
+Scale 5.0 5.0 5.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.549 0.0  ] 
+Cylinder 0.1 -0.5 0.5 360.0 
+Disk -0.5 0.1 360.0 
+Disk 0.5 0.1 360.0 
+Translate 0.0 0.0 -0.3 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+Translate 0.0 0.0 0.6 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+TransformBegin
+Rotate 90.0 1.0 0.0 0.0 
+Cylinder 0.1 -0.5 0.5 360.0 
+Disk -0.5 0.1 360.0 
+Disk 0.5 0.1 360.0 
+Translate 0.0 0.0 -0.3 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+Translate 0.0 0.0 0.6 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+TransformEnd
+TransformBegin
+Rotate 90.0 0.0 1.0 0.0 
+Cylinder 0.1 -0.5 0.5 360.0 
+Disk -0.5 0.1 360.0 
+Disk 0.5 0.1 360.0 
+Translate 0.0 0.0 -0.3 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+Translate 0.0 0.0 0.6 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+TransformEnd
 AttributeEnd
 AttributeBegin
-Translate 2.0 9.0 2.0 
-Translate -0.3 4.0 8.5 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 50.0 98.0 168.0  ] 
-Scale 5.0 5.0 8.5 
-Cone 6.0 3.0 4.0 
-Translate 8.0 2.0 5.0 
-Scale 0.0 0.0 3.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.749 1.0  ] 
+Translate 2.0 3.0 5.0 
+Rotate 50.0 1.0 1.0 1.0 
+Scale 5.0 5.0 5.0 
+Cylinder 0.1 -0.5 0.5 360.0 
+Disk -0.5 0.1 360.0 
+Disk 0.5 0.1 360.0 
+Translate 0.0 0.0 -0.3 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+Translate 0.0 0.0 0.6 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+TransformBegin
+Rotate 90.0 1.0 0.0 0.0 
+Cylinder 0.1 -0.5 0.5 360.0 
+Disk -0.5 0.1 360.0 
+Disk 0.5 0.1 360.0 
+Translate 0.0 0.0 -0.3 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+Translate 0.0 0.0 0.6 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+TransformEnd
+TransformBegin
+Rotate 90.0 0.0 1.0 0.0 
+Cylinder 0.1 -0.5 0.5 360.0 
+Disk -0.5 0.1 360.0 
+Disk 0.5 0.1 360.0 
+Translate 0.0 0.0 -0.3 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+Translate 0.0 0.0 0.6 
+Cylinder 0.15 -0.05 0.05 360.0 
+Disk -0.05 0.15 360.0 
+Disk 0.05 0.15 360.0 
+TransformEnd
 AttributeEnd
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 103.0 0.205 0.0  ] 
-Rotate 50.0 1.0 1.0 0.4 
-Translate 2.0 2.0 8.0 
-Cylinder 2.0 0.0 7.0 360.0 
-Sphere 2.0 0.0 7.0 360.0 
-Sphere 2.0 0.0 7.0 360.0 
-AttributeEnd
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.64 1.0 0.5  ] 
-Translate 2.0 2.0 8.0 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.65 1.0 0.45  ] 
+Translate 0.0 0.0 10.0 
 Scale 100.0 100.0 1.0 
 Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
+AttributeEnd
 WorldEnd
-FrameEnd
