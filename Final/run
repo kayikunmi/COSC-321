@@ -1,0 +1,5 @@
+#!/bin/csh
+javac $1.java
+java $1 $2
+/Applications/Pixar/RenderManProServer-24.4/bin/prman java.rib
+open frame*.tiff

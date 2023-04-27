@@ -1,0 +1,53 @@
+//This is a surface shader - it determines color
+
+
+
+
+surface
+
+jerShader ( float Ka = 1, float Kd = 1, float frequency = 0.3,//changed frequency to 0.3
+	    color darkcolor = color (1,0.5,1),//changed color
+        output color Cout = color (0.9,0.6,0.9)
+)
+{
+
+  float count;
+
+  color Cs = color (0.5,0,0.5);//changed color
+
+  float xp,yp,zp,smod,tmod;
+
+  point P1 = transform("object",P);//changed camera to object
+
+  xp = P1[0];
+  yp = P1[1];
+  zp = P1[2];
+
+
+  smod = mod(xp*noise(P1),frequency);//took the mod of the xp times frequency
+  tmod = mod(zp*noise(P1),frequency);//changed yp to zp
+
+
+  if (smod < 0.5*frequency) {
+    if (tmod < 0.5*frequency)
+      Cout = Cs;
+    else
+      Cout = darkcolor;
+  }
+  else {
+    if (tmod < 0.5*frequency)
+      Cout = darkcolor;
+    else
+      Cout = Cs;
+  }
+
+
+
+}
+
+
+
+
+
+
+
