@@ -1,11 +1,5 @@
 
 public class KObject extends Ri{
-    void SolidCylinder(double radius, double zmin, double zmax){
-        RiCylinder(radius, zmin, zmax, 360.0, RI_NULL);
-        RiDisk(zmin, radius, 360.0, RI_NULL);
-        RiDisk(zmax, radius, 360.0, RI_NULL);
-    }
-
 
     void object() {
         // body
