@@ -17,7 +17,7 @@ public class Final extends Ri {
         RiScale(5.0,5.0,5.0);
         double[] darkOrange = {1.0,0.549,0};
         RiBxdf("PxrSurface","surface1", "int diffuseDoubleSided", 1, "color diffuseColor", darkOrange);
-        new JerObject2().object();
+        new KObject().object();
         RiAttributeEnd();
 
         RiAttributeBegin();
