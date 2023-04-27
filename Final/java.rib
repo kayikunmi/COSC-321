@@ -99,19 +99,21 @@ Disk 0.05 0.15 360.0
 TransformEnd
 AttributeEnd
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.65 1.0 0.45  ] 
-AttributeBegin
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Translate 0.0 0.0 -5.0 
+Scale 10.0 10.0 0.1 
+Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
 Translate 0.0 0.0 10.0 
-Scale 100.0 100.0 1.0 
-AttributeBegin
-Scale 1.1 1.1 1.1 
-Translate 0.0 0.0 -0.5 
 Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-AttributeEnd
-AttributeBegin
-Scale 0.9 0.9 0.9 
+Translate -5.0 0.0 -5.0 
+Rotate 90.0 0.0 1.0 0.0 
 Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-AttributeEnd
-AttributeEnd
+Translate 10.0 0.0 0.0 
+Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 1.0 0.0  ] 
+Translate 0.0 -5.0 0.0 
+Rotate 90.0 1.0 0.0 0.0 
+Scale 10.0 10.0 0.1 
+Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
 AttributeEnd
 WorldEnd

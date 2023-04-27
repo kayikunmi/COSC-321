@@ -31,6 +31,7 @@ public class Final extends Ri {
    
         new JerObject2().object();
         RiAttributeEnd();
+
         RiAttributeBegin();
         double[] Grey = {0.65,1,0.45};
         RiBxdf("PxrSurface","surface1",
@@ -40,6 +41,7 @@ public class Final extends Ri {
         RiScale(100.0,100.0,1.0);
         RiPolygon(4, RI_P, JerCube.Unit, RI_NULL);
         RiAttributeEnd();
+
         
         RiWorldEnd();
  
