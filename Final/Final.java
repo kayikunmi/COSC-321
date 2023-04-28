@@ -13,10 +13,7 @@ public class Final extends Ri {
             
                 //bspline
                 RiAttributeBegin();
-                // double[] red = {1.0,0.0,0.0};
                 double[] silver = {1,1,0.8};
-                // RiBxdf("PxrSurface","shader","color diffuseColor",red,"int diffuseDoubleSided",1);
-                // new BSplineSurfaceDrawer().PatchDrawClosed("testBB");
                 RiBxdf("PxrSurface","shader","color diffuseColor",silver,"int diffuseDoubleSided",1);
                 RiTranslate(7,7,0);
                 RiScale(0.3,0.3,0.3);
@@ -39,22 +36,10 @@ public class Final extends Ri {
                 p.stars();
                 RiAttributeEnd();
             
-                // //phone
-                // RiAttributeBegin();
-                // double[] Color1 = {0.2, 0.4, 0.6};
-                // RiBxdf("PxrSurface","test1","color diffuseColor",Color1);
-                // RiTranslate(-1,0.5,-9);
-                // RiScale(0.003,0.003,0.003);
-                // RiRotate(45,1,0,0);
-                // Phone p1 = new Phone();
-                // p1.PhoneMesh();
-                // RiAttributeEnd();
-            
                 //car
                 RiAttributeBegin();
-                RiTranslate(1,-4.5,-2);
-                RiRotate(45,0,1,0);
-                RiScale(0.5,0.5,0.5);
+                RiTranslate(1,-5,1);
+                RiScale(1,1,0.5);
                 KObject car = new KObject();
                 car.car();
                 RiAttributeEnd();
