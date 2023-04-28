@@ -1,35 +1,16 @@
 Hider  "raytrace" "int incremental" 0 "int minsamples" 16 "int maxsamples" 86 
 Integrator  "PxrPathTracer" "handle" "int maxIndirectBounces" [ 2  ] "int numLightSamples" [ 1  ] "int numBxdfSamples" [ 1  ] "int numIndirectSamples" [ 1  ] "int numDiffuseSamples" [ 4  ] "int numSpecularSamples" [ 4  ] 
-Format 400 400 1.0 
-PixelVariance 0.1 
-Projection "perspective" 
 Display "file.tiff" "file" "rgba" 
+Projection "perspective" 
+Translate 0.0 0.0 10.0 
 WorldBegin
 TransformBegin
 Light "PxrDomeLight" "light3" "float intensity" 0.1 
 TransformEnd
 AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.3 0.5 1.0  ] 
-Translate 0.0 2.0 10.0 
-Scale 20.0 20.0 1.0 
-Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.5 0.5 0.5  ] 
-Translate 0.0 -1.0 10.0 
-Scale 20.0 2.0 1.0 
-Polygon "P" [ -1.0 -1.0 0.0 -1.0 1.0 0.0 1.0 1.0 0.0 1.0 -1.0 0.0  ] 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Translate 4.0 4.0 10.0 
-Scale 1.0 1.0 1.0 
-Sphere 0.5 -0.5 0.5 360.0 
-AttributeEnd
-AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Translate 0.0 -1.0 15.0 
-Scale 2.0 1.0 1.0 
+Scale 3.0 3.0 3.0 
 AttributeBegin
 Bxdf "PxrSurface" "bodySurface" "color diffuseColor" [ 1.0 0.47 0.2  ] 
 TransformBegin
