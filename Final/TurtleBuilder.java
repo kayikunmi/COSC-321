@@ -17,7 +17,7 @@ public class TurtleBuilder {
 	private double angleX = 30;
 	private double angleY = 30;
 	private double angleZ = 30;
-	private double[] mainColor = {0.319, 0.89, 0.35};
+	private double[] mainColor = {0.55, 0.4, 0.2};
 
 	public Turtle build() {
 		Turtle pr = new Turtle(width, shrinkWidth, length, shrinkLength, angleX, angleY,angleZ,mainColor);
@@ -30,11 +30,6 @@ public class TurtleBuilder {
 		return pr;
 	}
 	
-	public Turtle buildK() {
-		Turtle pr = new SpecialTurtle(width, shrinkWidth, length, shrinkLength, angleX, angleY,angleZ,mainColor);
-		return pr;
-	}
-
 	public TurtleBuilder mainColor(double[] d) {
 		mainColor = d;
 		return this;

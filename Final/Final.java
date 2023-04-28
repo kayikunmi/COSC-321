@@ -11,52 +11,51 @@ public class Final extends Ri {
         RiDisplay("file.tiff", "file", "rgba", RI_NULL);
         RiWorldBegin();
 
-        // Add night sky
+        // Add sky
         RiAttributeBegin();
-        double[] black = {0.0, 0.0, 0.0};
+        double[] skyColor = {0.3, 0.5, 1.0}; // blue color for sky
         RiBxdf("PxrSurface", "surface1",
                 "int diffuseDoubleSided", 1,
-                "color diffuseColor", black);
-        RiTranslate(0.0, 0.0, 10.0);
+                "color diffuseColor", skyColor);
+        RiTranslate(0.0, 2.0, 10.0); // move the sky above the camera
         RiScale(20.0, 20.0, 1.0);
         RiPolygon(4, RI_P, JerCube.Unit, RI_NULL);
         RiAttributeEnd();
 
         // Add road
         RiAttributeBegin();
-        double[] grey = {0.5, 0.5, 0.5};
+        double[] roadColor = {0.5, 0.5, 0.5}; // gray color for road
         RiBxdf("PxrSurface", "surface1",
                 "int diffuseDoubleSided", 1,
-                "color diffuseColor", grey);
-        RiTranslate(0.0, -2, 10.0);
-        RiScale(20.0, 20.0, 1.0);
+                "color diffuseColor", roadColor);
+        RiTranslate(0.0, -1.0, 10.0); // move the road below the camera
+        RiScale(20.0, 2.0, 1.0);
         RiPolygon(4, RI_P, JerCube.Unit, RI_NULL);
-        RiAttributeEnd();
-
-        // Add car
-        RiAttributeBegin();
-        double[] red = {1.0, 0.0, 0.0};
-        RiBxdf("PxrSurface", "surface1",
-                "int diffuseDoubleSided", 1,
-                "color diffuseColor", red);
-        RiTranslate(0.0, -1, 9.0);
-        RiScale(2,2, 1);
-        new KObject().object();
         RiAttributeEnd();
 
         // Add moon
         RiAttributeBegin();
-        double[] white = {1.0, 1.0, 1.0};
+        double[] moonColor = {1.0, 1.0, 1.0}; // white color for moon
         RiBxdf("PxrSurface", "surface1",
                 "int diffuseDoubleSided", 1,
-                "color diffuseColor", white);
-        RiTranslate(6, 6, 10.0);
-        RiScale(3,3,3);
-        RiSphere(0.25, -0.25, 0.25, 360.0, RI_NULL);
+                "color diffuseColor", moonColor);
+        RiTranslate(4.0, 4.0, 10.0); // move the moon to the top right of the sky
+        RiScale(1.0, 1.0, 1.0);
+        RiSphere(0.5, -0.5, 0.5, 360.0, RI_NULL);
+        RiAttributeEnd();
+
+        // Add car
+        RiAttributeBegin();
+        double[] carColor = {1.0, 0.0, 0.0}; // red color for car
+        RiBxdf("PxrSurface", "surface1",
+                "int diffuseDoubleSided", 1,
+                "color diffuseColor", carColor);
+        RiTranslate(0.0, -1.0, 15.0); // move the car in front of the camera
+        RiScale(2.0, 1.0, 1.0);
+        new KObject().object(); // use the KObject class to draw a red cube for the car
         RiAttributeEnd();
 
         RiWorldEnd();
-
         RiEnd();
     }
 }

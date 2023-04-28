@@ -9,7 +9,7 @@ public class LsysExample extends Ri{
 	public void go(String[] args) {
 		double scaleFactor= 0.5;
 		int moveDown = 100;
-		int which = 5;
+		int which = 1;
 
 
 		for (int pos = 0; pos< args.length; ) {
@@ -55,10 +55,6 @@ public class LsysExample extends Ri{
 			example2();
 		else if (which == 3)
 			example3();
-		else if (which == 4)
-			example4();
-		else if (which == 5)
-			example5();
 
 		double[] back = {0.2,0.2,0.2};
 		new DoColor().color(back[0],back[1],back[2]);
@@ -71,13 +67,6 @@ public class LsysExample extends Ri{
 		RiEnd();
 
 
-	}
-	void example5() {
-		example(new String[] {"A[+F]+S//[S-F]+A"},"A+F-S+A-S+F",7,30 ,1.0,20,45);
-
-	}
-	void example4() {
-		example(new String [] {"F[+F]F[F-F]F"},"F+F",3,45,1.0,1,10);
 	}
 	void example2() {
 		example(new String [] {"FF[+F]F[-F]F"},"F",5,25.7,1.0,1,5);
@@ -116,7 +105,7 @@ public class LsysExample extends Ri{
 		System.out.println(sample);
 
 		PlantRenderer pr = new PlantRenderer(sample,
-				new TurtleBuilder().length(length).width(width).angleX(angle).angleY(angle).angleZ(angle).buildK());
+				new TurtleBuilder().length(length).width(width).angleX(angle).angleY(angle).angleZ(angle).build());
 
 		pr.startPlantDrawing();
 	}

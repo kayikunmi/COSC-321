@@ -15,26 +15,8 @@ public class SpecialTurtle extends Turtle {
 	public boolean doOneStep(StringBuffer spec, Point where, char firstStep) {
 		switch (firstStep) {
 
-		// case'F' : 
-		// 	forward(where);
-		// 	break;
 		case 'R':
-			outputRealLeaf(where,firstStep);
-			RiRotate(+angleY, 0.0, 1.0, 1.0);
-			break;
-		case '+':
-			RiRotate(+angleZ,0.75, 1.0, 0.2);
-			break;
-		case '-':
-			RiRotate(+angleZ,0.2, 0.75, 1.0);
-			break;
-		case '[':
-			RiRotate(+angleX, 0.8, 1.0, 0.5);
-			break;
-		case ']':
-			RiRotate(+angleY, 1.0, 0.8, 0.5);
-			break;
-
+			outputRealLeaf(where,firstStep);break;
 		default:super.doOneStep(spec,where,firstStep);
 		}
 		return false;
