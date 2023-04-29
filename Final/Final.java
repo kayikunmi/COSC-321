@@ -11,68 +11,34 @@ public class Final extends Ri {
         RiTranslate(0, 0, 10);
         RiWorldBegin(1.0);
 
-        // sky
+        //blue sea
         RiAttributeBegin();
-        double[] lightBlue = {0.5, 0.7, 1.0}; // adjust values to change color
-        RiBxdf("PxrSurface","shader","color diffuseColor",lightBlue,"int diffuseDoubleSided",1);
-        RiTransformBegin();
-        RiTranslate(0, 10, 0);
-        RiScale(10, 10, 10); // increase scale to make larger polygon
-        RiPolygon(4, RI_P, JerCube.Unit, RI_NULL);
-        RiTransformEnd();
+		double[] blue = {0,0,1};
+		RiBxdf("PxrSurface","shader","color diffuseColor",blue,"int diffuseDoubleSided",1);
+        RiScale(10,10,10);
+		RiSphere (3, 2, 5, 360.0, RI_NULL);
         RiAttributeEnd();
 
-        // ground
-        RiAttributeBegin();
-        double[] grassGreen = {0.5, 0.8, 0.5}; // adjust values to change color
-        RiBxdf("PxrSurface","shader","color diffuseColor",grassGreen,"int diffuseDoubleSided",1);
-        RiTransformBegin();
-        RiTranslate(0, -2, 0);
-        RiScale(10, 1, 10); // increase scale to make larger polygon
-        RiPolygon(4, RI_P, JerCube.Unit, RI_NULL);
-        RiTransformEnd();
-        RiAttributeEnd();
-
-        //bspline
-        RiAttributeBegin();
-        double[] silver = {1,1,0.8};
-        RiBxdf("PxrSurface","shader","color diffuseColor",silver,"int diffuseDoubleSided",1);
-        RiTranslate(7,7,0);
-        RiScale(0.3,0.3,0.3);
-        new BSplineSurfaceDrawer().PatchDraw("testAA");
-        RiAttributeEnd();
-
-        // //lsys
+        // // rock
         // RiAttributeBegin();
-        // RiTranslate(-200,-150,300);
-        // RiScale(0.3,0.3,0.3);
-        // LsysExample lsys = new LsysExample();
-        // lsys.example2();
-        // RiTranslate(1200,0,0);
-        // lsys.example2();
+        // double[] rockColor = {0.5, 0.5, 0.5};
+        // RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
+        // RiTranslate(-3, -4, -4);
+        // RiRotate(45, 1, 1, 0);
+        // RiCylinder(0.2, 1.5, 2, 360.0, RI_NULL);
         // RiAttributeEnd();
 
-        // //stars
-        // RiAttributeBegin();
-        // Points p = new Points();
-        // p.stars();
-        // RiAttributeEnd();
-
-        // //car
-        // RiAttributeBegin();
-        // RiTranslate(1,-5,1);
-        // RiScale(1,1,0.5);
-        // KObject car = new KObject();
-        // car.table();
-        // RiAttributeEnd();
-
-        //snowman
+        //seaplant
         RiAttributeBegin();
-        // RiTranslate(-10, -10, 4);
-        // RiScale(1,1,0.5);
-        KObject snowman = new KObject();
-        snowman.table();
-        RiAttributeEnd();
+        RiTranslate(-2.05, -5,1);
+        RiScale(0.01,0.01,0.01);
+		LsysExample lsys = new LsysExample();
+		lsys.example3();
+        // RiTranslate(15, -5,1);
+        // RiScale(0.01,0.01,0.01);
+        // lsys.example3();
+	    RiAttributeEnd();
+
 
         RiWorldEnd();
         RiEnd();
