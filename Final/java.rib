@@ -20,7 +20,7 @@ Rotate -90.0 1.0 0.0 0.0
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.55 0.4 0.2  ] 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -31,8 +31,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -43,21 +43,21 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -68,8 +68,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -81,7 +81,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -92,8 +92,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -104,11 +104,11 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -119,8 +119,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -132,7 +132,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -143,8 +143,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -156,7 +156,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -167,8 +167,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -184,13 +184,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -201,8 +201,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -218,15 +218,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -237,8 +237,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -259,18 +259,18 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -281,15 +281,15 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -300,8 +300,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -317,13 +317,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -334,8 +334,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -351,15 +351,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -370,8 +370,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -397,20 +397,20 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -421,8 +421,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -434,7 +434,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -445,8 +445,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -462,13 +462,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -479,8 +479,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -496,15 +496,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -515,8 +515,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -542,13 +542,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -559,8 +559,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -571,11 +571,11 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -586,15 +586,15 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -605,8 +605,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -622,13 +622,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -639,8 +639,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -656,15 +656,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -675,8 +675,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -702,15 +702,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -721,8 +721,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -733,16 +733,16 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -753,8 +753,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -766,12 +766,12 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -782,8 +782,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -795,7 +795,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -806,8 +806,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -823,13 +823,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -840,8 +840,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -857,15 +857,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -876,8 +876,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -898,18 +898,18 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -920,15 +920,15 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -939,8 +939,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -956,13 +956,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -973,8 +973,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -990,15 +990,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1009,8 +1009,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1036,20 +1036,20 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1060,8 +1060,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1073,7 +1073,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1084,8 +1084,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1101,13 +1101,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1118,8 +1118,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1135,15 +1135,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1154,8 +1154,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1186,13 +1186,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1203,8 +1203,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1215,16 +1215,16 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1235,15 +1235,15 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1254,8 +1254,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1266,16 +1266,16 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1286,8 +1286,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1299,12 +1299,12 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1315,8 +1315,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1328,7 +1328,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1339,8 +1339,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1356,13 +1356,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1373,8 +1373,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1390,15 +1390,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1409,8 +1409,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1431,18 +1431,18 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1453,15 +1453,15 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1472,8 +1472,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1489,13 +1489,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1506,8 +1506,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1523,15 +1523,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1542,8 +1542,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1569,20 +1569,20 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1593,8 +1593,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1606,7 +1606,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1617,8 +1617,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1634,13 +1634,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1651,8 +1651,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1668,15 +1668,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1687,8 +1687,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1714,18 +1714,18 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1736,20 +1736,20 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1760,8 +1760,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1773,7 +1773,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1784,8 +1784,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1801,13 +1801,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1818,8 +1818,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1835,15 +1835,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1854,8 +1854,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1876,18 +1876,18 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1898,8 +1898,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1915,20 +1915,20 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1939,8 +1939,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1952,7 +1952,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1963,8 +1963,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -1980,13 +1980,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -1997,8 +1997,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2014,15 +2014,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2033,8 +2033,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2065,15 +2065,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2084,8 +2084,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2096,11 +2096,11 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2111,8 +2111,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2124,7 +2124,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2135,8 +2135,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2148,7 +2148,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2159,8 +2159,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2176,13 +2176,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2193,8 +2193,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2210,15 +2210,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2229,8 +2229,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2251,13 +2251,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2268,15 +2268,15 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2287,8 +2287,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2304,13 +2304,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2321,8 +2321,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2338,15 +2338,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2357,8 +2357,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2384,20 +2384,20 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2408,8 +2408,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2421,7 +2421,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2432,8 +2432,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2449,13 +2449,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2466,8 +2466,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2483,15 +2483,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2502,8 +2502,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2539,15 +2539,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2558,8 +2558,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2570,11 +2570,11 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2585,8 +2585,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2597,16 +2597,16 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2617,8 +2617,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2630,7 +2630,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2641,8 +2641,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2653,16 +2653,16 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2673,8 +2673,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2686,7 +2686,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2697,8 +2697,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2710,7 +2710,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2721,8 +2721,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2738,13 +2738,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2755,8 +2755,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2772,15 +2772,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2791,8 +2791,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2813,13 +2813,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2830,15 +2830,15 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2849,8 +2849,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2866,13 +2866,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2883,8 +2883,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2900,15 +2900,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2919,8 +2919,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2946,20 +2946,20 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2970,8 +2970,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -2983,7 +2983,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -2994,8 +2994,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3011,13 +3011,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3028,8 +3028,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3045,15 +3045,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3064,8 +3064,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3091,13 +3091,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3108,8 +3108,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3120,16 +3120,16 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3140,20 +3140,20 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3164,8 +3164,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3177,7 +3177,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3188,8 +3188,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3205,13 +3205,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3222,8 +3222,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3239,15 +3239,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3258,8 +3258,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3280,18 +3280,18 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3302,15 +3302,15 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3321,8 +3321,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3338,13 +3338,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3355,8 +3355,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3372,15 +3372,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3391,8 +3391,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3418,20 +3418,20 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3442,8 +3442,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3455,7 +3455,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3466,8 +3466,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3483,13 +3483,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3500,8 +3500,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3517,15 +3517,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3536,8 +3536,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3568,15 +3568,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3587,8 +3587,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3599,16 +3599,16 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3619,8 +3619,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3632,12 +3632,12 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3648,8 +3648,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3661,7 +3661,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3672,8 +3672,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3689,13 +3689,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3706,8 +3706,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3723,15 +3723,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3742,8 +3742,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3764,13 +3764,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3781,8 +3781,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3798,20 +3798,20 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3822,8 +3822,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3835,7 +3835,7 @@ Points "P" [ 0.0 0.0 0.0  ] "width" 6.75
 AttributeEnd
 TransformEnd
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3846,8 +3846,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3863,13 +3863,13 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3880,8 +3880,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3897,15 +3897,15 @@ Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0
 Points "P" [ 0.0 0.0 0.0  ] "width" 6.75 
 AttributeEnd
 TransformEnd
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
-Rotate 15.304720219954246 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
+Rotate 15.970859780089548 0.0 0.0 1.0 
 TransformBegin
-Rotate 15.304720219954246 0.0 1.0 0.0 
+Rotate 15.970859780089548 0.0 1.0 0.0 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
 Hyperboloid 3.75 0.0 0.0 3.375 0.0 50.0 360.0 
 AttributeBegin
@@ -3916,8 +3916,8 @@ AttributeBegin
 Points "P" [ 0.0 0.0 0.0  ] "width" 7.5 
 AttributeEnd
 TransformBegin
-Rotate -15.304720219954246 1.0 0.0 0.0 
-Rotate -15.304720219954246 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
+Rotate -15.970859780089548 1.0 0.0 0.0 
 AttributeBegin
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.392 0.0  ] 
 Polygon "P" [ 0.0 0.0 0.0 11.25 0.0 37.5 11.25 0.0 112.5 0.0 0.0 150.0 -11.25 0.0 112.5 -11.25 0.0 37.5  ] 
@@ -3961,15 +3961,9 @@ Rotate -30.0 0.0 1.0 0.0
 Scale 0.6 0.6 0.6 
 Cone 1.0 2.0 4.0 
 Translate 0.0 0.0 2.0 
-AttributeBegin
-Bxdf "PxrSurface" "eyeSurface" "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Sphere 0.2 -0.2 0.2 360.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "tailSurface" "color diffuseColor" [ 1.0 1.0 0.0  ] 
-Rotate -120.0 0.0 1.0 0.0 
-Cone 0.5 1.0 3.0 
-AttributeEnd
+Sphere 1.0 -1.0 1.0 360.0 
+Translate 0.0 0.0 -2.5 
+Cylinder 0.5 0.5 2.5 360.0 
 AttributeEnd
 Translate 4.0 -5.0 0.0 
 AttributeBegin
@@ -3979,220 +3973,214 @@ Rotate -30.0 0.0 1.0 0.0
 Scale 0.6 0.6 0.6 
 Cone 1.0 2.0 4.0 
 Translate 0.0 0.0 2.0 
-AttributeBegin
-Bxdf "PxrSurface" "eyeSurface" "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Sphere 0.2 -0.2 0.2 360.0 
-AttributeEnd
-AttributeBegin
-Bxdf "PxrSurface" "tailSurface" "color diffuseColor" [ 1.0 1.0 0.0  ] 
-Rotate -120.0 0.0 1.0 0.0 
-Cone 0.5 1.0 3.0 
-AttributeEnd
+Sphere 1.0 -1.0 1.0 360.0 
+Translate 0.0 0.0 -2.5 
+Cylinder 0.5 0.5 2.5 360.0 
 AttributeEnd
 AttributeEnd
 AttributeBegin
 TransformBegin
 Translate 3.0 0.0 5.0 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 395 -140 325 -204 462 75 127 -275 318 114 -740 299 -325 98 263  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 135 -327 337 289 -383 61 -52 709 87 126 235 174 130 -267 198  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -395 10 114 -171 114 196 327 454 99 -56 115 325 52 144 199  ] 
+Points "P" [ 132 266 82 -69 548 220 -72 -796 162 -52 334 312 -276 -666 160  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -186 -187 272 272 -789 285 -95 484 199 -226 -578 124 -348 -27 327  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ 47 71 292 -315 -657 175 3 508 141 19 -692 154 341 668 109  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -245 650 56 84 -348 266 175 -633 96 393 -152 87 -282 526 291  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 317 593 339 252 347 335 -109 -185 247 273 -353 69 136 -197 165  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ 181 -181 148 152 -696 154 261 171 65 -218 738 213 286 -127 124  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -332 772 127 386 78 137 -243 -748 59 310 403 129 -153 622 76  ] 
+Points "P" [ 7 -148 243 -112 -322 338 -163 207 168 -328 236 138 326 -737 172  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -295 -105 93 -161 550 328 250 648 113 43 -551 165 117 670 155  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -208 -676 278 -322 697 248 -119 -132 231 58 28 281 -340 -791 122  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -374 735 304 -204 365 226 83 -98 281 270 534 134 -345 433 188  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -62 38 230 177 -462 191 395 -627 221 166 -154 187 -258 -755 238  ] 
+Points "P" [ 309 774 336 120 -766 332 -23 686 149 -227 567 80 162 168 51  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 205 -296 293 -100 -751 200 -30 408 196 225 199 248 163 -440 107  ] 
+Points "P" [ 187 -751 115 -369 456 117 30 25 348 -182 -766 142 -259 648 140  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 370 166 336 -186 -34 182 348 387 241 -6 434 182 -106 -581 238  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -161 -389 297 186 155 137 -127 6 80 87 -79 108 91 -642 285  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 66 -170 235 -42 -747 140 16 -277 264 -333 -773 328 293 781 88  ] 
+Points "P" [ 378 -265 204 -78 -425 70 -164 -701 186 -218 569 254 -8 -544 96  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 294 401 128 315 -114 180 -80 212 320 -232 -206 154 391 -523 93  ] 
+Points "P" [ -216 59 206 -127 430 99 372 561 211 -8 -24 281 -94 -661 259  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -111 -493 50 -399 -104 260 -80 739 255 -385 -241 76 166 457 342  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -88 88 344 -76 688 248 -360 780 106 21 -182 303 67 77 254  ] 
+Points "P" [ 171 -585 318 50 629 337 245 79 275 -185 710 60 -376 193 77  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ 194 -172 123 372 602 245 -162 74 225 83 469 271 -239 -750 335  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -190 252 177 272 507 91 -368 -354 315 -160 -355 132 94 -100 195  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 393 697 116 -54 -208 59 -270 678 208 -146 -413 87 -170 574 84  ] 
+Points "P" [ -100 -196 157 -85 577 215 -201 -418 266 -73 -729 128 143 202 313  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -3 20 346 -352 -548 140 -170 -486 53 -212 587 57 150 241 322  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -50 511 293 135 705 334 -298 -5 111 -306 536 228 8 -179 256  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 165 -118 132 375 -312 238 -29 -415 62 -353 545 225 220 -86 186  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -117 395 98 -397 -386 336 -77 560 60 -295 441 75 155 -152 239  ] 
+Points "P" [ -74 660 312 21 787 129 136 -426 181 7 31 233 -159 -601 269  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 169 397 182 16 601 156 277 725 231 -31 -562 70 -392 -29 310  ] 
+Points "P" [ -203 25 220 69 761 130 270 693 277 121 -322 215 -23 -689 62  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -301 171 53 339 -685 300 -300 787 213 195 -720 140 -206 -35 344  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 114 -134 79 177 561 250 219 -518 245 374 -450 80 -82 275 245  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -62 -583 84 103 434 188 -241 -318 264 210 -304 216 -45 -268 308  ] 
+Points "P" [ -50 -234 167 -228 -614 65 52 465 290 53 476 258 -376 -478 69  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -320 -481 290 -37 627 173 -176 460 113 -147 355 291 -238 210 330  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -320 -363 159 -140 726 153 -89 458 230 -337 102 329 18 -744 255  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ 209 -478 90 368 -72 346 -275 684 331 262 446 72 -195 -253 143  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -234 -368 286 77 561 128 -263 -566 121 -264 518 245 -231 400 96  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 283 -552 110 -119 -96 171 133 653 74 376 -191 244 167 616 93  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ 76 -426 91 279 -714 183 -310 -174 324 246 -674 336 345 334 259  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -45 84 162 -259 85 283 229 -541 346 338 581 316 -302 455 219  ] 
+Points "P" [ 306 -583 324 21 -238 213 271 36 264 -303 421 151 -313 727 127  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 389 -183 128 -310 -207 122 -204 145 298 82 -428 67 328 -529 240  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 90 -243 305 -201 -500 228 -152 -428 245 -259 -542 261 -209 361 297  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -292 574 116 264 624 113 -113 229 115 -274 724 126 -313 -359 159  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -161 661 148 14 -91 81 355 -316 152 -385 462 256 396 -657 181  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -2 397 332 -28 -27 67 -52 -397 70 -222 629 248 -259 -756 76  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -157 603 217 131 37 320 -132 -151 198 62 -192 206 -256 -301 145  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 333 -194 346 -347 295 164 -39 310 185 165 479 338 314 -49 306  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 117 690 309 231 544 100 157 74 231 86 -380 147 271 -165 113  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 73 -518 118 -212 735 177 -91 248 60 338 361 324 75 -278 301  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -8 -742 196 -214 -15 92 201 -687 327 80 -13 122 -347 675 61  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -396 -32 211 -369 -378 106 214 -297 228 254 565 252 -219 608 181  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -185 -260 109 313 107 236 -82 -624 164 22 -438 346 -121 -254 305  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 282 -346 278 -168 -359 296 184 -332 320 359 -471 53 285 -93 129  ] 
+Points "P" [ 263 269 185 -212 -636 57 -47 -175 153 57 583 176 -173 261 82  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -211 -249 75 105 379 99 -173 171 331 230 196 327 343 -599 311  ] 
+Points "P" [ -10 -579 184 148 -10 281 -128 -751 180 -82 -508 210 -55 313 232  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 271 240 68 -82 -170 311 220 569 161 -142 -379 236 -183 638 338  ] 
+Points "P" [ 257 150 260 -64 -591 303 388 61 263 -202 283 175 133 -80 322  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 150 -433 124 -301 -726 80 265 -604 196 46 -564 86 -273 224 141  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 336 455 216 253 469 316 147 112 181 -103 -150 255 -190 -437 265  ] 
+Points "P" [ 185 -48 168 25 -179 121 -75 -627 254 103 109 199 -217 1 171  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -163 -676 211 29 -510 58 302 -742 81 -3 -777 267 -326 391 320  ] 
+Points "P" [ -275 -285 347 304 -575 151 -56 249 183 -314 -737 144 -84 719 321  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 174 451 236 -207 -774 246 -357 520 159 -17 -752 299 222 735 53  ] 
+Points "P" [ 169 -349 324 -39 -344 333 -361 223 98 -172 -652 141 318 -98 220  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -342 -593 275 149 651 213 257 -680 173 -301 -609 85 -384 488 66  ] 
+Points "P" [ -235 88 192 -393 -724 244 -53 734 214 -85 432 105 -363 383 249  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ 311 -783 206 -118 -77 163 -227 758 149 -146 -398 296 234 522 170  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 343 -764 192 111 332 95 -354 -424 341 191 -473 304 329 -520 92  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 219 49 187 -324 -114 329 284 572 345 164 178 99 -24 619 300  ] 
+Points "P" [ -394 467 71 66 677 179 375 534 50 211 -756 303 246 789 261  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 227 61 310 305 -374 100 -293 647 123 193 -131 80 28 -299 286  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -355 442 143 -385 562 191 -49 652 111 157 133 220 331 -16 105  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 325 313 231 -200 -657 305 -42 373 109 -95 -492 346 -162 601 59  ] 
+Points "P" [ 332 -4 212 -132 -233 240 75 249 138 -305 -618 320 -189 442 153  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 317 -291 215 160 758 211 141 -333 163 144 -303 258 201 614 285  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 348 394 92 -370 544 250 -44 559 346 284 -62 174 -252 176 274  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ -228 91 127 -68 -6 288 -81 379 94 -340 -267 129 4 -418 188  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -96 -122 320 -180 -347 133 -393 -314 224 57 711 305 185 647 157  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 259 560 181 131 258 194 71 -579 76 308 377 150 -6 -262 210  ] 
+Points "P" [ 163 -575 263 390 -454 272 -229 288 152 -337 -654 262 -306 -636 234  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 296 273 205 -113 -181 199 356 690 288 104 135 323 -277 267 254  ] 
+Points "P" [ -292 428 348 253 -262 156 317 -523 274 137 -605 342 -200 734 103  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -145 -594 51 -215 -462 187 286 53 217 -191 -12 256 -63 574 325  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -88 -114 218 298 92 101 -203 678 139 334 -220 72 -220 120 231  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -293 -748 57 -205 -746 125 -176 375 99 36 589 174 -195 -92 80  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -286 752 158 -220 670 288 -171 -65 138 6 -306 94 192 -684 193  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ 306 295 65 321 381 90 39 86 97 367 -509 341 -141 699 112  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 104 647 269 327 -436 247 -46 -575 244 97 202 165 -371 -74 203  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -40 78 315 89 217 258 -300 -354 175 -85 -399 243 -89 540 234  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -131 -100 211 -173 -15 63 239 -282 216 214 -656 285 114 -90 189  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 143 -642 132 -308 620 146 -211 485 151 281 574 348 397 -712 169  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 11 751 116 -270 216 291 398 211 144 171 -572 174 -294 288 221  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 50 -123 247 -397 706 165 -356 -698 109 -226 483 267 -220 -495 153  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 327 313 292 325 563 84 367 663 58 48 6 78 -173 464 256  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -141 757 161 118 135 303 131 656 272 263 -420 92 -177 681 210  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 147 -31 142 -152 534 318 -326 -74 344 116 -651 183 336 -31 130  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -12 -72 104 -304 -231 302 -383 -523 180 -57 360 179 -185 -385 242  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -182 106 313 373 718 230 345 -420 274 -129 78 323 326 321 147  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 136 448 88 279 369 327 307 -100 50 129 395 102 -135 205 228  ] 
+Points "P" [ 128 -628 318 56 -133 267 -313 128 87 -229 -797 245 -95 -439 141  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -314 -257 309 197 -104 124 -282 -507 238 -123 460 275 -330 563 194  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -176 -433 289 272 56 196 221 -326 302 188 -259 75 -62 -528 281  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -285 339 189 -222 -350 52 75 -16 234 365 525 96 181 -481 205  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 168 576 104 335 -754 193 -383 -124 109 -235 475 195 76 -109 324  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 334 -449 300 -232 -328 103 230 -379 293 -145 12 342 -5 330 86  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ 360 725 109 99 -121 108 360 -165 246 -12 662 164 -138 242 56  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -290 374 102 -186 701 87 243 -68 254 134 116 172 -336 -380 54  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -302 18 74 -311 731 78 -287 22 61 -79 351 239 119 -543 314  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -200 -247 59 219 -77 160 22 790 242 133 -31 122 -236 608 317  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -42 -439 248 -221 -123 205 351 559 73 167 -641 163 -263 383 286  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 216 -565 337 -374 177 330 231 -59 148 -368 -587 238 384 42 328  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -123 -281 238 -182 626 66 -373 -33 143 -381 366 255 -244 -272 258  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -389 -312 89 -214 -707 135 -190 530 328 134 -196 306 30 -183 153  ] 
+Points "P" [ -346 -72 245 352 -537 137 53 285 307 -20 -56 258 78 -586 321  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 24 -376 73 -350 585 303 -392 -276 217 -27 522 58 -171 732 305  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -6 -112 342 235 281 151 317 459 205 -206 -116 263 356 -784 232  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -107 273 94 49 64 290 224 657 86 324 66 291 212 25 240  ] 
+Points "P" [ -190 -179 140 48 529 139 -318 -388 117 118 -53 112 -322 -69 255  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 399 -406 344 363 107 256 231 494 290 -44 410 63 234 -409 106  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 135 793 328 196 -180 74 -260 775 345 -49 399 162 128 327 338  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 304 15 236 96 339 254 -178 281 173 -117 330 222 -9 399 323  ] 
+Points "P" [ 4 470 103 -63 -469 182 -387 119 64 -194 -371 300 -151 -549 328  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ -78 665 285 -32 41 229 -204 795 335 312 35 236 -99 730 84  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 3 125 222 -357 635 219 329 -471 95 -50 19 296 230 -421 138  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ -302 -709 205 -31 493 157 105 351 183 139 -576 275 196 -296 344  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -172 274 175 248 -427 78 -284 711 62 292 -744 181 321 -27 127  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 308 -106 122 265 -162 167 250 -792 228 -209 -28 183 -173 235 128  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ 30 304 51 31 301 321 -358 574 282 367 527 214 272 -90 163  ] 
+Points "P" [ -49 751 326 245 -256 73 -149 -528 229 78 252 98 -135 -473 251  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ 95 -706 215 227 -795 303 -200 218 170 256 146 238 22 738 244  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -110 -488 128 58 432 311 -247 270 308 358 369 94 -255 -220 53  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -242 -640 141 -178 -37 239 29 -25 59 286 708 209 -382 18 83  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -97 350 226 -133 776 313 -306 -471 106 80 -150 232 219 -175 226  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 11 334 148 -323 -199 187 -332 266 315 180 -473 138 391 529 165  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -2 -90 130 -315 -453 63 -114 -134 109 24 106 64 -328 -645 167  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 58 399 150 27 250 346 -395 98 321 -124 13 102 -37 541 217  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -307 195 70 299 -294 100 -363 -737 341 -23 -130 147 -73 663 151  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
-Points "P" [ 301 -618 118 -1 593 270 -353 -568 190 160 -177 139 -21 -716 51  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
-Points "P" [ -170 691 84 -297 128 147 -245 764 121 164 -377 280 -165 -71 160  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 33 -585 301 -137 53 162 -214 -48 102 319 -469 101 -313 -284 229  ] 
-Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ 40 511 57 -302 424 106 61 776 254 55 -221 155 -394 611 129  ] 
+Points "P" [ -257 684 336 -264 -750 63 -241 -596 306 146 551 237 38 -714 194  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
-Points "P" [ 4 -339 201 -119 -652 291 -284 -593 224 -265 186 236 340 576 293  ] 
+Points "P" [ 395 593 287 84 -216 349 -164 442 254 317 119 116 -326 317 118  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ -307 -408 144 339 -220 189 157 -694 182 -368 179 261 -166 -413 342  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 212 -620 105 255 -611 202 -136 -602 347 114 -778 134 277 383 229  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 153 789 114 -148 -462 246 -358 -472 160 2 -124 206 381 -256 155  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 14 584 220 -270 -657 242 -150 695 252 -240 -743 92 -179 -344 242  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -176 1 173 -12 733 156 63 696 150 -258 382 159 -267 115 59  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -350 -310 226 285 -716 112 -196 267 304 -23 -390 183 -87 -357 81  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -93 182 221 253 -29 329 -57 -789 64 125 679 225 -124 -285 325  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -299 -701 340 161 -217 94 17 459 172 -166 -479 285 48 -751 305  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -17 -270 57 -329 -78 329 183 14 104 -46 285 112 -13 -215 85  ] 
+Points "P" [ -151 -593 145 -202 -463 338 -121 300 54 246 -518 289 -136 -135 296  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ -209 -750 74 166 487 151 305 -659 314 189 415 190 -367 -781 70  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ -16 228 300 341 -694 297 -215 -152 333 -213 -398 151 -219 75 257  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 234 702 183 -261 -528 194 -181 714 275 -344 -518 127 -134 -760 103  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 144 793 240 300 -450 99 -335 229 129 72 740 68 177 -732 79  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ 357 -204 176 -166 -684 188 -233 -777 55 -298 -110 130 -120 -334 319  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 23 -274 256 145 446 220 51 -166 177 174 367 125 -141 497 158  ] 
 Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
-Points "P" [ -346 -163 336 -387 696 281 241 -273 153 -136 -557 338 -342 -246 252  ] 
+Points "P" [ -108 -462 179 397 -308 325 194 107 282 -315 495 344 -22 -479 180  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -21 561 152 272 -79 115 27 587 187 155 614 258 153 -592 267  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -106 -702 312 -12 764 299 -30 520 102 398 768 349 -188 592 216  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -112 360 304 -78 -600 211 38 -255 121 -251 158 149 -46 200 98  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -368 -61 337 -206 453 97 -359 -533 91 211 -434 199 -207 -438 302  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ -346 794 231 -136 649 230 -159 58 283 -129 215 303 -75 81 99  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 133 171 262 -328 396 246 -297 -55 266 -33 384 212 -232 -404 194  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 214 161 330 -80 13 111 1 616 331 276 -526 200 -168 -398 138  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -210 -289 201 266 -441 331 127 525 262 344 287 133 322 143 263  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -118 -332 184 -258 664 250 -245 -582 118 -11 -590 294 291 -33 251  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -114 -194 201 -189 -708 94 270 -37 239 -17 -651 157 171 -771 303  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 287 346 84 -261 -721 166 -315 595 303 27 615 116 19 625 79  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ -215 -614 225 46 -141 128 219 -391 276 -238 -659 208 236 513 99  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 334 -610 234 -389 -222 76 -361 615 267 316 -103 173 294 -581 194  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 112 227 336 -284 -297 117 391 245 117 -358 187 167 6 701 183  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 243 -53 99 140 -93 205 243 601 98 -391 -552 287 -266 608 227  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ -210 -288 334 134 499 320 22 696 307 113 -49 135 -101 -734 78  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -176 265 186 311 365 173 -106 -258 55 237 707 262 -155 710 269  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 93 251 87 -122 -77 257 -35 -249 212 42 584 292 -315 791 175  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 74 -754 225 -87 121 316 378 790 303 -112 696 312 -44 -770 273  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ 158 571 307 25 536 54 -332 -515 250 -320 457 155 119 -569 323  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ 337 371 66 166 381 234 -203 786 82 162 501 320 375 -527 269  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.0 0.0  ] 
+Points "P" [ 6 64 70 -138 -144 175 299 784 295 224 -654 226 45 577 57  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 0.0 0.0 1.0  ] 
+Points "P" [ 82 -714 282 -378 -49 342 -6 755 275 222 -312 53 247 775 214  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 0.68 0.0  ] 
+Points "P" [ -19 106 311 -14 421 51 -237 -519 62 -126 725 177 135 69 335  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -133 -52 163 327 95 325 175 -360 129 -55 -427 343 -24 -780 65  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ 389 -346 204 -201 -672 50 -305 208 243 -6 271 88 -6 328 301  ] 
+Bxdf "PxrSurface" "surface1" "int diffuseDoubleSided" 1 "color diffuseColor" [ 1.0 1.0 1.0  ] 
+Points "P" [ -21 477 126 -358 231 271 6 799 124 68 -188 196 -389 -579 303  ] 
 TransformEnd
 AttributeEnd
 WorldEnd
