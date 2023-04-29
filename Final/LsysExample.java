@@ -102,7 +102,7 @@ public class LsysExample extends Ri{
 		pm.setRules(rules);
 		String sample = new PlantMaker().makePlant(pm,depth,percent);
 
-		System.out.println(sample);
+		//System.out.println(sample);
 
 		PlantRenderer pr = new PlantRenderer(sample,
 				new TurtleBuilder().length(length).width(width).angleX(angle).angleY(angle).angleZ(angle).build());
