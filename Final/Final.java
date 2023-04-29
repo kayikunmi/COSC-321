@@ -28,14 +28,15 @@ public class Final extends Ri {
         RiSphere (3, 2, 5, 360.0, RI_NULL);
         RiAttributeEnd();
     
-        // // Rock
-        // RiAttributeBegin();
-        // double[] rockColor = {0.5, 0.5, 0.5};
-        // RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
-        // RiTranslate(-3, -4, -4);
-        // RiRotate(45, 1, 1, 0);
-        // RiCylinder(0.2, 1.5, 2, 360.0, RI_NULL);
-        // RiAttributeEnd();
+        // Rock
+        RiAttributeBegin();
+        double[] rockColor = {0.5, 0.5, 0.5};
+        RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
+        RiTranslate(4, -3, 2);
+        RiScale(1.5,1.5,1.5);
+        RiRotate(45, 1, 1, 0);
+        RiCylinder(0.2, 0.5, 1, 360.0, RI_NULL);
+        RiAttributeEnd();
     
         // Seaplant
         RiAttributeBegin();
