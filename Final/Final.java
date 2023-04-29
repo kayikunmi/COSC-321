@@ -39,6 +39,22 @@ public class Final extends Ri {
         // lsys.example3();
 	    RiAttributeEnd();
 
+        //fish
+        RiAttributeBegin();
+        double[] fishColor = {1, 0.5, 0};
+        RiBxdf("PxrSurface", "fishSurface", "color diffuseColor", fishColor);
+        RiTranslate(0, 8, 0);
+        new KObject().fish();
+        RiTranslate(4, -5, 0);
+        new KObject().fish();
+        RiAttributeEnd();
+
+        //stars
+        RiAttributeBegin();
+		Points p = new Points();
+		p.stars();
+		RiAttributeEnd();
+
 
         RiWorldEnd();
         RiEnd();
