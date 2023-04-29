@@ -10,16 +10,25 @@ public class Final extends Ri {
         RiProjection("perspective", RI_NULL);
         RiTranslate(0, 0, 10);
         RiWorldBegin(1.0);
-
-        //blue sea
+    
+        // Add moonlight using BSpline
         RiAttributeBegin();
-		double[] blue = {0,0,1};
-		RiBxdf("PxrSurface","shader","color diffuseColor",blue,"int diffuseDoubleSided",1);
-        RiScale(10,10,10);
-		RiSphere (3, 2, 5, 360.0, RI_NULL);
+        double[] lightColor = {0.4, 0.4, 0.5};
+        RiBxdf("PxrSurface", "moonSurface", "color diffuseColor", lightColor);
+        RiTranslate(15,12,10);
+        RiScale(0.5, 0.5, 0.5);
+        new BSplineSurfaceDrawer().PatchDraw("testAA");
         RiAttributeEnd();
-
-        // // rock
+    
+        // Blue sea
+        RiAttributeBegin();
+        double[] blue = {0,0,1};
+        RiBxdf("PxrSurface","shader","color diffuseColor",blue,"int diffuseDoubleSided",1);
+        RiScale(10,10,10);
+        RiSphere (3, 2, 5, 360.0, RI_NULL);
+        RiAttributeEnd();
+    
+        // // Rock
         // RiAttributeBegin();
         // double[] rockColor = {0.5, 0.5, 0.5};
         // RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
@@ -27,19 +36,16 @@ public class Final extends Ri {
         // RiRotate(45, 1, 1, 0);
         // RiCylinder(0.2, 1.5, 2, 360.0, RI_NULL);
         // RiAttributeEnd();
-
-        //seaplant
+    
+        // Seaplant
         RiAttributeBegin();
         RiTranslate(-2.05, -5,1);
         RiScale(0.01,0.01,0.01);
-		LsysExample lsys = new LsysExample();
-		lsys.example3();
-        // RiTranslate(15, -5,1);
-        // RiScale(0.01,0.01,0.01);
-        // lsys.example3();
-	    RiAttributeEnd();
-
-        //fish
+        LsysExample lsys = new LsysExample();
+        lsys.example3();
+        RiAttributeEnd();
+    
+        // Fish
         RiAttributeBegin();
         double[] fishColor = {1, 0.5, 0};
         RiBxdf("PxrSurface", "fishSurface", "color diffuseColor", fishColor);
@@ -48,15 +54,16 @@ public class Final extends Ri {
         RiTranslate(4, -5, 0);
         new KObject().fish();
         RiAttributeEnd();
-
-        //stars
+    
+        // Stars
         RiAttributeBegin();
-		Points p = new Points();
-		p.stars();
-		RiAttributeEnd();
-
-
+        Points p = new Points();
+        p.stars();
+        RiAttributeEnd();
+    
+    
         RiWorldEnd();
         RiEnd();
     }
+    
 }
