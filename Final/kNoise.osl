@@ -4,14 +4,14 @@
 surface
 
 kShader ( float Ka = 1, float Kd = 1, float frequency = .1,
-	    color darkcolor = color (1,0.98,0.83),
-	    output color Cout = color (0.867,0.63,0.63)
+	    color darkcolor = color (0.483,0.698,1),
+	    output color Cout = color (0.63,0.63,0.867)
 )
 {
 
   float count;
 
-  color Cs = color (1,0,0);
+  color Cs = color (0,0,1);
 
   float xp,yp,zp,smod,tmod;
 
