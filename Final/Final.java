@@ -7,14 +7,19 @@ public class Final extends Ri {
 
         RiBegin(RI_NULL);
         RiDisplay("file.tiff", "file", "rgba", RI_NULL);
+        RiFormat(800,600,1);
         RiProjection("perspective", RI_NULL);
         RiTranslate(0, 0, 10);
-        RiWorldBegin(1.0);
+        RiWorldBegin(0.5);
     
         // Add moonlight using BSpline
         RiAttributeBegin();
         double[] lightColor = {0.4, 0.4, 0.5};
-        RiBxdf("PxrSurface", "moonSurface", "color diffuseColor", lightColor);
+        RiCoordinateSystem("ShaderDefine");
+        RiPattern("kShader","kShader");
+		RiBxdf("PxrSurface","surface1",
+		       "reference color diffuseColor", "kShader:Cout", RI_NULL);
+        //RiBxdf("PxrSurface", "moonSurface", "color diffuseColor", lightColor);
         RiTranslate(15,12,10);
         RiScale(0.5, 0.5, 0.5);
         new BSplineSurfaceDrawer().PatchDraw("testAA");

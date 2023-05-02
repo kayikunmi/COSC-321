@@ -22,5 +22,6 @@ surface jerShader (float Ka = 1, float Kd = 1,output color Cout = 0)
 	 );
 
   Cout = color(0.3,0.7,0.1);
+  //Cout = color(0,0,1);
 	
 }
