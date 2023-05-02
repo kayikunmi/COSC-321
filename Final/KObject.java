@@ -19,10 +19,7 @@ public class KObject extends Ri{
         RiAttributeBegin();
         double[] rockColor = {0.5, 0.5, 0.5};
         RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
-        // Create rock shape using a cylinder
-        RiTranslate(-3, -4, -4);
-        RiRotate(45, 1, 1, 0);
-        RiCylinder(0.2, 1.5, 2, 360.0, RI_NULL);
+        RiSphere(0.2,-1,1,360.0,RI_NULL);
         RiAttributeEnd();
     }
 }

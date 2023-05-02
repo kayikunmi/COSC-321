@@ -37,11 +37,12 @@ public class Final extends Ri {
         RiAttributeBegin();
         double[] rockColor = {0.5, 0.5, 0.5};
         RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
-        RiTranslate(4, -3, 2);
-        RiScale(1.5,1.5,1.5);
+        RiTranslate(4, -3, 0);
+        RiScale(2, 2, 0.5);
         RiRotate(45, 1, 1, 0);
-        RiCylinder(0.2, 0.5, 1, 360.0, RI_NULL);
+        new KObject().rock();
         RiAttributeEnd();
+
     
         // Seaplant
         RiAttributeBegin();

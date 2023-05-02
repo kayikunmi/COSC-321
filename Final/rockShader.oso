@@ -1,0 +1,116 @@
+OpenShadingLanguage 1.00
+# Compiled by oslc 1.11.0@OPROJECT_VERSION_RELEASE_TYPE@
+# options: 
+surface rockShader
+param	float	Ka	1		%read{2147483647,-1} %write{2147483647,-1}
+param	float	Kd	1		%read{2147483647,-1} %write{2147483647,-1}
+param	float	frequency	0.100000001		%read{10,30} %write{2147483647,-1}
+param	color	darkcolor	0.200000003 0.150000006 0.200000003		%read{29,33} %write{2147483647,-1}
+oparam	color	Cout	0.150000006 0.449999988 0.200000003		%read{2147483647,-1} %write{28,34}
+global	point	P	%read{2,2} %write{2147483647,-1}
+local	color	Cs	%read{28,34} %write{0,0}
+local	float	xp	%read{8,8} %write{3,3}
+local	float	yp	%read{16,16} %write{4,4}
+local	float	zp	%read{2147483647,-1} %write{5,5}
+local	float	smod	%read{23,23} %write{13,13}
+local	float	tmod	%read{26,31} %write{21,21}
+local	point	P1	%read{3,14} %write{2,2}
+const	color	$const1	0.200000003 0.200000003 0.200000003		%read{0,0} %write{2147483647,-1}
+const	string	$const2	"object"		%read{2,2} %write{2147483647,-1}
+const	string	$const3	"transform"		%read{1,1} %write{2147483647,-1}
+const	string	$const4	"common"		%read{2,2} %write{2147483647,-1}
+const	int	$const5	0		%read{3,3} %write{2147483647,-1}
+const	int	$const6	1		%read{4,4} %write{2147483647,-1}
+const	int	$const7	2		%read{5,5} %write{2147483647,-1}
+const	float	$const8	0.699999988		%read{7,15} %write{2147483647,-1}
+temp	float	$tmp1	%read{7,7} %write{6,6}
+temp	float	$tmp2	%read{8,8} %write{7,7}
+temp	float	$tmp3	%read{10,13} %write{8,8}
+const	string	$const9	"mod"		%read{9,17} %write{2147483647,-1}
+temp	float	$tmp4	%read{12,12} %write{11,11}
+temp	float	$tmp5	%read{11,11} %write{10,10}
+temp	float	$tmp6	%read{13,13} %write{12,12}
+temp	float	$tmp7	%read{15,15} %write{14,14}
+temp	float	$tmp8	%read{16,16} %write{15,15}
+temp	float	$tmp9	%read{18,21} %write{16,16}
+temp	float	$tmp10	%read{20,20} %write{19,19}
+temp	float	$tmp11	%read{19,19} %write{18,18}
+temp	float	$tmp12	%read{21,21} %write{20,20}
+const	float	$const10	0.5		%read{22,30} %write{2147483647,-1}
+temp	float	$tmp13	%read{23,23} %write{22,22}
+temp	int	$tmp14	%read{24,24} %write{23,23}
+temp	float	$tmp15	%read{26,26} %write{25,25}
+temp	int	$tmp16	%read{27,27} %write{26,26}
+temp	float	$tmp17	%read{31,31} %write{30,30}
+temp	int	$tmp18	%read{32,32} %write{31,31}
+code ___main___
+# rockNoise.osl:14
+#   color Cs = color (0.2,0.2,0.2);
+	assign		Cs $const1 	%filename{"rockNoise.osl"} %line{14} %argrw{"wr"}
+# rockNoise.osl:18
+#   point P1 = transform("object",P);
+	functioncall	$const3 3 	%line{18} %argrw{"r"}
+# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:285
+# point  transform (string to, point p)  { return transform("common",to,p); }
+	transform	P1 $const4 $const2 P 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{285} %argrw{"wrrr"}
+# rockNoise.osl:20
+#   xp = P1[0];
+	compref		xp P1 $const5 	%filename{"rockNoise.osl"} %line{20} %argrw{"wrr"}
+# rockNoise.osl:21
+#   yp = P1[1];
+	compref		yp P1 $const6 	%line{21} %argrw{"wrr"}
+# rockNoise.osl:22
+#   zp = P1[2];
+	compref		zp P1 $const7 	%line{22} %argrw{"wrr"}
+# rockNoise.osl:25
+#   smod = mod(xp+0.7*noise(P1),frequency);
+	noise		$tmp1 P1 	%line{25} %argrw{"wr"}
+	mul		$tmp2 $const8 $tmp1 	%argrw{"wrr"}
+	add		$tmp3 xp $tmp2 	%argrw{"wrr"}
+	functioncall	$const9 14 	%argrw{"r"}
+# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:154
+# float  mod (float  a, float  b) { return a - b*floor(a/b); }
+	div		$tmp5 $tmp3 frequency 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{154} %argrw{"wrr"}
+	floor		$tmp4 $tmp5 	%argrw{"wr"}
+	mul		$tmp6 frequency $tmp4 	%argrw{"wrr"}
+	sub		smod $tmp3 $tmp6 	%argrw{"wrr"}
+# rockNoise.osl:26
+#   tmod = mod(yp+0.7*noise(P1),frequency);
+	noise		$tmp7 P1 	%filename{"rockNoise.osl"} %line{26} %argrw{"wr"}
+	mul		$tmp8 $const8 $tmp7 	%argrw{"wrr"}
+	add		$tmp9 yp $tmp8 	%argrw{"wrr"}
+	functioncall	$const9 22 	%argrw{"r"}
+# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:154
+# float  mod (float  a, float  b) { return a - b*floor(a/b); }
+	div		$tmp11 $tmp9 frequency 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{154} %argrw{"wrr"}
+	floor		$tmp10 $tmp11 	%argrw{"wr"}
+	mul		$tmp12 frequency $tmp10 	%argrw{"wrr"}
+	sub		tmod $tmp9 $tmp12 	%argrw{"wrr"}
+# rockNoise.osl:29
+#   if (smod < 0.5*frequency) {
+	mul		$tmp13 $const10 frequency 	%filename{"rockNoise.osl"} %line{29} %argrw{"wrr"}
+	lt		$tmp14 smod $tmp13 	%argrw{"wrr"}
+	if		$tmp14 30 35 	%argrw{"r"}
+# rockNoise.osl:30
+#     if (tmod < 0.5*frequency)
+	mul		$tmp15 $const10 frequency 	%line{30} %argrw{"wrr"}
+	lt		$tmp16 tmod $tmp15 	%argrw{"wrr"}
+	if		$tmp16 29 30 	%argrw{"r"}
+# rockNoise.osl:31
+#       Cout = Cs;
+	assign		Cout Cs 	%line{31} %argrw{"wr"}
+# rockNoise.osl:33
+#       Cout = darkcolor;
+	assign		Cout darkcolor 	%line{33} %argrw{"wr"}
+# rockNoise.osl:36
+#     if (tmod < 0.5*frequency)
+	mul		$tmp17 $const10 frequency 	%line{36} %argrw{"wrr"}
+	lt		$tmp18 tmod $tmp17 	%argrw{"wrr"}
+	if		$tmp18 34 35 	%argrw{"r"}
+# rockNoise.osl:37
+#       Cout = darkcolor;
+	assign		Cout darkcolor 	%line{37} %argrw{"wr"}
+# rockNoise.osl:39
+#       Cout = Cs;
+	assign		Cout Cs 	%line{39} %argrw{"wr"}
+	end

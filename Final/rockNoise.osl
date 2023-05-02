@@ -1,0 +1,44 @@
+//This is a surface shader - it determines color
+
+
+surface
+
+rockShader ( float Ka = 1, float Kd = 1, float frequency = .1,
+	    color darkcolor = color (0.2,0.15,0.2),
+	    output color Cout = color (0.15,0.45,0.2)
+)
+{
+
+  float count;
+
+  color Cs = color (0.2,0.2,0.2);
+
+  float xp,yp,zp,smod,tmod;
+
+  point P1 = transform("object",P);
+
+  xp = P1[0];
+  yp = P1[1];
+  zp = P1[2];
+
+
+  smod = mod(xp+0.7*noise(P1),frequency);
+  tmod = mod(yp+0.7*noise(P1),frequency);
+
+
+  if (smod < 0.5*frequency) {
+    if (tmod < 0.5*frequency)
+      Cout = Cs;
+    else
+      Cout = darkcolor;
+  }
+  else {
+    if (tmod < 0.5*frequency)
+      Cout = darkcolor;
+    else
+      Cout = Cs;
+  }
+
+}
+
+
