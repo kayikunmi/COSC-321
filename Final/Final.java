@@ -11,9 +11,13 @@ public class Final extends Ri {
         RiProjection("perspective", RI_NULL);
         RiTranslate(0, 0, 10);
         RiWorldBegin(0.5);
+        double [] lightSource2	= {0.0,	0.1, 0.2};
+        double intens = 10000.0;
+        // LightSource("pointlight","from",lightSource2,"intensity",intens,RI_NULL);
     
         // Add moonlight using BSpline
         RiAttributeBegin();
+        LightSource("pointlight","from",lightSource2,"intensity",intens,RI_NULL);
         //double[] lightColor = {0.4, 0.4, 0.5};
         RiCoordinateSystem("ShaderDefine");
         RiPattern("kShader","kShader");
@@ -72,5 +76,14 @@ public class Final extends Ri {
         RiWorldEnd();
         RiEnd();
     }
+
+    private void LightSource(String string, String string2, double[] lightSourcel, String string3, double intens,
+    Object riNull) {
+
+        RiTransformBegin();
+        //RiTranslate(0,30,0);
+        RiLight("PxrSphereLight","light3","float intensity",intens,RI_NULL);
+        RiTransformEnd();
+        }
     
 }
