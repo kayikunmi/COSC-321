@@ -18,7 +18,7 @@ public class Final extends Ri {
         //double[] lightColor = {0.4, 0.4, 0.5};
         RiCoordinateSystem("surfaceDefine");
         RiPattern("kShader","kShader");
-		RiBxdf("PxrSurface","surface1",
+		RiBxdf("PxrSurface","surface",
 		       "reference color diffuseColor", "kShader:Cout", RI_NULL);
         //RiBxdf("PxrSurface", "moonSurface", "color diffuseColor", lightColor);
         RiLight("PxrDistantLight","light1","float intensity",intens,RI_NULL);
@@ -31,7 +31,11 @@ public class Final extends Ri {
         // Blue sea
         RiAttributeBegin();
         double[] blue = {0,0,1};
-        RiBxdf("PxrSurface","shader","color diffuseColor",blue,"int diffuseDoubleSided",1);
+        RiPattern("kShader","kShader","string filename","sample.tex");
+        RiBxdf("PxrSurface","shader","reference color diffuseColor",
+        "kShader:Cout","int diffuseDoubleSided",1);
+
+        //RiBxdf("PxrSurface","shader","color diffuseColor",blue,"int diffuseDoubleSided",1);
         RiScale(10,10,10);
         RiSphere (3, 2, 5, 360.0, RI_NULL);
         RiAttributeEnd();
@@ -39,7 +43,10 @@ public class Final extends Ri {
         // Rock
         RiAttributeBegin();
         double[] rockColor = {0.5, 0.5, 0.5};
-        RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
+        RiPattern("kShader","kShader");
+RiBxdf("PxrSurface","shader","reference color diffuseColor","kShader:Cout","int diffuseDoubleSided",1);
+
+        //RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
         RiTranslate(4, -3, 0);
         RiScale(2, 2, 0.5);
         RiRotate(45, 1, 1, 0);
