@@ -15,17 +15,17 @@ public class Final extends Ri {
     
         // Add moonlight using BSpline
         RiAttributeBegin();
-        double[] lightColor = {0.4, 0.4, 0.5};
-        RiCoordinateSystem("ShaderDefine");
+        //double[] lightColor = {0.4, 0.4, 0.5};
+        RiCoordinateSystem("surfaceDefine");
         RiPattern("kShader","kShader");
 		RiBxdf("PxrSurface","surface1",
 		       "reference color diffuseColor", "kShader:Cout", RI_NULL);
         //RiBxdf("PxrSurface", "moonSurface", "color diffuseColor", lightColor);
-        RiLight("PxrDistantLight","light3","float intensity",intens,RI_NULL);
+        RiLight("PxrDistantLight","light1","float intensity",intens,RI_NULL);
         RiTranslate(18,12,10);
         RiScale(1.5,2, 0.5);
         RiRotate(100,40,10,0);
-        new BSplineSurfaceDrawer().PatchDraw("testAA");
+        new BSplineSurfaceDrawer().PatchDraw("testBB");
         RiAttributeEnd();
     
         // Blue sea
