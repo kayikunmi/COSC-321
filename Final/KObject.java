@@ -1,4 +1,4 @@
-
+import java.util.*;
 public class KObject extends Ri{
 
     void fish() {
@@ -22,5 +22,40 @@ public class KObject extends Ri{
         RiSphere(0.2,-1,1,360.0,RI_NULL);
         RiCylinder(0.2, -0.15, 0.15, 360.0, RI_NULL);
         RiAttributeEnd();
+    }
+    void stars() {
+        RiTransformBegin();		
+        RiTranslate(3,0.0,5.0);
+        double [] Blue = {0,0,1};
+        double [] White = {1,1,1};
+        double [] Red = {1,0,0};
+        double [] Orange = {1,0.5,0};
+        double [] Black = {0,0,0};
+        double[][] coloros = {Blue,White,Red, Orange, Black};
+        for (int i = 0; i<100; i++){
+            drawFiveRandomPoints(400,800,300,coloros);
+        }    
+        RiTransformEnd();
+    }
+    void drawFiveRandomPoints(int xrange, int yrange, int zrange, double[][] colorOptions){
+        Random rand = new Random();
+        int[] locations = new int[15]; 
+        double[] color = colorOptions[rand.nextInt(colorOptions.length)];
+        for (int i = 0; i<15; i=i+3){
+            //x
+            locations[i] = rand.nextInt(xrange);
+            if (rand.nextInt(2) == 0) {
+                locations[i] = -locations[i];
+            }
+            //y
+            locations[i+1] = rand.nextInt(yrange);
+            if (rand.nextInt(2) == 0) {
+                locations[i+1] = -locations[i+1];
+            }
+            //z
+            locations[i+2] = 50 + rand.nextInt(zrange);
+        }
+        RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor",color);
+        RiPoints(5, "P",locations);
     }
 }

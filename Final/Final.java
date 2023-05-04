@@ -67,8 +67,8 @@ public class Final extends Ri {
     
         // Stars
         RiAttributeBegin();
-        Points p = new Points();
-        p.stars();
+        new KObject().stars();
+        //new KObject().stars();
         RiAttributeEnd();
     
     
