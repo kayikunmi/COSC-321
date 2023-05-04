@@ -20,6 +20,7 @@ public class KObject extends Ri{
         double[] rockColor = {0.5, 0.5, 0.5};
         RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
         RiSphere(0.2,-1,1,360.0,RI_NULL);
+        RiCylinder(0.2, -0.15, 0.15, 360.0, RI_NULL);
         RiAttributeEnd();
     }
 }
