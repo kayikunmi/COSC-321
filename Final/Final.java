@@ -31,10 +31,7 @@ public class Final extends Ri {
         // Blue sea
         RiAttributeBegin();
         double[] blue = {0,0,1};
-        RiPattern("kShader","kShader","string filename","water.tex");
-        RiBxdf("PxrSurface","shader","reference color diffuseColor",
-                    "kShader:Cout","int diffuseDoubleSided",1);
-        //RiBxdf("PxrSurface","shader","color diffuseColor",blue,"int diffuseDoubleSided",1);
+        RiBxdf("PxrSurface","shader","color diffuseColor",blue,"int diffuseDoubleSided",1);
         RiScale(10,10,10);
         RiSphere (3, 2, 5, 360.0, RI_NULL);
         RiAttributeEnd();
@@ -42,8 +39,9 @@ public class Final extends Ri {
         // Rock
         RiAttributeBegin();
         double[] rockColor = {0.5, 0.5, 0.5};
-        // RiPattern("kShader","kShader");
-        // RiBxdf("PxrSurface","shader","reference color diffuseColor","kShader:Cout","int diffuseDoubleSided",1);
+        // RiPattern("kShader","kShader","string filename","water.tex");
+        // RiBxdf("PxrSurface","shader","reference color diffuseColor",
+        //             "kShader:Cout","int diffuseDoubleSided",1);
         RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
         RiTranslate(4, -3, 0);
         RiScale(2, 2, 0.5);
