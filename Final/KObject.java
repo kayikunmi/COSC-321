@@ -58,4 +58,23 @@ public class KObject extends Ri{
         RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor",color);
         RiPoints(5, "P",locations);
     }
+    // void clouds() {
+    //     RiAttributeBegin();
+    //     double[] cloudColor = {1, 1, 1};
+    //     RiBxdf("PxrSurface", "cloudSurface", "color diffuseColor", cloudColor);
+    //     Random rand = new Random();
+    //     for (int i = 0; i < 20; i++) {
+    //         double x = rand.nextDouble() * 10 - 5;
+    //         double y = rand.nextDouble() * 10 - 5;
+    //         double z = rand.nextDouble() * 10 - 5;
+    //         double scale = rand.nextDouble() * 0.5 + 1.0;
+    //         RiTransformBegin();
+    //         RiTranslate(x, y, z);
+    //         RiScale(scale, scale, scale);
+    //         RiSphere(1, -1, 1, 360.0, RI_NULL);
+    //         RiTransformEnd();
+    //     }
+    //     RiAttributeEnd();
+    // }
+    
 }

@@ -73,6 +73,11 @@ public class Final extends Ri {
         new KObject().stars();
         //new KObject().stars();
         RiAttributeEnd();
+
+        // // Clouds
+        // RiAttributeBegin();
+        // new KObject().clouds();
+        // RiAttributeEnd();
     
     
         RiWorldEnd();
