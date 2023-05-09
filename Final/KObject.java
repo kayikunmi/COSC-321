@@ -17,8 +17,9 @@ public class KObject extends Ri{
     }
     void rock() {
         RiAttributeBegin();
-        double[] rockColor = {0.5, 0.5, 0.5};
-        RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
+        double[] rockColor = {0.05, 0.08, 0.08};
+        //RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
+        RiBxdf("PxrSurface","surface1","int diffuseDoubleSided",1,"color diffuseColor",rockColor, "float presence", 0.5);
         RiSphere(0.2,-1,1,360.0,RI_NULL);
         RiCylinder(0.2, -0.15, 0.15, 360.0, RI_NULL);
         RiAttributeEnd();
