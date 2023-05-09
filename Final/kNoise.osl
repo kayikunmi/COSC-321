@@ -3,9 +3,9 @@
 
 surface
 
-kShader ( float Ka = 1, float Kd = 1, float frequency = .1,
+kShader ( float Ka = 1, float Kd = 1, float frequency = .01,
 	    color darkcolor = color (0.483,0.698,1),
-	    output color Cout = color (0.63,0.63,0.867)
+	    output color Cout = color (0.063,0.163,0.867)
 )
 {
 
