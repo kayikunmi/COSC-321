@@ -1,0 +1,20 @@
+
+surface 
+bumpShader (float Ka = 1, float Kd = 1, float frequency = 0.25,
+            color blackcolor = color ("rgb", 1, 1,0),
+            output normal N1 = normal (0, 1,0)
+        )
+{
+    float smod;
+    /* mod is a float mod - returns the fractional part left after an
+    integer multiple is removed*/
+    smod = mod (v, frequency) ;
+    /* this is the bump map - we will calculate a new position 
+    and then recalculate the normal */
+    point newP;
+    float change;
+    change = smoothstep (0.4* frequency, 0.6*frequency, smod) +
+    smoothstep(0.0, 0.2* frequency, 0.9* frequency-smod) - 1;
+    newP = 2.2 * change *normalize (N) +P;
+    N1 = normalize (calculatenormal (newP)) ;
+}
