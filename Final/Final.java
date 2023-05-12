@@ -61,8 +61,11 @@ public class Final extends Ri {
     
         // Fish
         RiAttributeBegin();
-        double[] fishColor = {1, 0.5, 0};
-        RiBxdf("PxrSurface", "fishSurface", "color diffuseColor", fishColor);
+        RiPattern("kStripes","kStripes");
+		RiBxdf("PxrSurface","surface",
+		       "reference color diffuseColor", "kStripes:Cout", RI_NULL);
+        // double[] fishColor = {1, 0.5, 0};
+        // RiBxdf("PxrSurface", "fishSurface", "color diffuseColor", fishColor);
         RiTranslate(0, 8, 0);
         new KObject().fish();
         RiTranslate(4, -5, 0);
