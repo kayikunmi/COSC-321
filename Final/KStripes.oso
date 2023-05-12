@@ -1,7 +1,7 @@
 OpenShadingLanguage 1.00
 # Compiled by oslc 1.11.0@OPROJECT_VERSION_RELEASE_TYPE@
 # options: 
-shader KStripes
+shader kStripes
 param	float	width	0.25		%read{2,6} %write{2147483647,-1}
 oparam	color	Cout	0 0 0		%read{2147483647,-1} %write{9,10}
 global	point	P	%read{0,0} %write{2147483647,-1}

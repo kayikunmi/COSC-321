@@ -1,4 +1,4 @@
-shader KStripes ( float width = 0.25,
+shader kStripes ( float width = 0.25,
 output color Cout = 0)
 {
 float xp = mod(P[0],width);
