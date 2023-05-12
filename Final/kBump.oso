@@ -5,8 +5,8 @@ surface kBump
 param	float	Ka	1		%read{2147483647,-1} %write{2147483647,-1}
 param	float	Kd	1		%read{2147483647,-1} %write{2147483647,-1}
 param	float	frequency	0.25		%read{1,9} %write{2147483647,-1} %derivs
-param	color	Cout	1 0 1		%read{2147483647,-1} %write{2147483647,-1}
-oparam	normal	N1	0 1 0		%read{2147483647,-1} %write{19,19}
+param	color	Cout	0.5 0 0.5		%read{2147483647,-1} %write{2147483647,-1}
+oparam	normal	N1	0 0.5 0		%read{2147483647,-1} %write{19,19}
 global	point	P	%read{17,17} %write{2147483647,-1} %derivs
 global	normal	N	%read{15,15} %write{2147483647,-1} %derivs
 global	float	v	%read{1,4} %write{2147483647,-1} %derivs
@@ -37,40 +37,40 @@ temp	normal	$tmp13	%read{16,16} %write{15,15} %derivs
 temp	normal	$tmp14	%read{17,17} %write{16,16} %derivs
 temp	vector	$tmp15	%read{19,19} %write{18,18}
 code ___main___
-# KSea.osl:10
-#     smod = mod (v, frequency) ;
-	functioncall	$const1 5 	%filename{"KSea.osl"} %line{10} %argrw{"r"}
+# KSea.osl:26
+#     smod = mod(v, frequency);
+	functioncall	$const1 5 	%filename{"KSea.osl"} %line{26} %argrw{"r"}
 # /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:154
 # float  mod (float  a, float  b) { return a - b*floor(a/b); }
 	div		$tmp2 v frequency 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{154} %argrw{"wrr"}
 	floor		$tmp1 $tmp2 	%argrw{"wr"}
 	mul		$tmp3 frequency $tmp1 	%argrw{"wrr"}
 	sub		smod v $tmp3 	%argrw{"wrr"}
-# KSea.osl:15
-#     change = smoothstep (0.4* frequency, 0.6*frequency, smod) +
-	mul		$tmp5 $const2 frequency 	%filename{"KSea.osl"} %line{15} %argrw{"wrr"}
+# KSea.osl:29
+#     change = smoothstep(0.4*frequency, 0.6*frequency, smod) +
+	mul		$tmp5 $const2 frequency 	%filename{"KSea.osl"} %line{29} %argrw{"wrr"}
 	mul		$tmp6 $const3 frequency 	%argrw{"wrr"}
 	smoothstep	$tmp4 $tmp5 $tmp6 smod 	%argrw{"wrrr"}
-# KSea.osl:16
-#     smoothstep(0.0, 0.2* frequency, 0.9* frequency-smod) - 1;
-	mul		$tmp8 $const5 frequency 	%line{16} %argrw{"wrr"}
+# KSea.osl:30
+#              smoothstep(0.0, 0.2*frequency, 0.9*frequency-smod) - 1;
+	mul		$tmp8 $const5 frequency 	%line{30} %argrw{"wrr"}
 	mul		$tmp9 $const6 frequency 	%argrw{"wrr"}
 	sub		$tmp10 $tmp9 smod 	%argrw{"wrr"}
 	smoothstep	$tmp7 $const4 $tmp8 $tmp10 	%argrw{"wrrr"}
-# KSea.osl:15
-#     change = smoothstep (0.4* frequency, 0.6*frequency, smod) +
-	add		$tmp11 $tmp4 $tmp7 	%line{15} %argrw{"wrr"}
-# KSea.osl:16
-#     smoothstep(0.0, 0.2* frequency, 0.9* frequency-smod) - 1;
-	sub		change $tmp11 $const8 	%line{16} %argrw{"wrr"}
-# KSea.osl:17
-#     newP = 2.2 * change *normalize (N) +P;
-	mul		$tmp12 $const9 change 	%line{17} %argrw{"wrr"}
+# KSea.osl:29
+#     change = smoothstep(0.4*frequency, 0.6*frequency, smod) +
+	add		$tmp11 $tmp4 $tmp7 	%line{29} %argrw{"wrr"}
+# KSea.osl:30
+#              smoothstep(0.0, 0.2*frequency, 0.9*frequency-smod) - 1;
+	sub		change $tmp11 $const8 	%line{30} %argrw{"wrr"}
+# KSea.osl:31
+#     newP = 2.2 * change * normalize(N) + P;
+	mul		$tmp12 $const9 change 	%line{31} %argrw{"wrr"}
 	normalize	$tmp13 N 	%argrw{"wr"}
 	mul		$tmp14 $tmp12 $tmp13 	%argrw{"wrr"}
 	add		newP $tmp14 P 	%argrw{"wrr"}
-# KSea.osl:18
-#     N1 = normalize (calculatenormal (newP)) ;
-	calculatenormal	$tmp15 newP 	%line{18} %argrw{"wr"} %argderivs{1}
+# KSea.osl:32
+#     N1 = normalize(calculatenormal(newP));
+	calculatenormal	$tmp15 newP 	%line{32} %argrw{"wr"} %argderivs{1}
 	normalize	N1 $tmp15 	%argrw{"wr"}
 	end
