@@ -73,6 +73,13 @@ public class Final extends Ri {
         new KObject().fish();
         RiTranslate(4, -5, 0);
         new KObject().fish();
+        RiTranslate(-10, -1, 0);
+        RiRotate(180, 0, 1, 0);
+        new KObject().fish();
+        // RiTranslate(-10, 5, 0);
+        // new KObject().fish();
+        RiTranslate(-3, 3, 0);
+        new KObject().fish();
         RiAttributeEnd();
     
         // Stars
