@@ -3,6 +3,11 @@ public class Final extends Ri {
         new Final().main();
     }
 
+    double[] tri[] = { 
+        {-1, -1, 0},
+        {1, -1, 0},
+        {0, 1, 0}};
+
     void main() throws java.io.FileNotFoundException {
 
         RiBegin(RI_NULL);
@@ -50,6 +55,13 @@ public class Final extends Ri {
         new KObject().rock();
         RiAttributeEnd();
 
+    
+        // RiAttributeBegin();
+        // double[] red = {1,0,0};
+        // RiColor(red);
+        // RiPolygon(3, RI_P, tri, RI_NULL);
+        // RiAttributeEnd();
+        
     
         // Seaplant
         RiAttributeBegin();
