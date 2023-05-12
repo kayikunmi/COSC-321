@@ -3,11 +3,6 @@ public class Final extends Ri {
         new Final().main();
     }
 
-    double[] tri[] = { 
-        {-1, -1, 0},
-        {1, -1, 0},
-        {0, 1, 0}};
-
     void main() throws java.io.FileNotFoundException {
 
         RiBegin(RI_NULL);
@@ -33,35 +28,25 @@ public class Final extends Ri {
         new BSplineSurfaceDrawer().PatchDraw("testBB");
         RiAttributeEnd();
     
-        // Blue sea
+       // Blue sea
         RiAttributeBegin();
         double[] blue = {0,0,1};
         RiBxdf("PxrSurface","shader","color diffuseColor",blue,
-                "int diffuseDoubleSided",1, "float clearcoatRoughness", 1.2);
-        RiScale(10,10,10);
+                "int diffuseDoubleSided",1); //maybe use for clouds
+        RiScale(4,4,0.5);
         RiSphere (3, 2, 5, 360.0, RI_NULL);
         RiAttributeEnd();
+
     
         // Rock
         RiAttributeBegin();
         double[] rockColor = {0.5, 0.5, 0.5};
-        // RiPattern("kShader","kShader","string filename","water.tex");
-        // RiBxdf("PxrSurface","shader","reference color diffuseColor",
-        //             "kShader:Cout","int diffuseDoubleSided",1);
         RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
         RiTranslate(4, -3, 0);
         RiScale(2, 2, 0.5);
         RiRotate(45, 1, 1, 0);
         new KObject().rock();
         RiAttributeEnd();
-
-    
-        // RiAttributeBegin();
-        // double[] red = {1,0,0};
-        // RiColor(red);
-        // RiPolygon(3, RI_P, tri, RI_NULL);
-        // RiAttributeEnd();
-        
     
         // Seaplant
         RiAttributeBegin();

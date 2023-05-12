@@ -1,10 +1,11 @@
 OpenShadingLanguage 1.00
 # Compiled by oslc 1.11.0@OPROJECT_VERSION_RELEASE_TYPE@
 # options: 
-shader kBump
+surface kBump
 param	float	Ka	1		%read{2147483647,-1} %write{2147483647,-1}
 param	float	Kd	1		%read{2147483647,-1} %write{2147483647,-1}
 param	float	frequency	0.25		%read{1,9} %write{2147483647,-1} %derivs
+param	color	Cout	0 0 1		%read{2147483647,-1} %write{2147483647,-1}
 oparam	normal	N1	0 1 0		%read{2147483647,-1} %write{19,19}
 global	point	P	%read{17,17} %write{2147483647,-1} %derivs
 global	normal	N	%read{15,15} %write{2147483647,-1} %derivs

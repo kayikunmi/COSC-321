@@ -326,9 +326,9 @@ public class Ri {
 			toOut(d);
 		}*/
 		
-		System.out.println("RiColor is deprecated");
-		System.out.println("The AC CS321 binding will replace this with a Bxdf with the color");
-		System.out.println("Assigned to the diffuse color");
+		// System.out.println("RiColor is deprecated");
+		// System.out.println("The AC CS321 binding will replace this with a Bxdf with the color");
+		// System.out.println("Assigned to the diffuse color");
 		currentColor = ds;
 		out.print("Bxdf ");
 		toOut("PxrSurface");

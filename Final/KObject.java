@@ -1,6 +1,13 @@
 import java.util.*;
 public class KObject extends Ri{
 
+    void sea(){
+        RiAttributeBegin();
+        RiScale(10,10,10);
+        RiSphere (3, 2, 5, 360.0, RI_NULL);
+        RiAttributeEnd();
+    }
+
     void fish() {
         RiAttributeBegin();
         RiPattern("kStripes","kStripes");
