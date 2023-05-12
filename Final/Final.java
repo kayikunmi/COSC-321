@@ -22,7 +22,7 @@ public class Final extends Ri {
 		       "reference color diffuseColor", "kShader:Cout", RI_NULL);
         //RiBxdf("PxrSurface", "moonSurface", "color diffuseColor", lightColor);
         RiLight("PxrDistantLight","light1","float intensity",intens,RI_NULL);
-        RiTranslate(18,12,10);
+        RiTranslate(18,10,10);
         RiScale(1.5,2, 0.5);
         RiRotate(100,40,10,0);
         new BSplineSurfaceDrawer().PatchDraw("testBB");
@@ -78,14 +78,20 @@ public class Final extends Ri {
         // Stars
         RiAttributeBegin();
         new KObject().stars();
-        //new KObject().stars();
+        new KObject().stars();
         RiAttributeEnd();
 
         // Clouds
         RiAttributeBegin();
         double[] cloudColor = {1, 1, 1};
-        RiBxdf("PxrSurface", "cloudSurface", "color diffuseColor", cloudColor);
+        RiBxdf("PxrVolume", "cloudSurface", "color diffuseColor", cloudColor);
         RiTranslate(-15, 12, 10);
+        new KObject().clouds();
+        RiTranslate(12, 10, 10);
+        new KObject().clouds();
+        RiTranslate(18, 13, 10);
+        new KObject().clouds();
+        RiTranslate(22, 11, 10);
         new KObject().clouds();
         RiAttributeEnd();
     
