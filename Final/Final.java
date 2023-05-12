@@ -30,9 +30,11 @@ public class Final extends Ri {
     
        // Blue sea
         RiAttributeBegin();
-        RiPattern("kShader","kShader");
+        double[] blue = {0,0,1};
+        RiPattern("kBump","kBump");
 		RiBxdf("PxrSurface","surface",
-		       "reference color diffuseColor", "kShader:Cout", RI_NULL);
+            "color diffuseColor",blue,
+            "reference normal bumpNormal", "kBump:N1");
         // double[] blue = {0,0,1};
         // RiBxdf("PxrSurface","surface","color diffuseColor",blue,
         //         "int diffuseDoubleSided",1); //maybe use for clouds

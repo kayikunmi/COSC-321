@@ -1,7 +1,6 @@
-
 surface 
 kBump (float Ka = 1, float Kd = 1, float frequency = 0.25,
-            color Cout = color (0,0,1),
+            color Cout = color (1,0,1),
             output normal N1 = normal (0, 1,0)
         )
 {
