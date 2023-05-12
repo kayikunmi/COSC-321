@@ -31,7 +31,7 @@ public class Final extends Ri {
        // Blue sea
         RiAttributeBegin();
         double[] blue = {0,0,1};
-        RiBxdf("PxrSurface","shader","color diffuseColor",blue,
+        RiBxdf("PxrSurface","surface","color diffuseColor",blue,
                 "int diffuseDoubleSided",1); //maybe use for clouds
         RiScale(4,4,0.5);
         RiSphere (3, 2, 5, 360.0, RI_NULL);
