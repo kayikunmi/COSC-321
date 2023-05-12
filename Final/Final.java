@@ -31,7 +31,8 @@ public class Final extends Ri {
         // Blue sea
         RiAttributeBegin();
         double[] blue = {0,0,1};
-        RiBxdf("PxrSurface","shader","color diffuseColor",blue,"int diffuseDoubleSided",1);
+        RiBxdf("PxrSurface","shader","color diffuseColor",blue,
+                "int diffuseDoubleSided",1, "float clearcoatRoughness", 1.2);
         RiScale(10,10,10);
         RiSphere (3, 2, 5, 360.0, RI_NULL);
         RiAttributeEnd();
