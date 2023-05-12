@@ -3,8 +3,11 @@ public class KObject extends Ri{
 
     void fish() {
         RiAttributeBegin();
-        double[] fishColor = {1, 0.5, 0};
-        RiBxdf("PxrSurface", "fishSurface", "color diffuseColor", fishColor);
+        RiPattern("kStripes","kStripes");
+		RiBxdf("PxrSurface","surface",
+		       "reference color diffuseColor", "kStripes:Cout", RI_NULL);
+        // double[] fishColor = {1, 0.5, 0};
+        // RiBxdf("PxrSurface", "fishSurface", "color diffuseColor", fishColor);
         RiTranslate(0, -3, 0);
         RiRotate(-30, 0, 1, 0);
         RiScale(0.6, 0.6, 0.6);

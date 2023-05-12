@@ -1,0 +1,42 @@
+OpenShadingLanguage 1.00
+# Compiled by oslc 1.11.0@OPROJECT_VERSION_RELEASE_TYPE@
+# options: 
+shader KStripes
+param	float	width	0.25		%read{2,6} %write{2147483647,-1}
+oparam	color	Cout	0 0 0		%read{2147483647,-1} %write{9,10}
+global	point	P	%read{0,0} %write{2147483647,-1}
+local	float	xp	%read{7,7} %write{5,5}
+const	int	$const1	0		%read{0,0} %write{2147483647,-1}
+temp	float	$tmp1	%read{2,5} %write{0,0}
+const	string	$const2	"mod"		%read{1,1} %write{2147483647,-1}
+temp	float	$tmp2	%read{4,4} %write{3,3}
+temp	float	$tmp3	%read{3,3} %write{2,2}
+temp	float	$tmp4	%read{5,5} %write{4,4}
+const	float	$const3	2		%read{6,6} %write{2147483647,-1}
+temp	float	$tmp5	%read{7,7} %write{6,6}
+temp	int	$tmp6	%read{8,8} %write{7,7}
+const	color	$const4	0.100000001 0.200000003 0.400000006		%read{9,9} %write{2147483647,-1}
+const	color	$const5	0.200000003 0.100000001 0		%read{10,10} %write{2147483647,-1}
+code ___main___
+# KFish.osl:4
+# float xp = mod(P[0],width);
+	compref		$tmp1 P $const1 	%filename{"KFish.osl"} %line{4} %argrw{"wrr"}
+	functioncall	$const2 6 	%argrw{"r"}
+# /Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h:154
+# float  mod (float  a, float  b) { return a - b*floor(a/b); }
+	div		$tmp3 $tmp1 width 	%filename{"/Applications/Pixar/RenderManProServer-24.4/lib/osl/include/stdosl.h"} %line{154} %argrw{"wrr"}
+	floor		$tmp2 $tmp3 	%argrw{"wr"}
+	mul		$tmp4 width $tmp2 	%argrw{"wrr"}
+	sub		xp $tmp1 $tmp4 	%argrw{"wrr"}
+# KFish.osl:5
+#  if (xp < width/2.0)
+	div		$tmp5 width $const3 	%filename{"KFish.osl"} %line{5} %argrw{"wrr"}
+	lt		$tmp6 xp $tmp5 	%argrw{"wrr"}
+	if		$tmp6 10 11 	%argrw{"r"}
+# KFish.osl:6
+#  Cout = color (0.1, 0.2, 0.4);
+	assign		Cout $const4 	%line{6} %argrw{"wr"}
+# KFish.osl:8
+#  Cout = color (0.2, 0.1, 0.0);
+	assign		Cout $const5 	%line{8} %argrw{"wr"}
+	end

@@ -1,0 +1,10 @@
+shader KStripes ( float width = 0.25,
+output color Cout = 0)
+{
+float xp = mod(P[0],width);
+ if (xp < width/2.0)
+ Cout = color (0.1, 0.2, 0.4);
+ else
+ Cout = color (0.2, 0.1, 0.0);
+}
+
