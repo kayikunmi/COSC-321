@@ -81,10 +81,13 @@ public class Final extends Ri {
         //new KObject().stars();
         RiAttributeEnd();
 
-        // // Clouds
-        // RiAttributeBegin();
-        // new KObject().clouds();
-        // RiAttributeEnd();
+        // Clouds
+        RiAttributeBegin();
+        double[] cloudColor = {1, 1, 1};
+        RiBxdf("PxrSurface", "cloudSurface", "color diffuseColor", cloudColor);
+        RiTranslate(-15, 12, 10);
+        new KObject().clouds();
+        RiAttributeEnd();
     
     
         RiWorldEnd();
