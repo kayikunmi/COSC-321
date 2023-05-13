@@ -10,12 +10,15 @@ public class KObject extends Ri{
         // RiBxdf("PxrSurface", "fishSurface", "color diffuseColor", fishColor);
         RiTranslate(0, -3, 0);
         RiRotate(-30, 0, 1, 0);
-        RiScale(0.6, 0.6, 0.6);
+        RiScale(0.2, 0.2, 0.5);
         // oval body
         RiSphere(1.5, -1.5, 1.5, 360.0, RI_NULL);
         // triangular tail
-        RiScale(2,30,0.005);
+        RiScale(1,20,0.05);
         RiColor(fishColor);
+        RiPattern("kStripes","kStripes");
+		RiBxdf("PxrSurface","surface",
+		       "reference color diffuseColor", "kStripes:Cout", RI_NULL);
         RiCone(0.05, 2, 3, RI_NULL);
         RiAttributeEnd();
     }

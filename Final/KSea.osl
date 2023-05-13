@@ -1,34 +1,25 @@
-// surface 
-// kBump (float Ka = 1, float Kd = 1, float frequency = 0.25,
-//             color Cout = color ("rgb", 1,0,1),
-//             output normal N1 = normal (0, 1,0)
-//         )
+// surface kBump (float Ka = 0.25, float Kd = 0.05, float frequency = 0.25,
+//             color Cout = color (0,0,0.5),
+//             output normal N1 = normal (0, 0.05, 0.1))
 // {
 //     float smod;
-//     /* mod is a float mod - returns the fractional part left after an
-//     integer multiple is removed*/
-//     smod = mod (v, frequency) ;
-//     /* this is the bump map - we will calculate a new position 
-//     and then recalculate the normal */
+//     smod = mod(v, frequency);
 //     point newP;
 //     float change;
-//     change = smoothstep (0.4* frequency, 0.6*frequency, smod) +
-//     smoothstep(0.0, 0.2* frequency, 0.9* frequency-smod) - 1;
-//     newP = 2.2 * change *normalize (N) +P;
-//     N1 = normalize (calculatenormal (newP)) ;
+//     change = smoothstep(0.4*frequency, 0.6*frequency, smod) +
+//              smoothstep(0.0, 0.2*frequency, 0.9*frequency-smod) - 1;
+//     newP = 2.2 * change * normalize(N) + P;
+//     N1 = normalize(calculatenormal(newP));
 // }
 
-surface kBump (float Ka = 0.25, float Kd = 0.05, float frequency = 0.25,
-            color Cout = color (0,0,0.5),
-            output normal N1 = normal (0, 0.05, 0.1))
-{
-    float smod;
-    smod = mod(v, frequency);
-    point newP;
-    float change;
-    change = smoothstep(0.4*frequency, 0.6*frequency, smod) +
-             smoothstep(0.0, 0.2*frequency, 0.9*frequency-smod) - 1;
-    newP = 2.2 * change * normalize(N) + P;
-    N1 = normalize(calculatenormal(newP));
-}
 
+surface kBump(
+    float Km = 0.18,
+    float noiseFreq = 58,
+    output normal N1 = normal(0,0.5,1)){
+        float n1;
+        n1 = noise(187*u, 200*v);
+        normal N2 = N + (normalize(N)*n1*Km);
+        point P1 = P + N2;
+        N1 = normalize(calculatenormal(P1));
+}

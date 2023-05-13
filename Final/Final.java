@@ -56,7 +56,7 @@ public class Final extends Ri {
     
         // Seaplant
         RiAttributeBegin();
-        RiTranslate(-2.05, -5,1);
+        RiTranslate(-2.05, -7,1);
         RiScale(0.01,0.01,0.01);
         LsysExample lsys = new LsysExample();
         lsys.example3();
@@ -69,37 +69,43 @@ public class Final extends Ri {
 		       "reference color diffuseColor", "kStripes:Cout", RI_NULL);
         // double[] fishColor = {1, 0.5, 0};
         // RiBxdf("PxrSurface", "fishSurface", "color diffuseColor", fishColor);
+        RiRotate(180, 0, 1,0);
+        RiTransformBegin();
         RiTranslate(0, 8, 0);
         new KObject().fish();
-        RiTranslate(4, -5, 0);
+        RiTransformEnd();
+
+        RiTransformBegin();
+        RiTranslate(4, 4, 0);
         new KObject().fish();
-        RiTranslate(-10, -1, 0);
-        RiRotate(180, 0, 1, 0);
+        RiTransformEnd();
+
+        RiTransformBegin();
+        RiTranslate(-6, 5, 0);
+        RiScale(1.5,1.5,1);
         new KObject().fish();
-        // RiTranslate(-10, 5, 0);
-        // new KObject().fish();
-        RiTranslate(-3, 3, 0);
-        new KObject().fish();
+        RiTransformEnd();
+
         RiAttributeEnd();
     
         // Stars
         RiAttributeBegin();
-        new KObject().stars();
-        new KObject().stars();
+        // new KObject().stars();
+        // new KObject().stars();
         RiAttributeEnd();
 
         // Clouds
         RiAttributeBegin();
         double[] cloudColor = {1, 1, 1};
         RiBxdf("PxrVolume", "cloudSurface", "color diffuseColor", cloudColor);
-        RiTranslate(-15, 12, 10);
+        RiTranslate(0, 12, 10);
         new KObject().clouds();
-        RiTranslate(12, 10, 10);
-        new KObject().clouds();
-        RiTranslate(18, 13, 10);
-        new KObject().clouds();
-        RiTranslate(22, 11, 10);
-        new KObject().clouds();
+        // RiTranslate(12, 10, 10);
+        // new KObject().clouds();
+        // RiTranslate(18, 13, 10);
+        // new KObject().clouds();
+        // RiTranslate(22, 11, 10);
+        // new KObject().clouds();
         RiAttributeEnd();
     
     
