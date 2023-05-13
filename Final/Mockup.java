@@ -33,12 +33,12 @@ public class Mockup extends Ri {
 		
 	
 
-		new BSplineSurfaceDrawer().PatchDrawClosed("testBB");
+		new KBSpline().PatchDrawClosed("testBB");
 		RiBxdf("PxrSurface","shader","color diffuseColor",green,"int diffuseDoubleSided",1);
 
 		RiTranslate(4,4,0);
 
-		new BSplineSurfaceDrawer().PatchDraw("testAA");
+		new KBSpline().KPatch("testAA");
 		
 		
 		RiAttributeEnd();
@@ -50,7 +50,7 @@ public class Mockup extends Ri {
 		RiScale(0.3,0.3,0.3);
 
 
-		LsysExample lsys = new LsysExample();
+		KLsysExample lsys = new KLsysExample();
 		lsys.example3();
 		
 		

@@ -74,9 +74,9 @@ public class BSplineDisplay extends Ri {
 		double[] green = {0.0,1.0,0.0};
 		RiRotate(rotY,0,1,0);
 		if (closed)
-		    new BSplineSurfaceDrawer().PatchDrawClosed(filename);
+		    new KBSpline().PatchDrawClosed(filename);
 		else 
-		    new BSplineSurfaceDrawer().PatchDraw(filename);
+		    new KBSpline().KPatch(filename);
 		//		RiColor(green);
 	
 		RiTransformEnd();

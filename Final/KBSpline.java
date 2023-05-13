@@ -5,9 +5,9 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 
-public class BSplineSurfaceDrawer extends Ri {
+public class KBSpline extends Ri {
 
-	void PatchDraw(String filename) throws java.io.FileNotFoundException
+	void KPatch(String filename) throws java.io.FileNotFoundException
 	{
 		// assumes cubic BSpline Patch
 		// data shold be in filename

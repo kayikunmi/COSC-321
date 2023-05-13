@@ -27,7 +27,7 @@ public class Final extends Ri {
         RiTranslate(18,10,10);
         RiScale(1.5,2, 0.5);
         RiRotate(100,40,10,0);
-        new BSplineSurfaceDrawer().PatchDraw("testBB");
+        new KBSpline().KPatch("testBB");
         RiAttributeEnd();
     
        // Blue sea
@@ -72,19 +72,19 @@ public class Final extends Ri {
         RiTransformBegin();
         RiTranslate(-2.05, -6,1);
         RiScale(0.01,0.01,0.01);
-        new LsysExample().plant();
+        new KLsysExample().plant();
         RiTransformEnd();
 
         RiTransformBegin();
         RiTranslate(3.05, -6,1);
         RiScale(0.01,0.01,0.01);
-        new LsysExample().plant();
+        new KLsysExample().plant();
         RiTransformEnd();
 
         RiTransformBegin();
         RiTranslate(0, -6,1);
         RiScale(0.01,0.01,0.01);
-        new LsysExample().plant();
+        new KLsysExample().plant();
         RiTransformEnd();
 
         RiAttributeEnd();

@@ -1,9 +1,9 @@
 
-public class LsysExample extends Ri{
+public class KLsysExample extends Ri{
 
 
 	public static void main(String[] args) {
-		new LsysExample().go(args);
+		new KLsysExample().go(args);
 	}
 
 	public void go(String[] args) {
