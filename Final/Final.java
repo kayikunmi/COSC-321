@@ -1,3 +1,5 @@
+import javax.xml.crypto.dsig.Transform;
+
 public class Final extends Ri {
     public static void main (String args[]) throws java.io.FileNotFoundException { 
         new Final().main();
@@ -58,6 +60,9 @@ public class Final extends Ri {
         RiTranslate(0, -9,0);
         RiRotate(45, 0, 1, 0);
         new KObject().rock();
+        RiTranslate(2, 7,0);
+        RiRotate(90, 1, 0, 0);
+        new KObject().rock();
         RiAttributeEnd();
     
         // Seaplant
@@ -108,20 +113,39 @@ public class Final extends Ri {
         new KObject().fish();
         RiTransformEnd();
 
+        RiTransformBegin();
+        RiTranslate(5, 6, 0);
+        RiRotate(180,0,1,0);
+        new KObject().fish();
+        RiTransformEnd();
+
         RiAttributeEnd();
     
         // Stars
         RiAttributeBegin();
-        // new KObject().stars();
-        // new KObject().stars();
+        new KObject().stars();
+        new KObject().stars();
         RiAttributeEnd();
 
         // Clouds
         RiAttributeBegin();
         double[] cloudColor = {1, 1, 1};
         RiBxdf("PxrVolume", "cloudSurface", "color diffuseColor", cloudColor);
-        RiTranslate(0, 12, 10);
+        // RiTransformBegin();
+        // RiTranslate(0, 12, 10);
+        // new KObject().clouds();
+        // RiTransformEnd();
+      
+        RiTransformBegin();
+        RiTranslate(-10, 12, 10);
         new KObject().clouds();
+        RiTransformEnd();
+
+        RiTransformBegin();
+        RiTranslate(10, 12, 10);
+        new KObject().clouds();
+        RiTransformEnd();
+
         RiAttributeEnd();
 
     
