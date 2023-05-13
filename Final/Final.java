@@ -36,7 +36,8 @@ public class Final extends Ri {
         RiPattern("kBump","kBump");
 		RiBxdf("PxrSurface","surface",
             "color diffuseColor",blue,
-            "reference normal bumpNormal", "kBump:N1");
+            "reference normal bumpNormal", "kBump:N1", 
+            "float clearcoatRoughness", 1.2);
         // double[] blue = {0,0,1};
         // RiBxdf("PxrSurface","surface","color diffuseColor",blue,
         //         "int diffuseDoubleSided",1); //maybe use for clouds
@@ -49,7 +50,8 @@ public class Final extends Ri {
         // Rock
         RiAttributeBegin();
         double[] rockColor = {0.5, 0.5, 0.5};
-        RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
+        RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", 
+        rockColor, "float clearcoatRoughness", 1.2);
         RiTranslate(-5, -3, 0);
         RiScale(2, 2, 0.5);
         RiRotate(45, 1, 1, 0);
