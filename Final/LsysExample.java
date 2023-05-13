@@ -68,6 +68,17 @@ public class LsysExample extends Ri{
 
 
 	}
+	void plant() {
+		// // define the rules and axiom for the plant
+		// String[] rules = {"F[+F]F[-F]F", "F[+F]F", "F[-F]F"};
+		// String axiom = "F";
+
+		// // create 10 plants
+		for (int i = 0; i < 10; i++) {
+			example3();
+			RiTranslate(0, 0, 20); // move to the next position
+		}
+	}
 	void example2() {
 		example(new String [] {"FF[+F]F[-F]F"},"F",5,25.7,1.0,1,5);
 	}

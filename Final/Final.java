@@ -48,19 +48,41 @@ public class Final extends Ri {
         RiAttributeBegin();
         double[] rockColor = {0.5, 0.5, 0.5};
         RiBxdf("PxrSurface", "rockSurface", "color diffuseColor", rockColor);
-        RiTranslate(4, -3, 0);
+        RiTranslate(-5, -3, 0);
         RiScale(2, 2, 0.5);
         RiRotate(45, 1, 1, 0);
+        new KObject().rock();
+        RiTranslate(4, 4,0);
+        RiRotate(135, 0, 1, 0);
+        new KObject().rock();
+        RiTranslate(0, -9,0);
+        RiRotate(45, 0, 1, 0);
         new KObject().rock();
         RiAttributeEnd();
     
         // Seaplant
         RiAttributeBegin();
-        RiTranslate(-2.05, -7,1);
+        RiTransformBegin();
+        RiTranslate(-2.05, -6,1);
         RiScale(0.01,0.01,0.01);
-        LsysExample lsys = new LsysExample();
-        lsys.example3();
+        new LsysExample().plant();
+        RiTransformEnd();
+
+        RiTransformBegin();
+        RiTranslate(3.05, -6,1);
+        RiScale(0.01,0.01,0.01);
+        new LsysExample().plant();
+        RiTransformEnd();
+
+        RiTransformBegin();
+        RiTranslate(0, -6,1);
+        RiScale(0.01,0.01,0.01);
+        new LsysExample().plant();
+        RiTransformEnd();
+
         RiAttributeEnd();
+
+
     
         // Fish
         RiAttributeBegin();
@@ -100,14 +122,8 @@ public class Final extends Ri {
         RiBxdf("PxrVolume", "cloudSurface", "color diffuseColor", cloudColor);
         RiTranslate(0, 12, 10);
         new KObject().clouds();
-        // RiTranslate(12, 10, 10);
-        // new KObject().clouds();
-        // RiTranslate(18, 13, 10);
-        // new KObject().clouds();
-        // RiTranslate(22, 11, 10);
-        // new KObject().clouds();
         RiAttributeEnd();
-    
+
     
         RiWorldEnd();
         RiEnd();
